@@ -1,0 +1,1081 @@
+﻿id,propietario,tipo,apellido,partido_n,partido,lat,lon,px_lamina,py_lamina
+1,"El Estado, conocido por de Gervasio Rosa",Estado / tierra pública,Rosa,73,Tres Arroyos,-38.938831,-61.422863,6700.0,1740.0
+4,"El Estado, conocido por de Ramón y José Ygnacio Gómez",Estado / tierra pública,Ramón,73,Tres Arroyos,-38.793067,-61.152851,6400.0,1960.0
+5,"El Estado, conocido por de F. A. Miguens",Estado / tierra pública,Miguens,73,Tres Arroyos,-38.766364,-60.888821,6100.0,2000.0
+6,José López,Particular,López,73,Tres Arroyos,-38.818779,-61.504482,6800.0,1920.0
+7,Manuela Guevara,Particular,Guevara,73,Tres Arroyos,-38.798357,-61.590936,6900.0,1950.0
+9,"El Estado, conocido por de Manuel Ochoa",Estado / tierra pública,Ochoa,73,Tres Arroyos,-38.672969,-61.278664,6550.0,2140.0
+10,Juan Soler,Particular,Soler,73,Tres Arroyos,-38.712197,-61.481516,6780.0,2080.0
+11,"El Estado, conocido por de Elías Saravia",Estado / tierra pública,Saravia,73,Tres Arroyos,-38.68434,-61.672062,7000.0,2120.0
+12,"El Estado, conocido por de José Álvarez",Estado / tierra pública,Álvarez,73,Tres Arroyos,-38.633481,-60.927411,6150.0,2200.0
+13,"El Estado, pedido por Varios",Estado / tierra pública,,74,Bahía Blanca,-38.560538,-62.012478,7400.0,2300.0
+14,"El Estado, pedido por Varios",Estado / tierra pública,,73,Tres Arroyos,-38.510339,-61.662344,7000.0,2380.0
+15,"El Estado, pedido por Varios",Estado / tierra pública,,73,Tres Arroyos,-38.533105,-61.185088,6450.0,2350.0
+16,"El Estado, pedido por Varios",Estado / tierra pública,,73,Tres Arroyos,-38.397698,-61.482846,6800.0,2550.0
+22,"El Estado, conocido por de Feliciano Chiclana",Estado / tierra pública,Chiclana,73,Tres Arroyos,-38.393391,-60.96177,6200.0,2560.0
+24,"El Estado, pedido por Varios",Estado / tierra pública,,73,Tres Arroyos,-38.312958,-61.028189,6280.0,2680.0
+25,"El Estado, conocido por de Agustín Vela",Estado / tierra pública,Vela,73,Tres Arroyos,-38.304389,-61.391657,6700.0,2690.0
+26,Julián Calvento,Particular,Calvento,74,Bahía Blanca,-38.613362,-62.085384,7480.0,2220.0
+27,Ezequiel Real de Azúa,Particular,Real de Azúa,74,Bahía Blanca,-38.653793,-62.07071,7460.0,2160.0
+28,"El Estado, conocido por de Felipe Vela",Estado / tierra pública,Vela,73,Tres Arroyos,-38.24929,-61.561621,6900.0,2770.0
+29,"El Estado, conocido por de León Vela",Estado / tierra pública,Vela,73,Tres Arroyos,-38.189883,-61.429318,6750.0,2860.0
+39,Benjamín Miró,Particular,Miró,73,Tres Arroyos,-38.105869,-60.865029,6100.0,2990.0
+40,José M. García,Sociedad / colectivo,García,73,Tres Arroyos,-37.830715,-60.839915,6080.0,3400.0
+41,Benjamín Subiaurre,Particular,Subiaurre,73,Tres Arroyos,-38.832054,-60.698312,5880.0,1900.0
+42,Pedro Herrera,Particular,Herrera,73,Tres Arroyos,-38.843482,-60.409073,5550.0,1880.0
+43,"El Estado, conocido por de Anchorena",Estado / tierra pública,Anchorena,73,Tres Arroyos,-38.802748,-60.276297,5400.0,1940.0
+44,"El Estado, conocido por de Mariano Echenagucía",Estado / tierra pública,Echenagucía,73,Tres Arroyos,-38.771569,-60.520815,5680.0,1990.0
+45,"El Estado, conocido por de Nicolás Descalsi",Estado / tierra pública,Descalsi,73,Tres Arroyos,-38.732728,-60.71231,5900.0,2050.0
+47,Juan S. Boado,Particular,Boado,73,Tres Arroyos,-38.711352,-60.413776,5560.0,2080.0
+48,Federico Lefrançois,Particular,Lefrançois,72,Necochea,-38.773333,-59.995248,5080.0,1980.0
+49,Nicanor Vásquez,Particular,Vásquez,72,Necochea,-38.722724,-60.186469,5300.0,2060.0
+50,Laureano Vásquez,Particular,Vásquez,73,Tres Arroyos,-38.677107,-60.255219,5380.0,2130.0
+51,Fabián Vásquez,Particular,Vásquez,73,Tres Arroyos,-38.604968,-60.340631,5480.0,2240.0
+53,Jorge Sanders,Particular,Sanders,72,Necochea,-38.729144,-59.671065,4710.0,2040.0
+54,Julián Dupui,Particular,Dupui,72,Necochea,-38.737395,-59.775929,4830.0,2030.0
+55,Leandro Noriega,Particular,Noriega,72,Necochea,-38.719534,-59.906537,4980.0,2060.0
+56,Francisco Vivas,Particular,Vivas,72,Necochea,-38.707145,-59.967414,5050.0,2080.0
+57,Fermín Uriarte,Particular,Uriarte,72,Necochea,-38.708267,-60.063607,5160.0,2080.0
+58,Francisco Moreno,Particular,Moreno,72,Necochea,-38.649331,-60.105818,5210.0,2170.0
+59,Maximiliano Casas,Particular,Casas,72,Necochea,-38.590417,-60.165456,5280.0,2260.0
+60,Carlos M. Baigorria,Particular,Baigorria,72,Necochea,-38.619704,-59.825751,4890.0,2210.0
+61,Pedro Rodríguez,Particular,Rodríguez,72,Necochea,-38.574016,-59.859624,4930.0,2280.0
+62,Cosme Puyol,Particular,Puyol,72,Necochea,-38.535243,-59.928492,5010.0,2340.0
+63,Manuel Roseti y Pedro Sáenz Valiente,Particular,Roseti,72,Necochea,-38.698078,-59.783824,4840.0,2090.0
+64,Marcelino Rodríguez,Particular,Rodríguez,72,Necochea,-38.667777,-59.539293,4560.0,2130.0
+65,Florencio Girado,Particular,Girado,72,Necochea,-38.609581,-59.590433,4620.0,2220.0
+66,Santa Marina,Particular,Marina,72,Necochea,-38.617563,-59.677594,4720.0,2210.0
+67,Federico Tobal,Particular,Tobal,72,Necochea,-38.567216,-59.424715,4430.0,2280.0
+68,Juan y Celestino Subiaurre,Particular,Juan,72,Necochea,-38.529067,-59.493477,4510.0,2340.0
+69,Petrona G. de Ramírez,Particular,Ramírez,72,Necochea,-38.525025,-59.649709,4690.0,2350.0
+75,José Olavarría,Particular,Olavarría,73,Tres Arroyos,-38.485822,-60.37218,5520.0,2420.0
+76,"El Estado, conocido por de Miguens",Estado / tierra pública,Miguens,73,Tres Arroyos,-38.585908,-60.488667,5650.0,2270.0
+77,Arza,Particular,Arza,73,Tres Arroyos,-38.473548,-60.703345,5900.0,2440.0
+78,"El Estado, pedido por varios",Estado / tierra pública,,72,Necochea,-38.467486,-59.778999,4840.0,2440.0
+79,Madero,Particular,Madero,72,Necochea,-38.464447,-60.136071,5250.0,2450.0
+80,Daniel Soaje,Particular,Soaje,72,Necochea,-38.337023,-59.941554,5030.0,2640.0
+81,Pérez,Particular,Pérez,72,Necochea,-38.334978,-59.741618,4800.0,2640.0
+82,Arce,Particular,Arce,72,Necochea,-38.372053,-59.55147,4580.0,2580.0
+83,Victorio de la Canal,Particular,Canal,72,Necochea,-38.306581,-59.584992,4620.0,2680.0
+84,Avelino Casas,Particular,Casas,72,Necochea,-38.364523,-60.063995,5170.0,2600.0
+85,Enrique Durán,Particular,Durán,72,Necochea,-38.358761,-60.194492,5320.0,2610.0
+86,Rufino Vásquez,Particular,Vásquez,73,Tres Arroyos,-38.353566,-60.655911,5850.0,2620.0
+87,Enrique Olivares,Particular,Olivares,72,Necochea,-38.479289,-59.674905,4720.0,2420.0
+91,Manuel Soaje,Particular,Soaje,72,Necochea,-38.244513,-59.97443,5070.0,2780.0
+92,Antonio Olivera,Particular,Olivera,72,Necochea,-38.206821,-59.53141,4560.0,2830.0
+93,Cornelio Viera,Particular,Viera,72,Necochea,-38.202313,-59.704504,4760.0,2840.0
+94,Eugenio Torres,Particular,Torres,72,Necochea,-38.196652,-59.799812,4870.0,2850.0
+95,Juan Real,Particular,Real,72,Necochea,-38.12389,-59.815905,4890.0,2960.0
+96,José Ortiz,Particular,Ortiz,72,Necochea,-38.1083,-59.581764,4620.0,2980.0
+97,Clemente Severo,Particular,Severo,72,Necochea,-38.129304,-59.685958,4740.0,2950.0
+98,Pizarro,Particular,Pizarro,72,Necochea,-38.069154,-59.633087,4680.0,3040.0
+99,Pedro Pico,Particular,Pico,72,Necochea,-38.08373,-59.771896,4840.0,3020.0
+100,Antonio Bauza,Particular,Bauza,72,Necochea,-38.043166,-59.684646,4740.0,3080.0
+101,Raimundo Prat,Particular,Prat,72,Necochea,-38.01503,-59.528593,4560.0,3120.0
+102,Emilio Chaila,Particular,Chaila,72,Necochea,-38.077843,-59.867203,4950.0,3030.0
+103,Teófilo Ramuz,Particular,Ramuz,72,Necochea,-38.044977,-59.918742,5010.0,3080.0
+104,María Ynvaldi,Particular,Ynvaldi,72,Necochea,-38.071867,-59.971245,5070.0,3040.0
+105,Juan Crisol,Particular,Crisol,72,Necochea,-37.964276,-59.77019,4840.0,3200.0
+106,Testamentaria de Félix Alzaga,Sucesión / herederos,Alzaga,72,Necochea,-37.899072,-60.02081,5130.0,3300.0
+107,Manuel Martín Faramiñán,Particular,Faramiñán,72,Necochea,-37.897965,-59.786736,4860.0,3300.0
+108,Juan Cañas,Particular,Cañas,72,Necochea,-37.942892,-59.596812,4640.0,3230.0
+109,Testamentaria de Domingo Lastra,Sucesión / herederos,Lastra,72,Necochea,-37.837763,-59.725514,4790.0,3390.0
+110,Félix Echeverría,Particular,Echeverría,72,Necochea,-37.915102,-59.475605,4500.0,3270.0
+111,Juan C. Zabala,Particular,Zabala,72,Necochea,-37.829322,-59.509272,4540.0,3400.0
+112,Domingo Ezeiza,Particular,Ezeiza,72,Necochea,-37.775928,-59.47435,4500.0,3480.0
+113,Juan Ferreira,Particular,Ferreira,72,Necochea,-37.790235,-59.586702,4630.0,3460.0
+120,Benigno Macías,Sociedad / colectivo,Macías,72,Necochea,-38.16587,-60.155375,5280.0,2900.0
+121,Bernardes,Particular,Bernardes,72,Necochea,-38.17838,-60.007893,5110.0,2880.0
+122,Cárdenas,Particular,Cárdenas,72,Necochea,-38.184417,-59.921135,5010.0,2870.0
+123,Edelmiro Casas,Particular,Casas,72,Necochea,-37.999191,-60.0829,5200.0,3150.0
+124,José Elsalde,Particular,Elsalde,72,Necochea,-38.046187,-60.205172,5340.0,3080.0
+125,Leonardo Pereira,Particular,Pereira,72,Necochea,-38.159716,-60.302964,5450.0,2910.0
+126,Benigno Jardín,Particular,Jardín,73,Tres Arroyos,-38.106567,-60.449357,5620.0,2990.0
+127,Andrés Salas y José Chanteiro,Particular,Salas,73,Tres Arroyos,-38.206693,-60.477839,5650.0,2840.0
+128,"El Estado, conocido por de Toribio Ovejero",Estado / tierra pública,Ovejero,73,Tres Arroyos,-38.253468,-60.678931,5880.0,2770.0
+129,Domingo Vásquez,Particular,Vásquez,73,Tres Arroyos,-38.300204,-60.680353,5880.0,2700.0
+130,Francisco Dias,Particular,Dias,73,Tres Arroyos,-38.166462,-60.75439,5970.0,2900.0
+131,Zoilo Pintos,Particular,Pintos,73,Tres Arroyos,-38.1065,-60.605413,5800.0,2990.0
+132,José Letamendi,Particular,Letamendi,73,Tres Arroyos,-38.025796,-60.75898,5980.0,3110.0
+133,Rosario Marenco,Particular,Marenco,72,Necochea,-38.046436,-60.369999,5530.0,3080.0
+134,José María Dantas,Particular,Dantas,73,Tres Arroyos,-37.95287,-60.428806,5600.0,3220.0
+135,Augusto Röhl,Particular,Röhl,72,Necochea,-37.932872,-60.298604,5450.0,3250.0
+136,Bernardino Echenagucía,Sociedad / colectivo,Echenagucía,72,Necochea,-37.832606,-60.124063,5250.0,3400.0
+137,José Antonio Echenagucía,Sociedad / colectivo,Echenagucía,72,Necochea,-37.799073,-60.011136,5120.0,3450.0
+138,Juan Antonio,Particular,Antonio,72,Necochea,-37.765802,-60.235903,5380.0,3500.0
+139,José Vitón,Particular,Vitón,73,Tres Arroyos,-37.999565,-60.533586,5720.0,3150.0
+140,Valdez,Particular,Valdez,73,Tres Arroyos,-37.892437,-60.531387,5720.0,3310.0
+141,Mariano Pérez,Particular,Pérez,73,Tres Arroyos,-37.979232,-60.645505,5850.0,3180.0
+142,José Blanco Casariego,Particular,Blanco Casariego,73,Tres Arroyos,-37.939126,-60.610043,5810.0,3240.0
+143,Ramón Machaly,Particular,Machaly,73,Tres Arroyos,-37.931862,-60.765108,5990.0,3250.0
+144,José J. Génova,Particular,Génova,73,Tres Arroyos,-37.918755,-60.687226,5900.0,3270.0
+145,Agustina Génova,Particular,Génova,73,Tres Arroyos,-37.884872,-60.76393,5990.0,3320.0
+146,Consolación Bustamante,Particular,Bustamante,73,Tres Arroyos,-37.891989,-60.669378,5880.0,3310.0
+147,Venancio Caparros,Particular,Caparros,73,Tres Arroyos,-37.844943,-60.685574,5900.0,3380.0
+148,Juan Aldao,Particular,Aldao,73,Tres Arroyos,-37.81877,-60.512828,5700.0,3420.0
+149,José García,Sociedad / colectivo,García,73,Tres Arroyos,-37.817656,-60.770926,6000.0,3420.0
+158,José Yraola,Particular,Yraola,72,Necochea,-37.718923,-59.941333,5040.0,3570.0
+159,Areco e hijo,Sociedad / colectivo,Areco,72,Necochea,-37.712389,-60.157688,5290.0,3580.0
+160,Blas Hornos,Particular,Hornos,72,Necochea,-37.685188,-60.364658,5530.0,3620.0
+161,Martín Yraola,Particular,Yraola,72,Necochea,-37.665373,-59.845898,4930.0,3650.0
+162,Juan Larriba,Particular,Larriba,72,Necochea,-37.632268,-60.062291,5180.0,3700.0
+163,Juan Hornos,Particular,Hornos,72,Necochea,-37.605278,-60.209081,5350.0,3740.0
+164,Adolfo G. Chaves,Particular,Chaves,72,Necochea,-37.565515,-59.915302,5010.0,3800.0
+165,Felipe Vela,Particular,Vela,72,Necochea,-37.591447,-59.664063,4720.0,3760.0
+166,Pedro Udaquiola,Particular,Udaquiola,72,Necochea,-37.683738,-59.551599,4590.0,3620.0
+167,Eugenia Fillol,Particular,Fillol,72,Necochea,-37.671123,-59.646711,4700.0,3640.0
+168,Narciso Domínguez,Particular,Domínguez,72,Necochea,-37.702552,-59.430839,4450.0,3590.0
+169,Petrona Vásquez de Vela,Particular,Vela,29,Tandil,-37.523934,-59.491337,4520.0,3860.0
+170,Ygnacio Lara,Particular,Lara,29,Tandil,-37.531705,-59.690318,4750.0,3850.0
+171,Juan Cornell,Particular,Cornell,29,Tandil,-37.512146,-59.924237,5020.0,3880.0
+172,El Estado,Estado / tierra pública,,72,Necochea,-37.511799,-60.131557,5260.0,3880.0
+173,Manuel Martínez,Particular,Martínez,69,Azul,-37.51718,-60.42383,5600.0,3870.0
+179,Sociedad Rural Argentina,Sociedad / colectivo,,71,Lobería,-38.124027,-58.159057,2950.0,2900.0
+180,"Nicanor, Carlos y Enrique Lastra",Particular,Nicanor,71,Lobería,-38.100777,-58.395428,3230.0,2950.0
+181,Pedro Sáenz Valiente,Particular,Sáenz Valiente,71,Lobería,-38.034305,-58.202343,3000.0,3040.0
+182,Casto Sáenz Valiente,Particular,Sáenz Valiente,71,Lobería,-38.037105,-58.446423,3290.0,3050.0
+183,Gregorio Peredo,Particular,Peredo,71,Lobería,-37.995079,-58.370953,3200.0,3110.0
+184,Pedro Sáenz Valiente,Particular,Sáenz Valiente,70,Balcarce (Dr. Antonio),-37.946677,-58.144688,2930.0,3170.0
+185,Francisco Sáenz Valiente,Particular,Sáenz Valiente,70,Balcarce (Dr. Antonio),-37.889836,-58.195793,2990.0,3260.0
+186,Melitón Rico,Particular,Rico,71,Lobería,-37.919565,-58.674307,3560.0,3240.0
+187,Herederos de Juan Otamendi,Sucesión / herederos,Otamendi,71,Lobería,-38.032428,-58.716581,3610.0,3070.0
+188,Pascual Muñoz,Particular,Muñoz,71,Lobería,-38.036298,-58.623582,3500.0,3060.0
+189,Esteban Macías,Sociedad / colectivo,Macías,71,Lobería,-37.996922,-58.623625,3500.0,3120.0
+190,José Flores,Particular,Flores,71,Lobería,-37.894646,-58.724905,3620.0,3280.0
+191,Gregorio Torres,Particular,Torres,71,Lobería,-37.869846,-58.54824,3410.0,3310.0
+192,Castañera,Particular,Castañera,71,Lobería,-37.898226,-58.413733,3250.0,3260.0
+193,Agustín Castro,Particular,Castro,71,Lobería,-37.882052,-58.330005,3150.0,3280.0
+194,Antonio Deodria,Particular,Deodria,70,Balcarce (Dr. Antonio),-37.825964,-58.238528,3040.0,3360.0
+195,A. Muñoz y Sueldo,Particular,Muñoz,70,Balcarce (Dr. Antonio),-37.783439,-58.16384,2950.0,3420.0
+196,Rómulo Castelli,Particular,Castelli,70,Balcarce (Dr. Antonio),-37.702825,-58.123412,2900.0,3540.0
+197,Juan Bautista,Particular,Bautista,70,Balcarce (Dr. Antonio),-37.695682,-58.26551,3070.0,3560.0
+198,Mariano Alegre,Particular,Alegre,71,Lobería,-37.781468,-58.674596,3560.0,3450.0
+199,Martín Faramiñán,Particular,Faramiñán,71,Lobería,-37.764703,-58.792361,3700.0,3480.0
+200,José M. Saavedra,Particular,Saavedra,71,Lobería,-37.73951,-58.842923,3760.0,3520.0
+201,Benito Machado,Particular,Machado,71,Lobería,-37.962166,-58.792585,3700.0,3180.0
+202,Manuel Sotelo,Particular,Sotelo,71,Lobería,-37.908683,-58.758668,3660.0,3260.0
+203,José M. Ortega,Particular,Ortega,71,Lobería,-37.931322,-58.877155,3800.0,3230.0
+204,Leonardo Gándara,Particular,Gándara,71,Lobería,-38.010295,-58.877533,3800.0,3110.0
+205,Manuel J. Cobo,Particular,Cobo,71,Lobería,-38.063315,-58.894821,3820.0,3030.0
+206,Manuel José Cobo,Particular,Cobo,72,Necochea,-38.172945,-59.09199,4050.0,2870.0
+207,Negrotto,Particular,Negrotto,72,Necochea,-38.244906,-59.075587,4030.0,2760.0
+208,José Olivera,Particular,Olivera,72,Necochea,-38.240487,-59.178499,4150.0,2770.0
+209,Galiano,Particular,Galiano,71,Lobería,-38.222372,-58.708426,3600.0,2780.0
+210,Francisco Arce,Particular,Arce,71,Lobería,-38.213299,-58.853113,3770.0,2800.0
+211,Casares,Particular,Casares,71,Lobería,-38.174997,-58.657416,3540.0,2850.0
+212,Albarellos,Particular,Albarellos,71,Lobería,-38.128874,-58.648926,3530.0,2920.0
+213,Nemesio Barbosa,Particular,Barbosa,71,Lobería,-38.012245,-58.962539,3900.0,3110.0
+214,Guillermo y Eduardo Gainard,Particular,Guillermo,72,Necochea,-37.954894,-59.055783,4010.0,3200.0
+215,Mariano Barbosa,Particular,Barbosa,71,Lobería,-37.879947,-58.936258,3870.0,3310.0
+216,Juan C. Barboza,Particular,Barboza,71,Lobería,-37.83195,-58.851443,3770.0,3380.0
+217,Pedro Arruda,Particular,Arruda,72,Necochea,-37.869769,-59.089212,4050.0,3330.0
+218,Cándido Cuesta,Particular,Cuesta,71,Lobería,-37.781563,-58.961273,3900.0,3460.0
+219,Norberto,Particular,Norberto,72,Necochea,-37.75676,-59.046,4000.0,3500.0
+220,Juan N. Fernández,Particular,Fernández,72,Necochea,-37.786098,-59.225224,4210.0,3460.0
+221,Juan Fernández,Particular,Fernández,72,Necochea,-37.991526,-59.261401,4250.0,3150.0
+222,Fulco,Particular,Fulco,72,Necochea,-38.087543,-59.099682,4060.0,3000.0
+223,Mariano Baudrix,Particular,Baudrix,71,Lobería,-37.672422,-58.541354,3400.0,3610.0
+224,Peña,Particular,Peña,70,Balcarce (Dr. Antonio),-37.660481,-58.207691,3000.0,3610.0
+225,Mariano Baudrix,Particular,Baudrix,28,Ayacucho,-37.589322,-58.625826,3500.0,3740.0
+226,José E. Pita,Particular,Pita,29,Tandil,-37.605434,-58.742689,3640.0,3720.0
+227,J. Maldonado,Particular,Maldonado,29,Tandil,-37.625585,-58.759287,3660.0,3690.0
+228,José M. Otero,Particular,Otero,29,Tandil,-37.574358,-58.826729,3740.0,3770.0
+229,Manuel Sánchez,Particular,Sánchez,29,Tandil,-37.526416,-58.743522,3640.0,3840.0
+230,José Manuel Saavedra,Particular,Saavedra,29,Tandil,-37.556394,-58.919239,3850.0,3800.0
+231,Lorenzo A.,Particular,A.,29,Tandil,-37.611422,-59.045704,4000.0,3720.0
+232,A. Machado,Particular,Machado,29,Tandil,-37.532878,-59.096751,4060.0,3840.0
+233,Barceler,Particular,Barceler,29,Tandil,-37.521335,-59.224612,4210.0,3860.0
+234,José Gregorio Lezama,Particular,Lezama,28,Ayacucho,-37.538473,-58.276828,3080.0,3800.0
+235,Leonardo Pereyra,Particular,Pereyra,28,Ayacucho,-37.514681,-58.543618,3400.0,3850.0
+236,Guillermo Moyano,Particular,Moyano,28,Ayacucho,-37.491648,-58.435932,3270.0,3880.0
+252,Testamentaria de Pedro Truspani,Sucesión / herederos,Truspani,70,Balcarce (Dr. Antonio),-38.08337,-57.738103,2450.0,2930.0
+253,Manuel Campos,Particular,Campos,70,Balcarce (Dr. Antonio),-38.168521,-57.862798,2600.0,2810.0
+254,Martín Campos,Particular,Campos,70,Balcarce (Dr. Antonio),-38.185895,-57.946954,2700.0,2790.0
+255,Otamendi,Particular,Otamendi,70,Balcarce (Dr. Antonio),-38.22828,-58.013761,2780.0,2730.0
+256,Benigno,Particular,Benigno,70,Balcarce (Dr. Antonio),-38.00291,-57.596471,2280.0,3040.0
+257,Barbosa,Particular,Barbosa,70,Balcarce (Dr. Antonio),-37.966652,-57.757706,2470.0,3110.0
+258,Eusebio Zubiaurre,Particular,Zubiaurre,70,Balcarce (Dr. Antonio),-37.886981,-57.742569,2450.0,3230.0
+259,Pedro Camet,Particular,Camet,70,Balcarce (Dr. Antonio),-37.862345,-57.557538,2230.0,3250.0
+260,Peralta,Particular,Peralta,70,Balcarce (Dr. Antonio),-37.871569,-57.818585,2540.0,3260.0
+261,Ramos,Particular,Ramos,70,Balcarce (Dr. Antonio),-37.839202,-57.827638,2550.0,3310.0
+262,Johnstone,Particular,Johnstone,70,Balcarce (Dr. Antonio),-37.814216,-57.735688,2440.0,3340.0
+263,Patricio P. Ramos,Particular,Ramos,70,Balcarce (Dr. Antonio),-37.78669,-57.609941,2290.0,3370.0
+264,Juan Vivot,Particular,Vivot,70,Balcarce (Dr. Antonio),-37.837131,-57.911626,2650.0,3320.0
+265,Eduardo Llanos,Particular,Llanos,70,Balcarce (Dr. Antonio),-37.765985,-57.812339,2530.0,3420.0
+266,Rudesinda Barragán,Particular,Barragán,70,Balcarce (Dr. Antonio),-37.727706,-57.720746,2420.0,3470.0
+267,José María Yslas,Particular,Yslas,70,Balcarce (Dr. Antonio),-37.71291,-57.805079,2520.0,3500.0
+268,Martín Lobo,Particular,Lobo,70,Balcarce (Dr. Antonio),-37.674552,-57.713555,2410.0,3550.0
+269,Esteban Suárez,Particular,Suárez,70,Balcarce (Dr. Antonio),-37.718899,-57.913957,2650.0,3500.0
+270,Roque Suárez,Particular,Suárez,70,Balcarce (Dr. Antonio),-37.676293,-57.856213,2580.0,3560.0
+271,Francisco Sáenz Valiente,Particular,Sáenz Valiente,70,Balcarce (Dr. Antonio),-37.735061,-57.972255,2720.0,3480.0
+272,Lorenzo Torres,Particular,Torres,31,Mar Chiquita,-37.696613,-57.544564,2210.0,3500.0
+274,José María Ezeyza,Particular,Ezeyza,31,Mar Chiquita,-37.576555,-57.3449,1970.0,3660.0
+275,Bernal Hermanos,Sociedad / colectivo,Hermanos,31,Mar Chiquita,-37.605582,-57.664792,2350.0,3650.0
+276,P. Ramos,Particular,Ramos,31,Mar Chiquita,-37.540948,-57.489597,2140.0,3730.0
+277,Valentín Sosa,Particular,Sosa,31,Mar Chiquita,-37.471024,-57.348054,1970.0,3820.0
+278,Cruz Barbosa,Particular,Barbosa,31,Mar Chiquita,-37.503011,-57.608682,2280.0,3800.0
+279,Valentín Ezeiza,Particular,Ezeiza,31,Mar Chiquita,-37.425424,-57.535225,2190.0,3910.0
+280,Juan Nicolás Anchorena,Particular,Anchorena,30,Tuyú,-37.442784,-57.078048,1650.0,3830.0
+281,R. M. Suárez,Particular,Suárez,70,Balcarce (Dr. Antonio),-37.59742,-57.858054,2580.0,3680.0
+282,Ramón Nero,Particular,Nero,70,Balcarce (Dr. Antonio),-37.589698,-57.958672,2700.0,3700.0
+283,M. Suárez,Particular,Suárez,31,Mar Chiquita,-37.523171,-57.943632,2680.0,3800.0
+284,Mercedes A. de Aguirre,Particular,Aguirre,31,Mar Chiquita,-37.404133,-57.813251,2520.0,3970.0
+285,Escobar de Campos,Particular,Campos,70,Balcarce (Dr. Antonio),-37.632468,-58.024562,2780.0,3640.0
+299,Tiburcio Bargas,Particular,Bargas,28,Ayacucho,-37.414537,-58.296579,3100.0,3990.0
+300,Lucas Morales,Particular,Morales,28,Ayacucho,-37.43178,-58.41242,3240.0,3970.0
+301,Anchorena,Particular,Anchorena,28,Ayacucho,-37.414187,-58.130254,2900.0,3980.0
+302,Reimoso,Particular,Reimoso,28,Ayacucho,-37.465127,-58.428219,3260.0,3920.0
+303,Luis A. Burgos,Particular,Burgos,28,Ayacucho,-37.43539,-58.52864,3380.0,3970.0
+304,Jacinta Ybarra y Pedro Córdoba,Particular,Ybarra,28,Ayacucho,-37.413791,-58.71208,3600.0,4010.0
+305,Felipe Arana,Particular,Arana,29,Tandil,-37.411527,-58.937616,3870.0,4020.0
+306,Herederos de José G. Yraola,Sucesión / herederos,Yraola,29,Tandil,-37.338055,-58.880573,3800.0,4130.0
+307,Herederos de Antonio,Sucesión / herederos,Antonio,28,Ayacucho,-37.331755,-58.581199,3440.0,4130.0
+308,Herederos de José G. Yraola,Sucesión / herederos,Yraola,28,Ayacucho,-37.28181,-58.690656,3570.0,4210.0
+309,José Yraola,Particular,Yraola,28,Ayacucho,-37.268022,-58.417418,3240.0,4220.0
+310,Enrique Yraola,Particular,Yraola,28,Ayacucho,-37.219894,-58.568339,3420.0,4300.0
+313,Fernando Barrientos,Particular,Barrientos,28,Ayacucho,-37.231001,-58.493344,3330.0,4280.0
+314,Juan Bisuara,Particular,Bisuara,28,Ayacucho,-37.17023,-58.429443,3250.0,4370.0
+315,Norberto Díaz,Particular,Díaz,28,Ayacucho,-37.415216,-58.512512,3360.0,4000.0
+316,Domingo Gómez,Particular,Gómez,28,Ayacucho,-37.388729,-58.504894,3350.0,4040.0
+317,Ricardo Gómez,Particular,Gómez,28,Ayacucho,-37.370218,-58.339405,3150.0,4060.0
+318,J. E. Girado,Particular,Girado,28,Ayacucho,-37.377105,-58.181328,2960.0,4040.0
+319,Girado de Seguí,Particular,Seguí,28,Ayacucho,-37.314757,-58.258174,3050.0,4140.0
+320,Pastora,Particular,Pastora,28,Ayacucho,-37.380697,-58.114644,2880.0,4030.0
+321,B. de Senillosa,Particular,Senillosa,28,Ayacucho,-37.341447,-58.115942,2880.0,4090.0
+322,Elvira S. de Mayol,Particular,Mayol,28,Ayacucho,-37.286266,-58.201045,2980.0,4180.0
+323,Felipe Senillosa,Particular,Senillosa,28,Ayacucho,-37.236955,-58.119804,2880.0,4250.0
+324,José Antonio Castaño,Particular,Castaño,28,Ayacucho,-37.209935,-58.25379,3040.0,4300.0
+326,José Antonio Castaño,Particular,Castaño,28,Ayacucho,-37.120848,-58.149722,2910.0,4430.0
+327,José A. Castaño,Particular,Castaño,28,Ayacucho,-37.148565,-58.364095,3170.0,4400.0
+328,Raimundo Monasterio,Particular,Monasterio,28,Ayacucho,-37.098192,-58.424249,3240.0,4480.0
+329,Nicolás Coronel,Particular,Coronel,28,Ayacucho,-37.043795,-58.352283,3150.0,4560.0
+330,Emiterio Garay,Particular,Garay,28,Ayacucho,-37.126387,-58.497517,3330.0,4440.0
+331,Hermenegildo Godoy,Particular,Godoy,28,Ayacucho,-37.074564,-58.516344,3350.0,4520.0
+332,J. Gregorio Lezama,Particular,Lezama,28,Ayacucho,-37.076854,-58.615616,3470.0,4520.0
+333,Ynocencio Aroyo,Particular,Aroyo,28,Ayacucho,-37.130259,-58.663071,3530.0,4440.0
+334,Josefa P. Miguens,Particular,Miguens,29,Tandil,-37.19105,-58.752,3640.0,4350.0
+335,Hermenegildo Godoy,Particular,Godoy,29,Tandil,-37.179829,-58.86905,3780.0,4370.0
+336,Pedro Rodríguez,Particular,Rodríguez,29,Tandil,-37.146331,-58.828686,3730.0,4420.0
+337,"Mercedes, Casilda y Felicia Miguens",Particular,Mercedes,29,Tandil,-37.241418,-59.042749,3990.0,4280.0
+338,Herederos de Eustoquio Díaz Vélez,Sucesión / herederos,Díaz Vélez,29,Tandil,-37.029194,-58.925711,3840.0,4600.0
+339,Herederos de Eustoquio Díaz Vélez,Sucesión / herederos,Díaz Vélez,29,Tandil,-36.951293,-59.063811,4000.0,4720.0
+340,Federico Girado,Particular,Girado,29,Tandil,-37.109529,-59.048132,3990.0,4480.0
+341,Hipólito Urraco,Particular,Urraco,29,Tandil,-37.156113,-59.088328,4040.0,4410.0
+342,Pilar López Gómez,Particular,Gómez,29,Tandil,-37.157601,-59.266952,4250.0,4410.0
+343,S. Paz,Particular,Paz,29,Tandil,-37.103885,-59.158406,4120.0,4490.0
+344,Manuel Avalo,Particular,Avalo,29,Tandil,-37.05821,-59.254122,4230.0,4560.0
+345,Pedro González,Particular,González,29,Tandil,-37.0313,-59.178679,4140.0,4600.0
+346,Ramón Gómez,Particular,Gómez,29,Tandil,-37.289791,-59.245115,4230.0,4210.0
+347,Herederos de Piñero,Sucesión / herederos,Piñero,29,Tandil,-37.229718,-59.187246,4160.0,4300.0
+348,Ygnacio Gómez,Particular,Gómez,29,Tandil,-37.42751,-59.131451,4100.0,4000.0
+349,Carolina Alzaga de Lezama,Particular,Lezama,28,Ayacucho,-36.958368,-58.579696,3420.0,4700.0
+350,Gregorio Lezama,Particular,Lezama,28,Ayacucho,-36.949838,-58.265977,3040.0,4700.0
+351,Revol,Particular,Revol,28,Ayacucho,-37.002963,-58.130581,2880.0,4610.0
+352,Julio B. Vignai,Particular,Vignai,28,Ayacucho,-36.996105,-58.288421,3070.0,4630.0
+353,Cosme Puyol,Particular,Puyol,28,Ayacucho,-36.921529,-58.201267,2960.0,4740.0
+354,Cosme Puyol,Particular,Puyol,24,Vecino,-36.8737,-58.137645,2880.0,4810.0
+355,José García,Sociedad / colectivo,García,24,Vecino,-36.870418,-58.220641,2980.0,4820.0
+356,Herederos de Simón Pereyra,Sucesión / herederos,Pereyra,28,Ayacucho,-36.880176,-58.319286,3100.0,4810.0
+357,Francisco Maldonado,Particular,Maldonado,24,Vecino,-36.822779,-58.157157,2900.0,4890.0
+358,Testamentaria de Dn. Laureano Rufino,Sucesión / herederos,Rufino,26,Rauch,-36.869524,-58.749652,3620.0,4840.0
+359,Marcelino Rodríguez,Particular,Rodríguez,26,Rauch,-36.865955,-59.211687,4170.0,4850.0
+360,Antonio Vela,Particular,Vela,26,Rauch,-36.811903,-58.902162,3800.0,4930.0
+361,Eduarda Vela,Particular,Vela,26,Rauch,-36.771908,-58.820575,3700.0,4990.0
+362,Testamentaria de Félix Alzaga,Sucesión / herederos,Alzaga,26,Rauch,-36.773214,-59.190113,4140.0,4990.0
+363,Justo Zárate,Particular,Zárate,26,Rauch,-36.766394,-59.326722,4300.0,5000.0
+364,José María Vela,Particular,Vela,26,Rauch,-36.751679,-58.75507,3620.0,5020.0
+365,Felipe D. Vela,Particular,Vela,26,Rauch,-36.746585,-59.005411,3920.0,5030.0
+366,Martín Balbín,Particular,Balbín,24,Vecino,-36.753834,-58.457943,3260.0,5010.0
+367,Leonardo J. Yraola,Particular,Yraola,24,Vecino,-36.727006,-58.418225,3210.0,5050.0
+377,Nicolás y Juan Anchorena,Particular,Nicolás,30,Tuyú,-37.330499,-57.081899,1650.0,4000.0
+378,Ramón Ezeyza,Particular,Ezeyza,31,Mar Chiquita,-37.350999,-57.419549,2050.0,4010.0
+379,Andrea Y. de Anchorena,Particular,Anchorena,31,Mar Chiquita,-37.3034,-57.674068,2350.0,4110.0
+380,Nicolás y Juan Anchorena,Particular,Nicolás,31,Mar Chiquita,-37.320981,-57.849596,2560.0,4100.0
+381,Rosa A. de Ybáñez,Particular,Ybáñez,31,Mar Chiquita,-37.396066,-57.788371,2490.0,3980.0
+382,Casto y Anselmo Sáenz Valiente,Particular,Casto,30,Tuyú,-37.214554,-57.119917,1690.0,4180.0
+383,Trelles Hermanos,Sociedad / colectivo,Hermanos,30,Tuyú,-37.259616,-57.346728,1960.0,4140.0
+384,José C. Herrera,Particular,Herrera,30,Tuyú,-37.182816,-57.375024,1990.0,4260.0
+385,Federico y Alejandro Leloir,Particular,Federico,30,Tuyú,-37.163362,-57.062604,1620.0,4250.0
+386,Martín Alzaga,Particular,Alzaga,30,Tuyú,-37.052729,-56.931655,1460.0,4400.0
+387,Nicolás y Juan Anchorena,Particular,Nicolás,30,Tuyú,-37.027998,-57.101747,1660.0,4460.0
+388,Mercedes Anchorena de Aguirre,Particular,Aguirre,30,Tuyú,-37.038823,-57.381073,1990.0,4480.0
+389,Varios (solicitantes en común),Sociedad / colectivo,común),27,Monsalvo,-37.03665,-57.516701,2150.0,4500.0
+390,Dámaso Belindo,Particular,Belindo,30,Tuyú,-37.143498,-57.545681,2190.0,4340.0
+391,Martín Gómez,Particular,Gómez,27,Monsalvo,-37.119275,-57.572062,2220.0,4380.0
+392,Fabián Gómez,Particular,Gómez,31,Mar Chiquita,-37.170086,-57.738232,2420.0,4320.0
+393,Juan Antonio Areco,Particular,Areco,27,Monsalvo,-37.018942,-57.62744,2280.0,4540.0
+394,Areco,Particular,Areco,27,Monsalvo,-37.051955,-57.726918,2400.0,4500.0
+395,Benjamín Subiaurre,Particular,Subiaurre,31,Mar Chiquita,-37.187284,-57.913452,2630.0,4310.0
+396,Benigno Barbosa,Particular,Barbosa,28,Ayacucho,-37.170504,-57.964302,2690.0,4340.0
+397,Benjamín Zubiaurre,Particular,Zubiaurre,27,Monsalvo,-37.107724,-57.783042,2470.0,4420.0
+398,Mariano Miró,Particular,Miró,27,Monsalvo,-37.086398,-57.859519,2560.0,4460.0
+399,Manuel Ortiz Basualdo,Particular,Ortiz Basualdo,28,Ayacucho,-37.073067,-57.968853,2690.0,4490.0
+400,Esteban Varela,Particular,Varela,27,Monsalvo,-37.012593,-57.821336,2510.0,4570.0
+401,Manuel Castaño,Particular,Castaño,24,Vecino,-36.990638,-58.006454,2730.0,4620.0
+402,Matías R. Mejía,Particular,Mejía,27,Monsalvo,-36.971701,-57.789938,2470.0,4630.0
+403,Francisco Pereira,Particular,Pereira,27,Monsalvo,-36.929708,-57.842635,2530.0,4700.0
+404,Fernando Centurión,Particular,Centurión,27,Monsalvo,-36.953454,-57.916662,2620.0,4670.0
+405,Félix Pereira,Particular,Pereira,24,Vecino,-36.916163,-57.943838,2650.0,4730.0
+406,Demetrio Pereira,Particular,Pereira,24,Vecino,-36.888627,-58.037124,2760.0,4780.0
+407,Marta Ramos de Madero,Particular,Madero,27,Monsalvo,-36.875095,-57.795429,2470.0,4780.0
+408,Agustín Lara,Particular,Lara,24,Vecino,-36.82482,-57.924205,2620.0,4870.0
+409,Agustín Lara,Particular,Lara,24,Vecino,-36.78546,-57.909938,2600.0,4930.0
+410,José Benito Vásquez,Particular,Vásquez,24,Vecino,-36.756952,-57.978507,2680.0,4980.0
+411,Cornelia Pizarro,Particular,Pizarro,24,Vecino,-36.717328,-57.956039,2650.0,5040.0
+412,B. Madero,Particular,Madero,24,Vecino,-36.815086,-57.866228,2550.0,4880.0
+413,Pedro Iturralde,Particular,Iturralde,24,Vecino,-36.701388,-57.789572,2450.0,5050.0
+414,Celina Piñero de Alzaga,Particular,Alzaga,27,Monsalvo,-36.915101,-57.386886,1990.0,4670.0
+415,Matías Ramos Mejía,Particular,Ramos Mejía,27,Monsalvo,-36.945098,-57.512747,2140.0,4640.0
+416,Gallo,Particular,Gallo,27,Monsalvo,-36.941279,-57.631478,2280.0,4660.0
+417,Benjamín Subiaurre,Particular,Subiaurre,30,Tuyú,-36.868644,-57.159408,1720.0,4710.0
+418,Ezequiel Ramos Mejía,Particular,Ramos Mejía,27,Monsalvo,-36.822451,-57.519392,2140.0,4830.0
+419,Herederos de Agustín Acosta,Sucesión / herederos,Acosta,27,Monsalvo,-36.799895,-57.264818,1840.0,4830.0
+420,José M. Peña,Particular,Peña,22,Ajó,-36.777475,-57.095477,1640.0,4840.0
+421,Magdalena Ramos de Elía,Particular,Elía,27,Monsalvo,-36.734823,-57.550131,2170.0,4970.0
+422,José Lastra,Particular,Lastra,27,Monsalvo,-36.686142,-57.364903,1950.0,5020.0
+423,Juan B. Peña,Particular,Peña,22,Ajó,-36.649705,-57.255393,1820.0,5060.0
+424,Nicolás B.,Particular,B.,22,Ajó,-36.825835,-57.0509,1590.0,4760.0
+425,Manuel José Cobo,Particular,Cobo,22,Ajó,-36.814167,-56.773217,1260.0,4740.0
+426,Francisca Escobar,Particular,Escobar,22,Ajó,-36.735441,-56.852116,1350.0,4870.0
+427,Martín J. Campos,Particular,Campos,22,Ajó,-36.741855,-56.995222,1520.0,4880.0
+428,Suárez,Particular,Suárez,22,Ajó,-36.676532,-57.066032,1600.0,4990.0
+429,José María Suárez,Particular,Suárez,22,Ajó,-36.643226,-56.772533,1250.0,5000.0
+430,Guillermo Gilmour,Particular,Gilmour,22,Ajó,-36.627953,-56.823379,1310.0,5030.0
+441,Juan J. Pardo,Particular,Pardo,22,Ajó,-36.546734,-57.004056,1520.0,5180.0
+442,Herederos de Lorenzo Díaz,Sucesión / herederos,Díaz,21,Tordillo,-36.548171,-57.269525,1830.0,5220.0
+443,D. Ybarbengoitia,Particular,Ybarbengoitia,21,Tordillo,-36.580594,-57.336589,1910.0,5180.0
+444,Francisco Díaz,Particular,Díaz,21,Tordillo,-36.593664,-57.404675,1990.0,5170.0
+445,S. Bello,Particular,Bello,23,Dolores,-36.569986,-57.492137,2090.0,5220.0
+446,Lucía Escribano,Sociedad / colectivo,Escribano,23,Dolores,-36.540718,-57.519806,2120.0,5270.0
+447,Nonell,Particular,Nonell,23,Dolores,-36.583354,-57.738556,2380.0,5230.0
+448,Jacobo Parravicini,Particular,Parravicini,23,Dolores,-36.601749,-57.728834,2370.0,5200.0
+449,Jacobo Parravicini,Particular,Parravicini,23,Dolores,-36.541316,-57.775203,2420.0,5300.0
+450,Parravicini,Particular,Parravicini,23,Dolores,-36.466509,-57.797043,2440.0,5420.0
+451,Fresco,Particular,Fresco,24,Vecino,-36.633402,-57.726665,2370.0,5150.0
+452,Teodoro Iturralde,Particular,Iturralde,24,Vecino,-36.654149,-57.7506,2400.0,5120.0
+453,Enrique Olivares,Particular,Olivares,24,Vecino,-36.586058,-57.889604,2560.0,5240.0
+454,Sosa,Particular,Sosa,24,Vecino,-36.594511,-57.813629,2470.0,5220.0
+455,Marcelino Rodríguez,Particular,Rodríguez,24,Vecino,-36.624215,-58.020269,2720.0,5190.0
+456,Bernardo Vecino,Particular,Vecino,24,Vecino,-36.58048,-58.047911,2750.0,5260.0
+457,Valerio y Silverio,Particular,Valerio,24,Vecino,-36.503088,-57.886738,2550.0,5370.0
+458,Ponce,Particular,Ponce,24,Vecino,-36.480327,-57.946447,2620.0,5410.0
+459,Herederos de Manuel Arroyo,Sucesión / herederos,Arroyo,24,Vecino,-36.458276,-58.038893,2730.0,5450.0
+460,Pinedo,Particular,Pinedo,24,Vecino,-36.432902,-58.048631,2740.0,5490.0
+461,Herederos de Julián Segundo de Agüero,Sucesión / herederos,Agüero,23,Dolores,-36.371071,-57.936133,2600.0,5580.0
+462,Tomás Sánchez,Particular,Sánchez,22,Ajó,-36.552438,-56.927647,1430.0,5160.0
+463,Rojas,Particular,Rojas,22,Ajó,-36.520928,-57.005298,1520.0,5220.0
+464,M. Méndez,Particular,Méndez,22,Ajó,-36.48494,-57.032618,1550.0,5280.0
+465,Gibson y Hermanos,Sociedad / colectivo,Gibson,22,Ajó,-36.367452,-56.8706,1350.0,5440.0
+466,Gibson,Particular,Gibson,21,Tordillo,-36.296441,-56.917346,1400.0,5560.0
+467,G. Gilmour,Particular,Gilmour,21,Tordillo,-36.276403,-56.969167,1460.0,5600.0
+468,Guillermo Gilmour,Particular,Gilmour,21,Tordillo,-36.37459,-57.013314,1520.0,5450.0
+469,Félix Madrid,Particular,Madrid,21,Tordillo,-36.341478,-57.117827,1640.0,5520.0
+470,Sandalio Boer,Particular,Boer,21,Tordillo,-36.317463,-57.068066,1580.0,5550.0
+471,A. Laferrere,Particular,Laferrere,21,Tordillo,-36.378216,-57.167135,1700.0,5470.0
+472,Y. Arance,Particular,Arance,21,Tordillo,-36.391819,-57.235268,1780.0,5460.0
+473,El Estado,Estado / tierra pública,,21,Tordillo,-36.352441,-57.280648,1830.0,5530.0
+474,"El Estado, reclamado por los herederos de Dn. Tomás Manuel Anchorena",Estado / tierra pública,,21,Tordillo,-36.25315,-57.294462,1840.0,5690.0
+475,Herederos de T. M. Anchorena,Sucesión / herederos,Anchorena,23,Dolores,-36.245392,-57.47554,2050.0,5730.0
+476,"El Estado, reclamado por Anchorena",Estado / tierra pública,,20,Castelli,-36.109824,-57.309143,1850.0,5920.0
+477,El Estado,Estado / tierra pública,,20,Castelli,-36.07438,-57.335815,1880.0,5980.0
+478,El Estado,Estado / tierra pública,,20,Castelli,-36.060311,-57.471673,2040.0,6020.0
+479,Ramírez,Particular,Ramírez,20,Castelli,-36.049241,-57.412654,1970.0,6030.0
+480,Celestino Almirón,Particular,Almirón,20,Castelli,-36.124298,-57.555585,2140.0,5930.0
+481,B. Palomeque,Particular,Palomeque,20,Castelli,-36.176206,-57.56321,2150.0,5850.0
+482,D. A. de Carranza,Particular,Carranza,20,Castelli,-36.088443,-57.505112,2080.0,5980.0
+483,"Manuel M. Díaz, hoy A. Sacristi",Particular,Díaz,20,Castelli,-36.049496,-57.497286,2070.0,6040.0
+484,Juan Mariano Pereyra,Particular,Pereyra,20,Castelli,-35.987756,-57.43934,2000.0,6130.0
+485,Justa Tapia,Particular,Tapia,20,Castelli,-35.987424,-57.625016,2220.0,6150.0
+486,Lázaro Tapia,Particular,Tapia,20,Castelli,-35.936412,-57.633882,2230.0,6230.0
+487,Juana Y. de Sáenz Valiente,Particular,Sáenz Valiente,20,Castelli,-35.90631,-57.457803,2020.0,6260.0
+488,Martín Alzaga,Particular,Alzaga,14,Viedma,-36.016462,-57.820464,2450.0,6120.0
+489,Lorenzo Agüero,Particular,Agüero,19,Pila,-36.054978,-57.998735,2660.0,6070.0
+490,N. Martínez de Hoz e Hijos,Sociedad / colectivo,,19,Pila,-36.212376,-58.026435,2700.0,5830.0
+492,Paula Reinoso,Particular,Reinoso,23,Dolores,-36.189755,-57.926897,2580.0,5860.0
+493,Pedro Luro,Particular,Luro,23,Dolores,-36.276692,-57.831986,2470.0,5720.0
+494,J. S. Agüero,Particular,Agüero,23,Dolores,-36.357436,-57.77833,2410.0,5590.0
+495,Pinedo y B. Ocampo,Particular,Pinedo,23,Dolores,-36.327666,-57.821613,2460.0,5640.0
+496,Justo Piñero,Particular,Piñero,23,Dolores,-36.245785,-57.732043,2350.0,5760.0
+497,Francisco Córdova,Particular,Córdova,23,Dolores,-36.185024,-57.809288,2440.0,5860.0
+498,Álvarez,Particular,Álvarez,20,Castelli,-36.118534,-57.776611,2400.0,5960.0
+499,Yslas,Particular,Yslas,20,Castelli,-36.063656,-57.717804,2330.0,6040.0
+500,Juan A. Díaz,Particular,Díaz,23,Dolores,-36.409136,-57.69097,2310.0,5500.0
+501,S. Palomeque,Particular,Palomeque,23,Dolores,-36.416631,-57.622273,2230.0,5480.0
+502,Herederos de Peredo,Sucesión / herederos,Peredo,23,Dolores,-36.287582,-57.594568,2190.0,5680.0
+503,T. M. Anchorena,Particular,Anchorena,23,Dolores,-36.218873,-57.536539,2120.0,5780.0
+504,White,Particular,White,23,Dolores,-36.465155,-57.524701,2120.0,5390.0
+509,Simón Pereyra,Particular,Pereyra,24,Vecino,-36.642624,-58.167944,2900.0,5170.0
+510,Pereyra,Particular,Pereyra,24,Vecino,-36.648181,-58.373195,3150.0,5170.0
+511,Pedro Palacios,Particular,Palacios,24,Vecino,-36.611,-58.465374,3260.0,5230.0
+512,E. Vela,Particular,Vela,26,Rauch,-36.605263,-58.514826,3320.0,5240.0
+513,León Vela,Particular,Vela,26,Rauch,-36.63238,-58.595543,3420.0,5200.0
+514,Justo Merlo,Particular,Merlo,24,Vecino,-36.564743,-58.418657,3200.0,5300.0
+515,Hortencio Miguens,Particular,Miguens,26,Rauch,-36.553348,-58.525558,3330.0,5320.0
+516,Anita Miguens,Particular,Miguens,26,Rauch,-36.547506,-58.583087,3400.0,5330.0
+517,Pedro Pourtale,Particular,Pourtale,24,Vecino,-36.49947,-58.397587,3170.0,5400.0
+518,Antonio Rivas,Particular,Rivas,24,Vecino,-36.523678,-58.306331,3060.0,5360.0
+519,Pedro José Udaquiola,Particular,Udaquiola,26,Rauch,-36.594651,-58.7617,3620.0,5260.0
+521,Petrona Vásquez de Vela,Particular,Vela,26,Rauch,-36.647663,-58.900518,3790.0,5180.0
+522,Pedro J. Vela,Particular,Vela,26,Rauch,-36.614935,-59.010194,3920.0,5230.0
+523,Antonio Licate,Particular,Licate,26,Rauch,-36.568958,-58.936502,3830.0,5300.0
+524,Leopoldo Lanús y Hermanos,Sociedad / colectivo,Lanús,26,Rauch,-36.667349,-59.185548,4130.0,5150.0
+525,Juan Bautista Peña,Particular,Peña,26,Rauch,-36.620918,-59.220982,4170.0,5220.0
+526,Lorenzo Córdova,Particular,Córdova,26,Rauch,-36.699881,-59.337808,4310.0,5100.0
+527,Úrsula Sosa,Particular,Sosa,26,Rauch,-36.536087,-58.854615,3730.0,5350.0
+528,Nicolás y Juan Anchorena,Particular,Nicolás,24,Vecino,-36.445865,-58.302482,3050.0,5480.0
+529,Manuel Domínguez,Particular,Domínguez,19,Pila,-36.467401,-58.423749,3200.0,5450.0
+530,Francisco Tartalá,Particular,Tartalá,19,Pila,-36.455988,-58.554647,3360.0,5470.0
+531,Chiclana,Particular,Chiclana,26,Rauch,-36.470333,-58.741705,3590.0,5450.0
+532,Francisco Letamendi,Particular,Letamendi,19,Pila,-36.410156,-58.532391,3330.0,5540.0
+533,Venancio Casalins,Particular,Casalins,19,Pila,-36.377085,-58.485287,3270.0,5590.0
+534,Vicente Letamendi,Particular,Letamendi,19,Pila,-36.430474,-58.620886,3440.0,5510.0
+535,Nicolás Anchorena,Particular,Anchorena,19,Pila,-36.343865,-58.430182,3200.0,5640.0
+536,Jaime Casalins,Particular,Casalins,19,Pila,-36.325289,-58.520257,3310.0,5670.0
+537,Jaime Casalins,Particular,Casalins,19,Pila,-36.293382,-58.610552,3420.0,5720.0
+538,Narciso Roldán,Particular,Roldán,26,Rauch,-36.437796,-58.783739,3640.0,5500.0
+539,Gregorio Casal,Particular,Casal,26,Rauch,-36.450994,-58.890149,3770.0,5480.0
+540,Gregorio González,Particular,González,26,Rauch,-36.411565,-58.981972,3880.0,5540.0
+541,José Centurión,Particular,Centurión,26,Rauch,-36.411306,-59.048494,3960.0,5540.0
+542,Julián Martínez,Particular,Martínez,26,Rauch,-36.470154,-59.080959,4000.0,5450.0
+543,Juan de Dios Díaz,Particular,Díaz,26,Rauch,-36.392114,-58.826015,3690.0,5570.0
+544,"Familia Silva (Juan, Pedro, Carmen, Antonio, Irene, Pelagio)",Sociedad / colectivo,(Juan,19,Pila,-36.3201,-58.738687,3580.0,5680.0
+545,Manuel Martínez,Particular,Martínez,26,Rauch,-36.346361,-58.892593,3770.0,5640.0
+546,Ramón O. Basualdo,Particular,Basualdo,26,Rauch,-36.346096,-58.999564,3900.0,5640.0
+547,Juan Rojas,Particular,Rojas,26,Rauch,-36.364674,-59.174727,4110.0,5610.0
+548,Valentín Cruz,Particular,Cruz,26,Rauch,-36.3072,-58.836362,3700.0,5700.0
+549,Basualdo,Particular,Basualdo,26,Rauch,-36.28109,-58.861332,3730.0,5740.0
+550,"El Estado, pedido por varios",Estado / tierra pública,,26,Rauch,-36.261455,-58.918634,3800.0,5770.0
+551,"El Estado, pedido por varios",Estado / tierra pública,,26,Rauch,-36.293455,-59.082951,4000.0,5720.0
+552,Hilarión Medrano,Particular,Medrano,26,Rauch,-36.403285,-59.250634,4200.0,5550.0
+553,Lino Pardo,Particular,Pardo,18,Las Flores,-36.266065,-59.259263,4210.0,5760.0
+554,El Estado,Estado / tierra pública,,26,Rauch,-36.330872,-59.29342,4250.0,5660.0
+555,Fabián Gómez y Nicolás y Juan Anchorena,Particular,Gómez,19,Pila,-36.295138,-58.228993,2950.0,5710.0
+556,Nicolás y Juan Anchorena,Particular,Nicolás,19,Pila,-36.278899,-58.449849,3220.0,5740.0
+557,Micaela,Particular,Micaela,19,Pila,-36.253881,-58.56408,3360.0,5780.0
+558,Juan Silva,Particular,Silva,19,Pila,-36.248261,-58.724984,3560.0,5790.0
+559,Bernardo Yzurieta,Particular,Yzurieta,19,Pila,-36.18885,-58.599344,3400.0,5880.0
+560,"El Estado, pedido por varios",Estado / tierra pública,,19,Pila,-36.176761,-58.839424,3700.0,5900.0
+561,"El Estado, pedido en compra",Estado / tierra pública,,19,Pila,-36.208832,-58.662378,3480.0,5850.0
+562,Jorge Echeverría,Particular,Echeverría,18,Las Flores,-36.20254,-59.017261,3920.0,5860.0
+563,Martiniano Gamboa,Particular,Gamboa,19,Pila,-36.136365,-58.57018,3360.0,5960.0
+564,Juan Prado,Particular,Prado,19,Pila,-36.130495,-58.657901,3470.0,5970.0
+565,Pedro Anchorena,Particular,Anchorena,19,Pila,-36.099549,-58.24857,2960.0,6010.0
+566,Agüero Torres,Particular,Torres,19,Pila,-36.052225,-58.168164,2860.0,6080.0
+567,Segundo Girado,Particular,Girado,19,Pila,-36.000085,-58.188364,2880.0,6160.0
+568,Rosa Anchorena de Ybáñez,Particular,Ybáñez,19,Pila,-36.010711,-58.451025,3200.0,6150.0
+569,Claudio Stegman,Particular,Stegman,19,Pila,-35.936622,-58.327583,3040.0,6260.0
+570,Herederos de Claudio,Sucesión / herederos,Claudio,19,Pila,-35.919035,-58.459095,3200.0,6290.0
+571,José Elizalde,Particular,Elizalde,19,Pila,-36.045468,-58.630724,3430.0,6100.0
+572,Rafael López,Particular,López,18,Las Flores,-36.033498,-58.795944,3640.0,6120.0
+573,Juan Sallano,Particular,Sallano,18,Las Flores,-36.059661,-58.858209,3720.0,6080.0
+574,Solanet,Particular,Solanet,18,Las Flores,-36.059687,-58.961696,3850.0,6080.0
+575,Solanet y Rosollin,Particular,Solanet,18,Las Flores,-36.162856,-59.166103,4100.0,5920.0
+576,Ezequiel Martínez,Particular,Martínez,18,Las Flores,-36.03374,-58.95411,3840.0,6120.0
+577,Antonio Landaburu,Particular,Landaburu,18,Las Flores,-36.001184,-58.844092,3700.0,6170.0
+578,Daniel Márquez,Particular,Márquez,18,Las Flores,-36.001293,-58.899209,3770.0,6170.0
+579,Cruz Márquez,Particular,Márquez,18,Las Flores,-36.007804,-58.946629,3830.0,6160.0
+580,Francisco Muller,Particular,Muller,19,Pila,-35.993689,-58.672734,3480.0,6180.0
+582,Luis Esponda,Particular,Esponda,18,Las Flores,-36.091496,-59.190783,4130.0,6030.0
+583,Antonio López,Particular,López,18,Las Flores,-36.072281,-59.132477,4060.0,6060.0
+584,Mercedes Salvañac,Particular,Salvañac,18,Las Flores,-36.12404,-59.149234,4080.0,5980.0
+585,Serapio Rosas,Particular,Rosas,18,Las Flores,-35.943028,-58.971934,3860.0,6260.0
+586,José María Cortés,Particular,Cortés,18,Las Flores,-35.949462,-59.060099,3970.0,6250.0
+587,Andrés Baranda,Particular,Baranda,18,Las Flores,-35.955856,-59.18311,4120.0,6240.0
+588,José B. Arce,Particular,Arce,19,Pila,-35.941222,-58.637071,3430.0,6260.0
+589,Rodríguez,Particular,Rodríguez,19,Pila,-35.948643,-58.729339,3550.0,6250.0
+590,Acosta,Particular,Acosta,18,Las Flores,-35.942619,-58.799263,3640.0,6260.0
+591,Bernardo Romero,Particular,Romero,18,Las Flores,-35.930026,-59.125793,4050.0,6280.0
+592,Herederos de Lamas,Sucesión / herederos,Lamas,18,Las Flores,-35.930175,-59.334076,4300.0,6280.0
+608,"León Vela, hoy Petrona Vásquez",Particular,Vela,29,Tandil,-37.364221,-59.432814,4450.0,4100.0
+609,Nicolás Anchorena,Particular,Anchorena,29,Tandil,-37.478762,-59.820656,4900.0,3930.0
+610,Juvenal Rico,Particular,Rico,29,Tandil,-37.43179,-60.045867,5160.0,4000.0
+611,Mariano Roldán,Particular,Roldán,69,Azul,-37.424702,-60.149316,5280.0,4010.0
+612,Federico y Alejandro Leloir,Particular,Federico,69,Azul,-37.449466,-60.500572,5690.0,3970.0
+613,Ceferino Peñalva,Particular,Peñalva,69,Azul,-37.383766,-60.278422,5430.0,4070.0
+614,Herederos de Gervasio López,Sucesión / herederos,López,29,Tandil,-37.378563,-59.648829,4700.0,4080.0
+615,Juan Anchorena,Particular,Anchorena,29,Tandil,-37.351986,-59.908826,5000.0,4120.0
+616,Pastor Martínez,Particular,Martínez,69,Azul,-37.364631,-60.106914,5230.0,4100.0
+617,Felipe Botet,Particular,Botet,69,Azul,-37.318229,-60.012907,5120.0,4170.0
+618,Justo Barda,Particular,Barda,69,Azul,-37.316804,-60.253326,5400.0,4170.0
+619,Vicente Casares e hijos,Sociedad / colectivo,Casares,29,Tandil,-37.28516,-59.546987,4580.0,4220.0
+620,Pedro Yturralde,Particular,Yturralde,69,Azul,-37.251515,-59.979745,5080.0,4270.0
+621,El Estado,Estado / tierra pública,,69,Azul,-37.284138,-60.125245,5250.0,4220.0
+622,Belisario Roldán,Particular,Roldán,69,Azul,-37.26945,-60.296566,5450.0,4240.0
+623,Dionisio Gutiérrez,Particular,Gutiérrez,69,Azul,-37.209681,-60.212086,5350.0,4330.0
+624,Andrés Agüero,Particular,Agüero,69,Azul,-37.202436,-60.271888,5420.0,4340.0
+625,Eduardo Lumb,Particular,Lumb,29,Tandil,-37.185287,-59.480882,4500.0,4370.0
+626,Juan y Nicolás Anchorena,Particular,Juan,69,Azul,-37.185104,-59.895244,4980.0,4370.0
+627,Herederos de Pablo Acosta,Sucesión / herederos,Acosta,69,Azul,-37.085649,-59.734614,4790.0,4520.0
+628,Antonio Castaño y Juana López,Particular,Castaño,29,Tandil,-37.112108,-59.440505,4450.0,4480.0
+629,Luis Coz,Particular,Coz,69,Azul,-37.01923,-59.616483,4650.0,4620.0
+630,Prudencia Domínguez de Gaele,Particular,Gaele,29,Tandil,-36.992587,-59.488474,4500.0,4660.0
+631,Ramón Vitón,Particular,Vitón,69,Azul,-36.945948,-59.576485,4600.0,4730.0
+632,Luis Antonio Vidal,Particular,Vidal,29,Tandil,-36.91934,-59.491649,4500.0,4770.0
+633,Testamentaria de Prudencio Rosas,Sucesión / herederos,Rosas,69,Azul,-36.94531,-59.774349,4830.0,4730.0
+634,"El Estado, conocido por de Loreto Sáez",Estado / tierra pública,Sáez,69,Azul,-36.944183,-60.469543,5650.0,4720.0
+635,"El Estado, conocido por de Felipe Piñeiro",Estado / tierra pública,Piñeiro,69,Azul,-36.796681,-60.363788,5520.0,4940.0
+636,Manuel Belgrano,Particular,Belgrano,69,Azul,-36.724362,-60.1826,5300.0,5050.0
+647,Herederos de Juan M. Silva,Sucesión / herederos,Silva,69,Azul,-36.590784,-60.019562,5100.0,5250.0
+648,El Estado,Estado / tierra pública,,69,Azul,-36.642289,-60.251323,5380.0,5170.0
+649,Juan Larroy,Particular,Larroy,69,Azul,-36.587719,-60.3343,5480.0,5250.0
+650,Santiago Silva,Particular,Silva,68,Tapalquén,-36.53382,-60.399506,5560.0,5330.0
+651,Herederos de Silva,Sucesión / herederos,Silva,68,Tapalquén,-36.507569,-60.261795,5390.0,5370.0
+652,Antonio Pereira,Particular,Pereira,68,Tapalquén,-36.461174,-60.156119,5260.0,5440.0
+653,Luis Goya,Particular,Goya,69,Azul,-36.475421,-60.048324,5130.0,5420.0
+654,"El Estado, pedido por Varios",Estado / tierra pública,,69,Azul,-36.410536,-59.931227,4990.0,5520.0
+655,El Estado,Estado / tierra pública,,68,Tapalquén,-36.421189,-60.188968,5300.0,5500.0
+656,Jacinto Spigno,Particular,Spigno,68,Tapalquén,-36.381703,-60.389616,5550.0,5560.0
+657,Catalina Barrionuevo,Particular,Barrionuevo,68,Tapalquén,-36.3102,-60.283535,5420.0,5670.0
+658,Nicolás Fonda y Fernando de Luján Vieira Belén,Particular,Fonda,68,Tapalquén,-36.305899,-59.938702,5000.0,5680.0
+659,Vicente Casares,Particular,Casares,68,Tapalquén,-36.212178,-59.841491,4890.0,5830.0
+660,José Balcarce,Particular,Balcarce,68,Tapalquén,-36.252717,-60.144041,5250.0,5760.0
+661,Roque Ricabarra,Particular,Ricabarra,68,Tapalquén,-36.214229,-60.303122,5450.0,5820.0
+662,Agustín Ricabarra,Particular,Ricabarra,68,Tapalquén,-36.233106,-60.367945,5530.0,5790.0
+663,Serapio Rosas,Particular,Rosas,68,Tapalquén,-36.151467,-60.23524,5370.0,5920.0
+664,José María Jurado,Particular,Jurado,68,Tapalquén,-36.129143,-59.930322,5000.0,5960.0
+665,Juan Bautista Peña,Particular,Peña,18,Las Flores,-36.165392,-59.591504,4600.0,5910.0
+666,Isidro Posse,Particular,Posse,18,Las Flores,-36.128059,-59.505018,4500.0,5970.0
+667,Domingo Belgrano,Particular,Belgrano,68,Tapalquén,-36.112293,-59.777686,4820.0,5990.0
+668,Melitón Ruiz,Particular,Ruiz,68,Tapalquén,-36.079614,-59.902479,4970.0,6040.0
+669,Justo Piena,Particular,Piena,68,Tapalquén,-36.069246,-60.334063,5500.0,6050.0
+670,Ramírez de Castro,Particular,Ramírez de Castro,68,Tapalquén,-36.037364,-60.379805,5560.0,6100.0
+671,Adolfo Méndez,Particular,Méndez,68,Tapalquén,-36.117317,-60.519945,5730.0,5970.0
+672,Juan Connor,Particular,Connor,68,Tapalquén,-36.135636,-60.576446,5800.0,5940.0
+673,Caldeira,Particular,Caldeira,68,Tapalquén,-36.084704,-60.573262,5800.0,6020.0
+674,Luis Goya,Particular,Goya,18,Las Flores,-36.057733,-59.529311,4530.0,6080.0
+675,José Portuguez,Particular,Portuguez,18,Las Flores,-36.044325,-59.648023,4670.0,6100.0
+676,Pedro Sheridan,Particular,Sheridan,68,Tapalquén,-35.98065,-59.839249,4900.0,6200.0
+677,Patricio Serantes,Particular,Serantes,68,Tapalquén,-35.990918,-60.11949,5240.0,6180.0
+678,Pedro Méndez,Particular,Méndez,68,Tapalquén,-35.972721,-60.085844,5200.0,6210.0
+679,Juan Roberts,Particular,Roberts,68,Tapalquén,-35.942094,-60.059637,5170.0,6260.0
+680,Rosario Acosta,Particular,Acosta,68,Tapalquén,-35.914182,-60.299971,5470.0,6300.0
+681,Basilio Salas,Particular,Salas,68,Tapalquén,-35.921403,-60.523281,5750.0,6280.0
+682,Mariano Unzué,Particular,Unzué,68,Tapalquén,-35.974346,-60.407512,5600.0,6200.0
+683,José Díaz de Bedoya,Particular,Díaz de Bedoya,18,Las Flores,-35.981413,-59.587392,4600.0,6200.0
+684,Urbina,Particular,Urbina,69,Azul,-36.345227,-59.629038,4640.0,5630.0
+685,Zabala,Particular,Zabala,69,Azul,-36.294382,-59.568056,4570.0,5710.0
+691,Manuel José Guerrico,Particular,Guerrico,71,Lobería,-38.446042,-58.55491,3420.0,2430.0
+692,Testamentaria de Eustoquio Díaz Vélez,Sucesión / herederos,Díaz Vélez,71,Lobería,-38.432434,-58.965742,3900.0,2470.0
+693,Cipriano y Adolfo,Particular,Cipriano,71,Lobería,-38.380402,-58.742827,3640.0,2540.0
+694,Moyses de Oca,Particular,Oca,72,Necochea,-38.596811,-59.269191,4250.0,2230.0
+695,"El Estado, pedido por varios",Estado / tierra pública,,72,Necochea,-38.483293,-59.172752,4140.0,2400.0
+696,Miguel Vásquez,Particular,Vásquez,72,Necochea,-38.537827,-59.268421,4250.0,2320.0
+714,Sixto Laspiur,Particular,Laspiur,74,Bahía Blanca,-38.564266,-62.237967,7660.0,2290.0
+715,Gabriel G. Real de Azúa,Particular,Real de Azúa,74,Bahía Blanca,-38.591748,-62.19663,7610.0,2250.0
+716,Perfecto Calvento,Particular,Calvento,74,Bahía Blanca,-38.464341,-62.170347,7590.0,2440.0
+717,Benita S. de Calvento,Particular,Calvento,74,Bahía Blanca,-38.456718,-62.23022,7660.0,2450.0
+718,"El Estado, pedido por Varios",Estado / tierra pública,,74,Bahía Blanca,-38.352235,-62.428939,7900.0,2600.0
+719,"El Estado, pedido por Varios",Estado / tierra pública,,74,Bahía Blanca,-38.232401,-62.333935,7800.0,2780.0
+734,José Miguens,Particular,Miguens,14,Viedma,-35.779133,-57.461072,2020.0,6460.0
+735,José Miguens,Particular,Miguens,20,Castelli,-35.751064,-57.322949,1850.0,6490.0
+736,Enrique Ochoa,Particular,Ochoa,14,Viedma,-35.820373,-57.779467,2400.0,6420.0
+737,Juan Alzina,Particular,Alzina,14,Viedma,-35.732367,-57.670019,2270.0,6550.0
+738,Lezama,Particular,Lezama,14,Viedma,-35.857435,-57.935547,2580.0,6370.0
+739,Herederos de Pablo Santiestevan,Sucesión / herederos,Santiestevan,14,Viedma,-35.838893,-57.98018,2630.0,6400.0
+740,Casalins,Particular,Casalins,13,Chascomús,-35.834535,-58.104904,2770.0,6410.0
+741,Juan N. Fernández,Particular,Fernández,13,Chascomús,-35.814895,-58.106295,2770.0,6440.0
+742,Juan N. Fernández,Particular,Fernández,13,Chascomús,-35.722733,-58.04841,2700.0,6580.0
+743,José Miguens,Particular,Miguens,14,Viedma,-35.687435,-57.671117,2270.0,6620.0
+744,A. Llanos,Particular,Llanos,14,Viedma,-35.70457,-57.78947,2410.0,6600.0
+745,Zenón Calderón,Particular,Calderón,14,Viedma,-35.655078,-57.409237,1950.0,6650.0
+746,Josefa C. de Casalins,Particular,Casalins,14,Viedma,-35.649432,-57.539962,2110.0,6670.0
+747,Julián Nóbrega,Particular,Nóbrega,14,Viedma,-35.613755,-57.59925,2180.0,6730.0
+748,Pedro Piñeyro de Munrio,Particular,Munrio,10,Rivadavia,-35.627532,-57.273961,1780.0,6680.0
+749,Francisco Piñero,Particular,Piñero,13,Chascomús,-35.615856,-57.843926,2470.0,6740.0
+750,Mercedes Trinidad Piñero,Particular,Piñero,13,Chascomús,-35.569338,-57.794657,2410.0,6810.0
+751,Mariano Álvarez,Particular,Álvarez,13,Chascomús,-35.662548,-57.91295,2550.0,6670.0
+752,Girado,Particular,Girado,13,Chascomús,-35.63162,-58.005674,2650.0,6720.0
+753,Jorge Bell,Particular,Bell,13,Chascomús,-35.598262,-57.924255,2560.0,6770.0
+754,Felipe Piñero,Particular,Piñero,14,Viedma,-35.540904,-57.71163,2310.0,6850.0
+755,Fernando Calderón,Particular,Calderón,10,Rivadavia,-35.570786,-57.382431,1910.0,6780.0
+756,Huergo,Particular,Huergo,14,Viedma,-35.566767,-57.552687,2120.0,6800.0
+757,Francisco Piñeyro,Particular,Piñeyro,10,Rivadavia,-35.512375,-57.363061,1880.0,6870.0
+758,T. Piñeyro,Particular,Piñeyro,10,Rivadavia,-35.487815,-57.269898,1760.0,6900.0
+759,M. Piñeyro,Particular,Piñeyro,10,Rivadavia,-35.44023,-57.219492,1690.0,6970.0
+760,F. Piñeyro,Particular,Piñeyro,10,Rivadavia,-35.398404,-57.161407,1610.0,7030.0
+761,Ysidro Calderón,Particular,Calderón,10,Rivadavia,-35.50269,-57.419857,1950.0,6890.0
+762,Ricardo Newton,Particular,Newton,10,Rivadavia,-35.497053,-57.573921,2140.0,6910.0
+763,Ricardo Newton,Particular,Newton,13,Chascomús,-35.479462,-57.819118,2430.0,6950.0
+764,Plowes,Particular,Plowes,13,Chascomús,-35.552195,-57.882962,2510.0,6840.0
+765,Atkinson y Cía.,Sociedad / colectivo,Atkinson,13,Chascomús,-35.533191,-57.902485,2530.0,6870.0
+766,Ángel Benavento,Particular,Benavento,13,Chascomús,-35.508153,-57.950658,2580.0,6910.0
+767,Francisca Moreno de Gándara,Particular,Gándara,13,Chascomús,-35.464655,-58.099708,2730.0,6980.0
+768,Brown,Particular,Brown,13,Chascomús,-35.435727,-57.885183,2500.0,7020.0
+769,L. Pereira,Particular,Pereira,12,Ranchos,-35.42011,-58.092826,2720.0,7050.0
+770,Pedro Chávez,Particular,Chávez,10,Rivadavia,-35.408635,-57.460224,1990.0,7040.0
+771,Luciano Chávez,Particular,Chávez,10,Rivadavia,-35.38333,-57.335875,1830.0,7070.0
+772,Herederos de J. A. Escribano,Sucesión / herederos,Escribano,10,Rivadavia,-35.342275,-57.285478,1760.0,7130.0
+773,Eladio Otamendi,Particular,Otamendi,10,Rivadavia,-35.399825,-57.557523,2110.0,7060.0
+774,R. Fernández,Particular,Fernández,10,Rivadavia,-35.271137,-57.270725,1730.0,7240.0
+775,Juan Malcolm,Particular,Malcolm,10,Rivadavia,-35.246105,-57.281694,1740.0,7280.0
+776,Sixto Fernández,Particular,Fernández,10,Rivadavia,-35.21619,-57.32432,1790.0,7330.0
+777,Hamilton,Particular,Hamilton,9,Magdalena,-35.287866,-57.49589,2020.0,7230.0
+778,José María Miguens y Carmen Miguens de Montes de Oca,Particular,Miguens,9,Magdalena,-35.182397,-57.436919,1930.0,7390.0
+779,María A. Vivot de Acevedo Ramos,Particular,Ramos,9,Magdalena,-35.205461,-57.551116,2080.0,7360.0
+780,Juan Romero,Particular,Romero,9,Magdalena,-35.235626,-57.708786,2280.0,7320.0
+781,José Rebol,Particular,Rebol,9,Magdalena,-35.265684,-57.842421,2440.0,7280.0
+782,Rosa M. de Rodríguez,Particular,Rodríguez,8,Ensenada,-35.202863,-57.921732,2530.0,7380.0
+783,N. Newton,Particular,Newton,9,Magdalena,-35.294649,-57.713581,2290.0,7230.0
+784,López Seco,Particular,Seco,8,Ensenada,-35.243235,-58.102063,2730.0,7330.0
+785,Federico Plowes,Particular,Plowes,9,Magdalena,-35.186197,-57.826976,2420.0,7400.0
+786,Elisabet Moujan,Particular,Moujan,9,Magdalena,-35.132442,-57.810689,2400.0,7480.0
+800,Felipe Senillosa,Particular,Senillosa,13,Chascomús,-35.88246,-58.231923,2920.0,6340.0
+801,Testamentaria de Anchorena,Sucesión / herederos,Anchorena,19,Pila,-35.871212,-58.350893,3060.0,6360.0
+802,Herederos de Claudio Stegman,Sucesión / herederos,Stegman,19,Pila,-35.893257,-58.485351,3230.0,6330.0
+803,Gregorio González,Particular,González,19,Pila,-35.847653,-58.497784,3240.0,6400.0
+804,Herederos de Juan Vivot,Sucesión / herederos,Vivot,13,Chascomús,-35.785074,-58.319892,3010.0,6490.0
+805,Benito Scott,Particular,Scott,19,Pila,-35.873642,-58.4873,3230.0,6360.0
+806,Tomás Chas,Particular,Chas,19,Pila,-35.85663,-58.635091,3420.0,6390.0
+807,Pascual Peredo,Particular,Peredo,15,Monte,-35.797449,-58.594258,3360.0,6480.0
+808,Pedro Aguilar,Particular,Aguilar,15,Monte,-35.785103,-58.62512,3400.0,6500.0
+809,Norberto Ramírez,Particular,Ramírez,15,Monte,-35.759565,-58.641701,3420.0,6540.0
+810,Félix Cabo,Particular,Cabo,19,Pila,-35.836386,-58.59106,3360.0,6420.0
+811,Laureano Ramírez,Particular,Ramírez,15,Monte,-35.76804,-58.790134,3620.0,6530.0
+812,Félix Arauz,Particular,Arauz,18,Las Flores,-35.774816,-58.866356,3720.0,6520.0
+813,Jacinto Arauz,Particular,Arauz,15,Monte,-35.748834,-58.805765,3640.0,6560.0
+814,Tiburcio Espinosa,Particular,Espinosa,15,Monte,-35.667814,-58.582867,3330.0,6680.0
+815,Juan Nepomuceno Terrero,Particular,Terrero,15,Monte,-35.658561,-58.740714,3550.0,6700.0
+816,Juan N. Terrero,Particular,Terrero,15,Monte,-35.645739,-58.907489,3770.0,6720.0
+817,"J. Atucha, hoy Córdova",Particular,Atucha,18,Las Flores,-35.723136,-58.929832,3800.0,6600.0
+818,Pedro Rojas,Particular,Rojas,18,Las Flores,-35.852383,-59.103213,4020.0,6400.0
+819,Manuel Venancio Paz,Particular,Paz,18,Las Flores,-35.813892,-59.29472,4250.0,6460.0
+820,Josefa Seeber,Particular,Seeber,18,Las Flores,-35.768038,-59.097634,4010.0,6530.0
+821,Silvestre Ortiz,Particular,Ortiz,18,Las Flores,-35.728964,-59.107224,4020.0,6590.0
+822,Manuel Atucha,Particular,Atucha,18,Las Flores,-35.650351,-59.143875,4060.0,6710.0
+823,Decoud,Particular,Decoud,18,Las Flores,-35.689802,-59.241719,4180.0,6650.0
+824,Bernardo Romero,Particular,Romero,18,Las Flores,-35.624848,-59.037352,3930.0,6750.0
+825,José Antonio Villanueva,Particular,Villanueva,13,Chascomús,-35.658902,-58.242309,2900.0,6680.0
+826,Herederos de López,Sucesión / herederos,López,13,Chascomús,-35.642665,-58.415523,3100.0,6710.0
+827,Tomás Fair,Particular,Fair,13,Chascomús,-35.691276,-58.191365,2850.0,6630.0
+828,Juan Hannah,Particular,Hannah,15,Monte,-35.577149,-58.554264,3280.0,6820.0
+829,Jaime Thwaites,Particular,Thwaites,13,Chascomús,-35.55442,-58.21066,2850.0,6840.0
+830,Tomás Gowland,Particular,Gowland,12,Ranchos,-35.532087,-58.399323,3060.0,6880.0
+831,Ysac Giles,Particular,Giles,12,Ranchos,-35.535746,-58.480015,3170.0,6880.0
+832,Herederos de Antonio Dorna,Sucesión / herederos,Dorna,15,Monte,-35.568811,-58.868936,3720.0,6840.0
+833,Herederos de Antonio Dorna,Sucesión / herederos,Dorna,15,Monte,-35.486206,-58.67262,3450.0,6970.0
+834,Z. Videla,Particular,Videla,15,Monte,-35.549675,-58.68541,3470.0,6870.0
+835,D. Dillon,Particular,Dillon,15,Monte,-35.524955,-58.72732,3530.0,6910.0
+836,Juan Gómez,Particular,Gómez,15,Monte,-35.515481,-58.934642,3800.0,6920.0
+837,H. López,Particular,López,15,Monte,-35.497543,-58.878059,3730.0,6950.0
+838,Federico Terrero,Particular,Terrero,16,Lobos,-35.484631,-59.156646,4060.0,6960.0
+839,Luis Cascallares,Particular,Cascallares,16,Lobos,-35.497836,-59.19771,4110.0,6940.0
+840,Lucio Cascallares,Particular,Cascallares,16,Lobos,-35.43766,-59.18753,4090.0,7030.0
+841,Juana Peña de Cascallares,Particular,Cascallares,16,Lobos,-35.424666,-59.265403,4180.0,7050.0
+842,Francisca Cascallares,Particular,Cascallares,16,Lobos,-35.384188,-59.220062,4120.0,7110.0
+843,Eduardo Rosas,Particular,Rosas,12,Ranchos,-35.475083,-58.523904,3230.0,6980.0
+844,Herederos de Godoy,Sucesión / herederos,Godoy,12,Ranchos,-35.424447,-58.495683,3190.0,7060.0
+845,Cesario Díaz,Particular,Díaz,12,Ranchos,-35.398804,-58.466059,3150.0,7100.0
+846,Dionisio Farías,Particular,Farías,12,Ranchos,-35.395984,-58.565203,3290.0,7110.0
+847,R. Urquiola,Particular,Urquiola,16,Lobos,-35.389966,-58.936334,3790.0,7110.0
+848,Ramón Urquiola,Particular,Urquiola,16,Lobos,-35.294802,-58.974782,3820.0,7250.0
+849,Juan Antonio Cascallares,Particular,Cascallares,16,Lobos,-35.237421,-59.0875,3940.0,7330.0
+850,Mariano Alegre,Particular,Alegre,12,Ranchos,-35.404045,-58.254305,2890.0,7080.0
+851,J. Harratt,Particular,Harratt,12,Ranchos,-35.301355,-58.461782,3150.0,7260.0
+852,Juan Harratt,Particular,Harratt,12,Ranchos,-35.252902,-58.306504,2960.0,7330.0
+853,Luis Aramburu,Particular,Aramburu,12,Ranchos,-35.278159,-58.324869,2980.0,7290.0
+854,Sheridan,Particular,Sheridan,12,Ranchos,-35.32302,-58.385148,3050.0,7220.0
+855,M. Russell,Particular,Russell,15,Monte,-35.331218,-58.781602,3590.0,7210.0
+856,Justo y Emilio Villegas,Particular,Justo,11,Cañuelas,-35.238315,-58.829866,3640.0,7350.0
+857,Fernando Tobar,Particular,Tobar,11,Cañuelas,-35.199889,-58.832572,3640.0,7410.0
+858,Jorge Bell,Particular,Bell,40,San Vicente,-35.142145,-58.496006,3200.0,7520.0
+859,Roberto Barreda,Particular,Barreda,11,Cañuelas,-35.139014,-58.667525,3430.0,7520.0
+866,José Portugués,Particular,Portugués,67,Saladillo,-35.867694,-59.628287,4650.0,6380.0
+867,Luis Albert,Particular,Albert,67,Saladillo,-35.874661,-59.974857,5070.0,6370.0
+868,Emilio Carranza,Particular,Carranza,68,Tapalquén,-35.829779,-60.158988,5300.0,6440.0
+869,Cándido Plaza Montero,Particular,Plaza Montero,68,Tapalquén,-35.838061,-60.367521,5560.0,6420.0
+870,Saturnino Unzué e hijos,Sociedad / colectivo,Unzué,66,25 de Mayo,-35.769061,-60.380203,5580.0,6530.0
+871,Mariano Fernández,Particular,Fernández,66,25 de Mayo,-35.775347,-60.555026,5800.0,6510.0
+872,Fernández,Particular,Fernández,66,25 de Mayo,-35.704116,-60.591765,5850.0,6620.0
+873,Cipriano Villanueva,Particular,Villanueva,68,Tapalquén,-35.859388,-60.677752,5950.0,6370.0
+874,Macedonio Fernández,Particular,Fernández,65,9 de Julio,-35.72765,-60.631984,5900.0,6580.0
+875,"Galíndez, Toledo y Atucha",Particular,Galíndez,67,Saladillo,-35.759445,-59.621026,4640.0,6550.0
+876,Dionisio Pereira,Particular,Pereira,67,Saladillo,-35.830685,-59.744181,4790.0,6440.0
+877,Federico Leiman,Particular,Leiman,67,Saladillo,-35.812594,-59.956454,5050.0,6470.0
+878,Joaquín Aguilera y Cía.,Sociedad / colectivo,Aguilera,67,Saladillo,-35.756233,-59.914819,5000.0,6560.0
+879,Roque Carranza,Particular,Carranza,67,Saladillo,-35.756096,-60.059819,5180.0,6560.0
+880,Adolfo Blayer,Particular,Blayer,66,25 de Mayo,-35.715698,-60.274656,5450.0,6620.0
+881,Herederos de Juan Rodríguez,Sucesión / herederos,Rodríguez,67,Saladillo,-35.680187,-59.914572,5000.0,6680.0
+882,Miguel Villarrasa,Particular,Villarrasa,66,25 de Mayo,-35.667501,-60.153896,5300.0,6700.0
+883,Herederos de Baldebenito,Sucesión / herederos,Baldebenito,66,25 de Mayo,-35.675665,-60.361291,5560.0,6680.0
+884,Martín Berraondo,Particular,Berraondo,66,25 de Mayo,-35.710834,-60.43376,5650.0,6620.0
+885,Antonio Bazán,Particular,Bazán,67,Saladillo,-35.651501,-59.705949,4740.0,6720.0
+886,Martín Hardoy,Particular,Hardoy,67,Saladillo,-35.634096,-59.511112,4500.0,6740.0
+887,Domingo Olivera,Particular,Olivera,66,25 de Mayo,-35.610504,-60.074106,5200.0,6790.0
+888,Juan Domínguez,Particular,Domínguez,66,25 de Mayo,-35.60315,-60.232916,5400.0,6800.0
+889,Manuel Ghiraldo,Particular,Ghiraldo,66,25 de Mayo,-35.59246,-60.392185,5600.0,6810.0
+890,Jacinto González,Particular,González,66,25 de Mayo,-35.58184,-60.328542,5520.0,6830.0
+891,Miguel Delfrade,Particular,Delfrade,65,9 de Julio,-35.561339,-60.644163,5920.0,6840.0
+892,José María Barrera,Particular,Barrera,67,Saladillo,-35.563013,-59.901137,4980.0,6860.0
+893,Benjamín Buteler,Particular,Buteler,67,Saladillo,-35.580424,-59.757338,4800.0,6830.0
+894,Joaquín Cazón,Particular,Cazón,67,Saladillo,-35.549932,-59.582291,4580.0,6870.0
+895,Tomás Varela,Particular,Varela,67,Saladillo,-35.532415,-59.688188,4710.0,6900.0
+896,Alejandro Mena,Particular,Mena,67,Saladillo,-35.534532,-59.791589,4840.0,6900.0
+897,Lauro Adrián Cano,Particular,Cano,66,25 de Mayo,-35.559088,-60.153623,5300.0,6870.0
+898,Antonio María Yslas,Particular,Yslas,66,25 de Mayo,-35.537876,-60.29709,5480.0,6900.0
+899,Juan de la Cruz,Particular,Cruz,66,25 de Mayo,-35.529408,-60.36897,5570.0,6910.0
+900,Tomás Douthat,Particular,Douthat,66,25 de Mayo,-35.528174,-60.550637,5800.0,6900.0
+901,Fermín Saldarriaga,Particular,Saldarriaga,66,25 de Mayo,-35.517674,-59.973686,5070.0,6930.0
+902,Félix Haedo,Particular,Haedo,66,25 de Mayo,-35.499514,-60.076172,5200.0,6960.0
+903,Gregorio Olmos,Particular,Olmos,66,25 de Mayo,-35.506877,-60.130895,5270.0,6950.0
+904,Jacinto González,Particular,González,66,25 de Mayo,-35.500484,-60.1943,5350.0,6960.0
+905,Teodoro Atucha,Particular,Atucha,66,25 de Mayo,-35.460611,-60.235487,5400.0,7020.0
+906,Juan Dillon,Particular,Dillon,66,25 de Mayo,-35.493422,-60.472865,5700.0,6960.0
+907,Carlos Darbyshire,Particular,Darbyshire,64,Bragado,-35.499286,-60.613528,5880.0,6940.0
+908,José D. Luna,Particular,Luna,65,9 de Julio,-35.501581,-60.683252,5970.0,6930.0
+909,Hardoy,Particular,Hardoy,67,Saladillo,-35.501671,-59.496934,4470.0,6940.0
+910,Juan Benito Sosa,Particular,Sosa,67,Saladillo,-35.423075,-59.536975,4510.0,7060.0
+911,José Vargas,Particular,Vargas,67,Saladillo,-35.431394,-59.632143,4630.0,7050.0
+912,José María Risso,Particular,Risso,67,Saladillo,-35.426555,-59.766901,4800.0,7060.0
+913,J. Chavarry,Particular,Chavarry,66,25 de Mayo,-35.463492,-59.960517,5050.0,7010.0
+914,Marcelino Davel,Particular,Davel,66,25 de Mayo,-35.394265,-59.925581,5000.0,7110.0
+915,Fermín J. Pereda,Particular,Pereda,67,Saladillo,-35.372403,-59.708057,4720.0,7140.0
+916,José Carrizo,Particular,Carrizo,66,25 de Mayo,-35.419304,-60.333477,5520.0,7080.0
+917,Eugenio Díaz,Particular,Díaz,66,25 de Mayo,-35.398125,-60.406231,5610.0,7110.0
+918,Jacinto Malbrán,Particular,Malbrán,66,25 de Mayo,-35.428263,-60.491141,5720.0,7060.0
+919,Martínez,Particular,Martínez,64,Bragado,-35.415327,-60.631423,5900.0,7070.0
+920,Ygnacio Barrales,Particular,Barrales,66,25 de Mayo,-35.420308,-60.237587,5400.0,7080.0
+921,Saturnino Unzué e hijos,Sociedad / colectivo,Unzué,66,25 de Mayo,-35.242751,-60.164069,5290.0,7330.0
+922,Baldomero Morillo,Particular,Morillo,66,25 de Mayo,-35.225876,-60.015015,5100.0,7350.0
+923,Jorge Keen,Particular,Keen,17,Navarro,-35.236631,-59.632039,4610.0,7350.0
+924,Jorge Dikson,Particular,Dikson,67,Saladillo,-35.287266,-59.597356,4570.0,7270.0
+925,Guillermo Carlos Martínez,Particular,Martínez,64,Bragado,-35.296463,-60.561259,5800.0,7260.0
+926,Mariano Olivera,Particular,Olivera,64,Bragado,-35.244096,-60.580217,5820.0,7340.0
+927,Peralta,Particular,Peralta,66,25 de Mayo,-35.161752,-60.114125,5220.0,7440.0
+937,Teodoro Atucha,Particular,Atucha,65,9 de Julio,-35.79825,-60.768996,6070.0,6460.0
+938,Patricio D. Linch,Particular,Linch,65,9 de Julio,-35.760833,-60.892887,6230.0,6510.0
+939,Patricio Albarracín,Particular,Albarracín,65,9 de Julio,-35.718428,-60.828018,6150.0,6580.0
+940,Augusto Francisco Fernández,Particular,Fernández,65,9 de Julio,-35.655996,-60.786403,6100.0,6680.0
+941,"El Estado, pedido por Varios",Estado / tierra pública,,65,9 de Julio,-35.614114,-60.847568,6180.0,6740.0
+942,Juan Lewis,Particular,Lewis,65,9 de Julio,-35.678878,-60.991013,6360.0,6630.0
+943,María D. Young,Particular,Young,65,9 de Julio,-35.623237,-60.926005,6280.0,6720.0
+944,Juan Wallace,Particular,Wallace,65,9 de Julio,-35.604619,-61.058452,6450.0,6740.0
+945,Cayetano Urbero,Particular,Urbero,65,9 de Julio,-35.585597,-61.222517,6660.0,6760.0
+946,Francisco Verón,Particular,Verón,65,9 de Julio,-35.568825,-61.331788,6800.0,6780.0
+947,Patricio Daly,Particular,Daly,65,9 de Julio,-35.56211,-60.986494,6360.0,6810.0
+948,Laureano J. Díaz,Particular,Díaz,65,9 de Julio,-35.518819,-61.094641,6500.0,6870.0
+949,Mariano Haedo,Particular,Haedo,65,9 de Julio,-35.546689,-60.783877,6100.0,6850.0
+950,Adolfo,Particular,Adolfo,65,9 de Julio,-35.523328,-60.853277,6190.0,6880.0
+951,Alberto Trejo,Particular,Trejo,65,9 de Julio,-35.49309,-60.938123,6300.0,6920.0
+952,José D. Bullrich,Particular,Bullrich,65,9 de Julio,-35.499378,-60.82212,6150.0,6920.0
+953,Antonio Maya,Particular,Maya,65,9 de Julio,-35.51248,-61.266623,6720.0,6870.0
+954,Simón Cucullu,Particular,Cucullu,65,9 de Julio,-35.461771,-61.233599,6680.0,6950.0
+955,Saturnino López,Particular,López,65,9 de Julio,-35.468475,-61.405888,6900.0,6930.0
+956,Lorenzo Manterola,Particular,Manterola,65,9 de Julio,-35.42064,-61.466535,6980.0,7000.0
+957,Miguel Santos,Particular,Santos,65,9 de Julio,-35.399966,-61.325312,6800.0,7040.0
+958,Joaquín M. Cazón,Particular,Cazón,65,9 de Julio,-35.425404,-61.170296,6600.0,7010.0
+959,Murray,Particular,Murray,65,9 de Julio,-35.38946,-61.262772,6720.0,7060.0
+960,Cuenca y Cía.,Sociedad / colectivo,Cuenca,65,9 de Julio,-35.373142,-61.347857,6830.0,7080.0
+961,José Antonio Terry,Particular,Terry,65,9 de Julio,-35.345352,-61.393668,6890.0,7120.0
+962,José Lima,Particular,Lima,65,9 de Julio,-35.399763,-61.014878,6400.0,7060.0
+963,El Estado,Estado / tierra pública,,65,9 de Julio,-35.377844,-61.076585,6480.0,7090.0
+964,Julio,Particular,Julio,65,9 de Julio,-35.366066,-60.922833,6280.0,7120.0
+965,Emilio Agrelo,Particular,Agrelo,65,9 de Julio,-35.41333,-60.769273,6080.0,7060.0
+966,Enrique Smith,Particular,Smith,65,9 de Julio,-35.385004,-60.815686,6140.0,7100.0
+967,Diego Kavanagh,Particular,Kavanagh,65,9 de Julio,-35.342491,-60.786652,6100.0,7170.0
+968,Daniel Luis Amadeo,Particular,Amadeo,65,9 de Julio,-35.354607,-61.169078,6600.0,7120.0
+969,José Ocampos,Particular,Ocampos,65,9 de Julio,-35.29505,-61.20691,6650.0,7210.0
+970,J. D. Seng,Particular,Seng,65,9 de Julio,-35.269873,-61.337482,6820.0,7240.0
+971,Fabio González,Particular,González,65,9 de Julio,-35.24104,-61.260031,6720.0,7290.0
+972,"El Estado, pedido por Varios",Estado / tierra pública,,65,9 de Julio,-35.259513,-61.015867,6400.0,7280.0
+973,Cornelio Romero,Particular,Romero,65,9 de Julio,-35.189887,-61.12251,6540.0,7380.0
+974,Segundo Rubio,Particular,Rubio,65,9 de Julio,-35.172521,-60.972216,6340.0,7420.0
+975,Gottfried Dünkler,Particular,Dünkler,65,9 de Julio,-35.112153,-61.130304,6550.0,7500.0
+976,Juan Schröder,Particular,Schröder,75,Lincoln,-35.15288,-61.342996,6830.0,7420.0
+977,Daniel Yturrios,Particular,Yturrios,75,Lincoln,-35.145563,-61.496256,7030.0,7420.0
+978,José Gorchs,Particular,Gorchs,75,Lincoln,-35.11442,-61.603121,7170.0,7460.0
+979,Pablo Beristayri,Particular,Beristayri,75,Lincoln,-35.106248,-61.365161,6860.0,7490.0
+980,Alfredo,Particular,Alfredo,65,9 de Julio,-35.095493,-61.19809,6640.0,7520.0
+981,Julio y Carlos,Particular,Julio,65,9 de Julio,-35.26571,-60.797229,6110.0,7290.0
+996,Ponce de León,Particular,Ponce de León,8,Ensenada,-34.986992,-58.090099,2730.0,7720.0
+997,Jorge Bell,Particular,Bell,8,Ensenada,-34.925804,-58.08881,2730.0,7810.0
+998,Luis Merlo,Particular,Merlo,8,Ensenada,-35.009654,-57.942291,2560.0,7670.0
+999,Leonardo Pereyra,Particular,Pereyra,7,Quilmes,-34.85369,-58.125301,2770.0,7920.0
+1035,Jorge Bell,Particular,Bell,40,San Vicente,-35.128722,-58.441646,3130.0,7540.0
+1036,Sociedad Pastoril,Sociedad / colectivo,Pastoril,11,Cañuelas,-35.016451,-58.620103,3370.0,7710.0
+1037,Guillermo White,Particular,White,11,Cañuelas,-34.967655,-58.673142,3440.0,7780.0
+1038,Josefa Guevara de Acosta,Particular,Acosta,7,Quilmes,-34.918961,-58.467863,3180.0,7850.0
+1039,Herederos de Ezcurra,Sucesión / herederos,Ezcurra,38,Matanza,-34.897965,-58.608759,3360.0,7880.0
+1040,Herederos de Juan Barrenechea,Sucesión / herederos,Barrenechea,42,General Las Heras,-34.932522,-58.737314,3520.0,7830.0
+1041,Manuel Zamudio,Particular,Zamudio,42,General Las Heras,-34.949248,-59.100776,3940.0,7800.0
+1042,Herederos de Pedro Plomer,Sucesión / herederos,Plomer,42,General Las Heras,-34.858431,-59.006952,3840.0,7940.0
+1043,Patricio D. Lynch,Particular,Lynch,17,Navarro,-34.877835,-59.1944,4060.0,7920.0
+1044,Mariano Adorno,Particular,Adorno,17,Navarro,-34.922924,-59.289681,4170.0,7860.0
+1045,Chacras de Lobos (antes Wright),Particular,Wright),17,Navarro,-35.084679,-59.208616,4060.0,7580.0
+1046,Tomás Gahan,Particular,Gahan,41,Merlo,-34.792794,-58.690825,3460.0,8030.0
+1047,Juana Berasategui de Cascallares,Particular,Cascallares,41,Merlo,-34.789596,-58.79761,3590.0,8040.0
+1048,Martín Correa,Particular,Correa,42,General Las Heras,-34.791447,-58.895685,3710.0,8040.0
+1049,Lino Lagos,Particular,Lagos,42,General Las Heras,-34.765547,-58.968194,3800.0,8080.0
+1050,Nicolás González,Particular,González,42,General Las Heras,-34.833437,-59.072288,3920.0,7980.0
+1051,Francisco Halbach,Particular,Halbach,7,Quilmes,-34.860251,-58.510908,3240.0,7930.0
+1052,Herederos de Francisco Álvarez,Sucesión / herederos,Álvarez,44,Moreno,-34.639121,-58.875377,3680.0,8270.0
+1054,Calisto Calderón,Particular,Calderón,17,Navarro,-34.970596,-59.408861,4320.0,7800.0
+1055,Viviana Pueblas de Bermúdez,Particular,Bermúdez,50,Mercedes,-34.827978,-59.405916,4350.0,8040.0
+1056,Saturnino Unzué e hijos,Sociedad / colectivo,Unzué,50,Mercedes,-34.897067,-59.417751,4350.0,7930.0
+1057,Juan Lima,Particular,Lima,17,Navarro,-35.015722,-59.406957,4310.0,7720.0
+1058,Antonio Papsdorf,Particular,Papsdorf,17,Navarro,-35.050413,-59.416478,4320.0,7660.0
+1059,M. Arévalo,Particular,Arévalo,16,Lobos,-35.059121,-59.040923,3870.0,7620.0
+1060,Zenón Chaves,Particular,Chaves,42,General Las Heras,-34.831298,-58.887843,3700.0,7980.0
+1061,Cipriano Villamayor,Particular,Villamayor,42,General Las Heras,-34.930006,-58.906233,3720.0,7830.0
+1075,Mariano Biaus,Particular,Biaus,66,25 de Mayo,-35.086131,-60.30222,5450.0,7560.0
+1076,Pestaña,Particular,Pestaña,52,Chivilcoy,-35.089743,-60.061649,5150.0,7540.0
+1077,Diego White,Particular,White,52,Chivilcoy,-34.99172,-60.103931,5200.0,7680.0
+1079,Manuel López,Particular,López,52,Chivilcoy,-35.01696,-59.799978,4830.0,7700.0
+1080,Herederos de Agustín Souza,Sucesión / herederos,Souza,52,Chivilcoy,-35.030449,-59.697586,4700.0,7700.0
+1081,Carlos Pereira,Particular,Pereira,52,Chivilcoy,-35.060903,-59.716462,4720.0,7640.0
+1082,Juan B. Ramos,Particular,Ramos,64,Bragado,-34.997477,-60.392872,5560.0,7700.0
+1083,Agustín Souza,Particular,Souza,52,Chivilcoy,-34.940143,-60.249596,5380.0,7770.0
+1084,Cranwell,Particular,Cranwell,64,Bragado,-34.923592,-60.370223,5530.0,7810.0
+1085,Juan Nepomuceno Terrero,Particular,Terrero,53,Chacabuco,-34.869736,-60.426385,5600.0,7900.0
+1086,Leopoldo Lanús y Hermanos,Sociedad / colectivo,Lanús,64,Bragado,-34.951917,-60.556713,5770.0,7780.0
+1087,Ramón Quiroga,Particular,Quiroga,64,Bragado,-35.032135,-60.636796,5880.0,7660.0
+1088,Francisco Lavado,Particular,Lavado,64,Bragado,-34.859911,-60.656911,5900.0,7920.0
+1089,Francisco Dowling,Particular,Dowling,53,Chacabuco,-34.815353,-60.575752,5790.0,7990.0
+1090,José Ruiz,Particular,Ruiz,64,Bragado,-34.806522,-60.702941,5960.0,8000.0
+1091,Herederos de Toribio Ortega,Sucesión / herederos,Ortega,53,Chacabuco,-34.827246,-60.220696,5350.0,7960.0
+1092,Bernarda Frías de Gorostiaga,Particular,Gorostiaga,51,Suipacha,-34.85455,-59.906429,4990.0,7980.0
+1093,Luciano Raimundo Lobo,Particular,Lobo,52,Chivilcoy,-34.817862,-60.036613,5140.0,8000.0
+1094,Juan Smith,Particular,Smith,50,Mercedes,-34.964768,-59.616658,4610.0,7840.0
+1095,Clara de Rojas,Particular,Rojas,51,Suipacha,-34.941485,-59.769378,4810.0,7860.0
+1096,Manuel Rodríguez Gaete,Particular,Rodríguez Gaete,51,Suipacha,-34.803993,-59.760269,4850.0,8160.0
+1097,León Daguerre,Particular,Daguerre,53,Chacabuco,-34.689054,-60.044298,5170.0,8240.0
+1098,Patricio Linch,Particular,Linch,53,Chacabuco,-34.710028,-60.177077,5310.0,8180.0
+1099,Benito Machado,Particular,Machado,53,Chacabuco,-34.653382,-60.257824,5400.0,8270.0
+1100,Bruno González,Particular,González,53,Chacabuco,-34.602274,-60.452242,5620.0,8340.0
+1101,Diego Bell,Particular,Bell,53,Chacabuco,-34.660588,-60.505184,5690.0,8240.0
+1102,Federico Miró,Particular,Miró,53,Chacabuco,-34.663287,-60.575674,5780.0,8230.0
+1103,Fernando Pearson,Particular,Pearson,53,Chacabuco,-34.716477,-60.670238,5910.0,8140.0
+1104,Lucas Roque,Particular,Roque,53,Chacabuco,-34.668784,-60.709625,5960.0,8210.0
+1105,Máximo Blanco,Particular,Blanco,53,Chacabuco,-34.587355,-60.573805,5770.0,8350.0
+1106,Torcuato,Particular,Torcuato,53,Chacabuco,-34.571856,-60.34256,5490.0,8400.0
+1107,Vázquez Saavedra,Particular,Saavedra,59,Junín,-34.56274,-60.710331,5950.0,8370.0
+1108,Justo y José Mª Rodríguez,Particular,Justo,53,Chacabuco,-34.615958,-60.049202,5180.0,8350.0
+1109,Julián Sisa,Particular,Sisa,53,Chacabuco,-34.595765,-60.184021,5320.0,8370.0
+1110,Testamentaria de Lucas Melo,Sucesión / herederos,Melo,51,Suipacha,-34.61398,-59.85823,4980.0,8380.0
+1111,Manuel Castilla,Particular,Castilla,51,Suipacha,-34.649332,-59.806042,4920.0,8350.0
+1112,Pablo Martínez,Particular,Martínez,51,Suipacha,-34.71943,-59.654661,4730.0,8290.0
+1113,Saturnino Unzué e hijos,Sociedad / colectivo,Unzué,51,Suipacha,-34.715407,-59.571891,4610.0,8270.0
+1114,Testamentaria de José Dowling,Sucesión / herederos,Dowling,54,Carmen de Areco,-34.494833,-59.872018,5000.0,8510.0
+1115,Julián Mullen,Particular,Mullen,54,Carmen de Areco,-34.371914,-59.87958,5010.0,8650.0
+1116,Jacinto Fuentes,Particular,Fuentes,54,Carmen de Areco,-34.433231,-60.068743,5200.0,8600.0
+1117,Juan Murphy,Particular,Murphy,54,Carmen de Areco,-34.402533,-60.173065,5300.0,8660.0
+1118,David Lanau,Particular,Lanau,54,Carmen de Areco,-34.368098,-60.174527,5300.0,8710.0
+1119,"José, Eduardo, Julio y Román Pacheco",Particular,José,53,Chacabuco,-34.524798,-60.26328,5400.0,8480.0
+1120,Ángel Pacheco,Particular,Pacheco,58,Salto,-34.436059,-60.289479,5420.0,8620.0
+1121,Alvear,Particular,Alvear,53,Chacabuco,-34.532035,-60.483011,5650.0,8450.0
+1122,Luis Maldonado,Particular,Maldonado,53,Chacabuco,-34.511196,-60.564927,5750.0,8470.0
+1123,Miguel Ynsiarte,Particular,Ynsiarte,59,Junín,-34.491727,-60.680064,5900.0,8480.0
+1124,Juan Crisol,Particular,Crisol,59,Junín,-34.521375,-60.721075,5960.0,8430.0
+1125,Herederos de Bartolo Gómez,Sucesión / herederos,Gómez,58,Salto,-34.461662,-60.489123,5650.0,8560.0
+1126,Pedro Saubidet,Particular,Saubidet,58,Salto,-34.449594,-60.585581,5770.0,8560.0
+1127,B. Grigera,Particular,Grigera,59,Junín,-34.452325,-60.726927,5960.0,8530.0
+1128,Samuel Hale,Particular,Hale,54,Carmen de Areco,-34.287784,-59.872934,5000.0,8760.0
+1129,Archivald Craig,Particular,Craig,49,San Andrés de Giles,-34.51555,-59.706588,4800.0,8500.0
+1130,Herederos de E. Gutiérrez,Sucesión / herederos,Gutiérrez,49,San Andrés de Giles,-34.456312,-59.584784,4620.0,8560.0
+1144,Emilio Castro,Particular,Castro,64,Bragado,-35.044601,-60.834991,6150.0,7630.0
+1145,Juan Robbio,Particular,Robbio,65,9 de Julio,-34.981085,-60.924211,6270.0,7720.0
+1146,Pedro Córdoba,Particular,Córdoba,75,Lincoln,-34.971336,-61.093555,6500.0,7720.0
+1147,Federico Wanipach,Particular,Wanipach,65,9 de Julio,-35.051662,-61.055936,6450.0,7600.0
+1148,Alfredo Dünkler,Particular,Dünkler,75,Lincoln,-35.063055,-61.198003,6640.0,7570.0
+1149,Luis Chapaurrouge,Particular,Chapaurrouge,75,Lincoln,-35.016328,-61.462672,6990.0,7620.0
+1150,E. Freers,Particular,Freers,75,Lincoln,-35.002346,-61.235374,6690.0,7660.0
+1151,José Luis Amadeo,Particular,Amadeo,75,Lincoln,-34.976877,-61.34067,6830.0,7690.0
+1152,Manuel Rodríguez,Particular,Rodríguez,75,Lincoln,-34.944913,-61.325268,6810.0,7740.0
+1153,Federico Martínez,Particular,Martínez,75,Lincoln,-34.940575,-61.529661,7080.0,7730.0
+1154,Solicitado por Carlos Fajardo,Estado / tierra pública,,75,Lincoln,-34.987886,-61.637664,7220.0,7650.0
+1155,Guillermo Martens,Particular,Martens,75,Lincoln,-34.949042,-61.758959,7380.0,7700.0
+1156,Federico Saavedra,Particular,Saavedra,75,Lincoln,-35.014243,-61.776699,7400.0,7600.0
+1157,Juan Giménez,Particular,Giménez,75,Lincoln,-34.913155,-61.681349,7280.0,7760.0
+1158,Olegario Ramírez,Particular,Ramírez,64,Bragado,-34.975391,-60.771097,6060.0,7740.0
+1159,Pedido por varios,Estado / tierra pública,,64,Bragado,-34.971075,-60.866,6190.0,7740.0
+1160,Rodolfo Bullrich,Particular,Bullrich,75,Lincoln,-34.907505,-61.064306,6460.0,7820.0
+1161,"El Estado, pedido por Varios",Estado / tierra pública,,75,Lincoln,-34.818727,-61.339391,6830.0,7930.0
+1162,Solicitado por Montes de Oca,Estado / tierra pública,,75,Lincoln,-34.882034,-61.513358,7060.0,7820.0
+1163,Bartolo Vivot,Particular,Vivot,75,Lincoln,-34.848219,-61.656746,7250.0,7860.0
+1164,Antonio Pereira,Particular,Pereira,75,Lincoln,-34.835964,-61.77044,7400.0,7870.0
+1165,Antonio L. Pereira,Particular,Pereira,75,Lincoln,-34.779715,-61.700474,7310.0,7960.0
+1166,Francisco del Sar,Particular,Sar,75,Lincoln,-34.804953,-61.595153,7170.0,7930.0
+1167,Tomás Gowland,Particular,Gowland,75,Lincoln,-34.747958,-61.541411,7100.0,8020.0
+1168,Pedro Castro,Particular,Castro,64,Bragado,-34.889112,-60.925581,6270.0,7860.0
+1169,Francisco R. Sosa,Particular,Sosa,75,Lincoln,-34.852863,-60.984148,6350.0,7910.0
+1170,José Pereyra Lucena,Particular,Pereyra Lucena,64,Bragado,-34.854883,-60.817648,6120.0,7920.0
+1171,Daniel Burke,Particular,Burke,75,Lincoln,-34.790205,-61.0357,6420.0,8000.0
+1172,Francisco Gueri,Particular,Gueri,75,Lincoln,-34.816798,-61.145795,6570.0,7950.0
+1173,Mariano López,Particular,López,75,Lincoln,-34.748887,-61.057999,6450.0,8060.0
+1174,El Estado,Estado / tierra pública,,75,Lincoln,-34.748893,-61.168321,6600.0,8050.0
+1175,Lucila Godoy,Particular,Godoy,75,Lincoln,-34.726004,-61.331728,6820.0,8070.0
+1176,Gustavo Wybeck,Particular,Wybeck,75,Lincoln,-34.660529,-61.428489,6950.0,8160.0
+1177,Reparaz,Particular,Reparaz,75,Lincoln,-34.659874,-61.317123,6800.0,8170.0
+1178,José Ruiz,Particular,Ruiz,64,Bragado,-34.792414,-60.732628,6000.0,8020.0
+1179,A. de Toledo,Particular,Toledo,59,Junín,-34.648688,-60.824705,6120.0,8230.0
+1180,P. Lastra,Particular,Lastra,59,Junín,-34.621204,-60.833291,6130.0,8270.0
+1181,Eulogio Payán,Particular,Payán,59,Junín,-34.608577,-61.039142,6420.0,8270.0
+1182,Heraclio Fajardo,Particular,Fajardo,59,Junín,-34.587964,-61.156432,6580.0,8290.0
+1183,Emilio,Particular,Emilio,59,Junín,-34.546243,-61.172339,6600.0,8350.0
+1184,Antonio Villareal,Particular,Villareal,75,Lincoln,-34.530423,-61.620334,7210.0,8340.0
+1185,Félix Villareal,Particular,Villareal,75,Lincoln,-34.459613,-61.560305,7130.0,8450.0
+1186,"El Estado, pedido por Varios",Estado / tierra pública,,59,Junín,-34.404142,-61.450389,6980.0,8540.0
+1187,Esquivel,Particular,Esquivel,59,Junín,-34.483309,-61.341088,6830.0,8430.0
+1188,Mitre,Particular,Mitre,59,Junín,-34.485408,-61.160129,6580.0,8440.0
+1189,Ramón Ydoyaga,Particular,Ydoyaga,59,Junín,-34.420067,-61.241188,6690.0,8530.0
+1190,José Abella,Particular,Abella,59,Junín,-34.478011,-61.039187,6410.0,8460.0
+1191,Lauro Cabral,Particular,Cabral,59,Junín,-34.399225,-61.092996,6480.0,8570.0
+1193,Justo Saavedra,Particular,Saavedra,59,Junín,-34.549505,-60.789633,6060.0,8380.0
+1194,José Valle,Particular,Valle,59,Junín,-34.345428,-61.235697,6680.0,8640.0
+1195,Miguel Soler,Particular,Soler,59,Junín,-34.327777,-61.342425,6830.0,8660.0
+1196,Gregorio Pombo,Particular,Pombo,59,Junín,-34.343965,-61.09537,6480.0,8650.0
+1216,Diego Bell,Particular,Bell,54,Carmen de Areco,-34.299658,-60.069818,5200.0,8780.0
+1217,Ydelfonso Ayrala,Particular,Ayrala,54,Carmen de Areco,-34.287697,-60.131605,5260.0,8810.0
+1218,Eduardo Wallace,Particular,Wallace,54,Carmen de Areco,-34.279057,-59.837781,4960.0,8770.0
+1219,Pedro Bernal,Particular,Bernal,54,Carmen de Areco,-34.251589,-59.873922,5000.0,8810.0
+1220,Pedro Bernal,Particular,Bernal,57,Arrecifes,-34.180678,-60.012054,5150.0,8920.0
+1221,José Matías Zapiola,Particular,Zapiola,54,Carmen de Areco,-34.219544,-59.938243,5070.0,8860.0
+1222,Felipe Ulloa y J. J. Zapiola,Particular,Ulloa,57,Arrecifes,-34.200899,-59.831384,4950.0,8880.0
+1223,Francisca Saavedra de Ríos,Particular,Ríos,54,Carmen de Areco,-34.228702,-60.115778,5250.0,8880.0
+1224,Juan Bernabé,Particular,Bernabé,57,Arrecifes,-34.189506,-59.782505,4890.0,8900.0
+1225,Ramona Molina,Particular,Molina,57,Arrecifes,-34.168455,-59.683409,4760.0,8950.0
+1226,Luis Saavedra,Particular,Saavedra,57,Arrecifes,-34.11301,-59.890987,5020.0,9000.0
+1227,Juana Ponce de López,Particular,López,57,Arrecifes,-34.151947,-60.114874,5260.0,8970.0
+1228,Juan M. Almagro,Particular,Almagro,48,San Antonio de Areco,-34.248003,-59.656802,4720.0,8840.0
+1229,Herederos de Diego Sierra,Sucesión / herederos,Sierra,57,Arrecifes,-34.060726,-59.916666,5050.0,9070.0
+1230,Blas y Valentín Pérez Millán,Particular,Blas,57,Arrecifes,-34.008463,-60.029807,5180.0,9140.0
+1231,Blas y Valentín Pérez Millán,Particular,Blas,57,Arrecifes,-33.96657,-59.947179,5080.0,9200.0
+1232,Herederos de Manuel Ortega,Sucesión / herederos,Ortega,57,Arrecifes,-33.945796,-60.051499,5200.0,9230.0
+1233,Dalmacio Vélez Sarsfield,Particular,Vélez Sarsfield,57,Arrecifes,-33.984305,-60.111353,5270.0,9180.0
+1234,Juan Rafael Viña,Particular,Viña,63,Ramallo,-33.947478,-60.302698,5480.0,9260.0
+1235,Francisco Giménez,Particular,Giménez,61,Pergamino,-33.960175,-60.365383,5550.0,9250.0
+1236,Herederos de Roque Pérez,Sucesión / herederos,Pérez,61,Pergamino,-33.956245,-60.408345,5600.0,9260.0
+1237,Crisol y Lezica,Particular,Crisol,58,Salto,-34.120091,-60.265456,5420.0,9030.0
+1238,José G. Lezama,Particular,Lezama,58,Salto,-34.124021,-60.584925,5780.0,9020.0
+1239,Fermín Ortiz Basualdo,Particular,Ortiz Basualdo,58,Salto,-34.082366,-60.578773,5780.0,9080.0
+1240,Herederos de Juan Cano,Sucesión / herederos,Cano,58,Salto,-34.21958,-60.619771,5810.0,8880.0
+1241,Herederos de Juan Cano,Sucesión / herederos,Cano,60,Rojas,-34.090239,-60.723781,5960.0,9050.0
+1242,Estanislada Arana de Anchorena y Estanislao Peña,Particular,Anchorena,61,Pergamino,-33.934708,-60.397625,5590.0,9290.0
+1243,José M. Echeverría,Particular,Echeverría,61,Pergamino,-33.96077,-60.518484,5730.0,9260.0
+1244,Félix Olmos,Particular,Olmos,61,Pergamino,-33.944753,-60.677115,5930.0,9280.0
+1245,"Duarte, hoy Lorenzo Moreno",Particular,Duarte,61,Pergamino,-33.905651,-60.686473,5950.0,9340.0
+1246,José Lorenzo Moreno,Particular,Moreno,61,Pergamino,-33.968242,-60.719935,5980.0,9240.0
+1247,Cruz Mirazo de Grigera,Particular,Grigera,61,Pergamino,-33.860969,-60.664082,5930.0,9410.0
+1248,Lorenzo Moreno,Particular,Moreno,61,Pergamino,-33.835594,-60.621508,5880.0,9450.0
+1249,Miguel Azcuénaga,Particular,Azcuénaga,61,Pergamino,-33.768135,-60.697215,5990.0,9550.0
+1250,José Francisco Benites,Particular,Benites,61,Pergamino,-33.715671,-60.553546,5810.0,9630.0
+1251,Tomás Acevedo,Particular,Acevedo,61,Pergamino,-33.683335,-60.414615,5630.0,9670.0
+1252,José Acevedo,Particular,Acevedo,61,Pergamino,-33.72967,-60.424627,5640.0,9600.0
+1253,Herrera,Particular,Herrera,61,Pergamino,-33.676749,-60.639992,5930.0,9690.0
+1254,Feliciano Figueroa,Particular,Figueroa,63,Ramallo,-33.77124,-60.292572,5470.0,9520.0
+1255,Pedro Zamora,Particular,Zamora,61,Pergamino,-33.79278,-60.388502,5590.0,9500.0
+1256,Félix Olmos,Particular,Olmos,61,Pergamino,-33.800096,-60.499843,5730.0,9500.0
+1257,Guillermo Mooney,Particular,Mooney,63,Ramallo,-33.811009,-60.226278,5390.0,9450.0
+1258,Desideria Casco,Particular,Casco,63,Ramallo,-33.798681,-60.235181,5400.0,9470.0
+1259,Santos Barrio,Particular,Barrio,63,Ramallo,-33.777009,-60.212414,5370.0,9500.0
+1260,Varios propietarios,Sociedad / colectivo,propietarios,63,Ramallo,-33.724461,-60.278144,5450.0,9590.0
+1261,José Ygnacio Andrade,Particular,Andrade,56,San Pedro,-33.915631,-59.797898,4890.0,9290.0
+1262,Testamentaria de Exequiel,Sucesión / herederos,Exequiel,56,San Pedro,-33.894727,-59.735213,4810.0,9330.0
+1263,Bruno Castro,Particular,Castro,56,San Pedro,-33.859588,-59.735414,4800.0,9380.0
+1264,Guillermo Leslie,Particular,Leslie,55,Baradero,-33.854762,-59.584412,4630.0,9410.0
+1265,Benito Urraco,Particular,Urraco,56,San Pedro,-33.839809,-59.653769,4700.0,9420.0
+1266,G. Fernández de Quiroga,Particular,Fernández de Quiroga,56,San Pedro,-33.742515,-59.786663,4810.0,9540.0
+1267,Carlos Villar,Particular,Villar,56,San Pedro,-33.697608,-59.893623,4930.0,9600.0
+1268,Plácido y Pastor Obligado,Particular,Plácido,63,Ramallo,-33.671036,-59.944695,4990.0,9640.0
+1269,Acosta,Particular,Acosta,56,San Pedro,-33.701439,-59.750624,4740.0,9600.0
+1270,Linch,Particular,Linch,55,Baradero,-34.036899,-59.533464,4580.0,9170.0
+1271,Benito Passo,Particular,Passo,48,San Antonio de Areco,-34.159303,-59.54397,4570.0,9000.0
+1272,Patricio Linch,Particular,Linch,48,San Antonio de Areco,-34.154809,-59.430389,4420.0,9020.0
+1273,José Garricó,Particular,Garricó,48,San Antonio de Areco,-34.2228,-59.452479,4430.0,8920.0
+1274,Pedro Castex,Particular,Castex,48,San Antonio de Areco,-34.189304,-59.437927,4420.0,8970.0
+1287,Norberto Quirno,Particular,Quirno,60,Rojas,-34.22445,-60.974145,6300.0,8830.0
+1288,Miguel Quirno,Particular,Quirno,60,Rojas,-34.165065,-60.924857,6230.0,8920.0
+1289,Ángel Sagasta,Particular,Sagasta,60,Rojas,-34.154967,-61.055215,6420.0,8930.0
+1290,Honorio Martel,Particular,Martel,60,Rojas,-34.221364,-61.083844,6460.0,8830.0
+1291,Germán Schemier,Particular,Schemier,60,Rojas,-34.238647,-61.187617,6610.0,8800.0
+1292,Lecuna,Particular,Lecuna,60,Rojas,-34.223697,-61.236341,6680.0,8820.0
+1293,Marcelino Caudevilla,Particular,Caudevilla,60,Rojas,-34.263863,-61.24351,6690.0,8760.0
+1294,Juan Caudevilla,Particular,Caudevilla,60,Rojas,-34.195385,-61.28493,6750.0,8860.0
+1295,Agustín Nasarre,Particular,Nasarre,60,Rojas,-34.271026,-61.420533,6940.0,8740.0
+1296,Miguel Soler,Particular,Soler,59,Junín,-34.30082,-61.342413,6830.0,8700.0
+1297,Juan B. Aramburu,Particular,Aramburu,60,Rojas,-34.185304,-61.173223,6590.0,8880.0
+1298,Enrique Lezica,Particular,Lezica,60,Rojas,-34.139049,-61.158176,6570.0,8950.0
+1299,José B. Argerich,Particular,Argerich,60,Rojas,-34.109646,-61.261372,6720.0,8990.0
+1300,Diego Alvear,Particular,Alvear,60,Rojas,-34.101318,-61.317024,6800.0,9000.0
+1301,Bernardo Yrigoyen,Particular,Yrigoyen,60,Rojas,-34.078324,-61.204129,6640.0,9040.0
+1302,Sala,Particular,Sala,60,Rojas,-34.076683,-61.25985,6720.0,9040.0
+1303,El Estado,Estado / tierra pública,,60,Rojas,-34.14866,-61.041241,6400.0,8940.0
+1304,Patricio Peralta Ramos,Particular,Peralta Ramos,60,Rojas,-34.070976,-60.995313,6340.0,9060.0
+1305,Jaime Llavallol e hijos,Sociedad / colectivo,Llavallol,60,Rojas,-33.988719,-61.142156,6560.0,9180.0
+1306,Jaime Llavallol e hijos,Sociedad / colectivo,Llavallol,60,Rojas,-33.979289,-61.035905,6410.0,9200.0
+1307,Carlos Louton,Particular,Louton,60,Rojas,-33.945087,-61.279094,6760.0,9240.0
+1308,Carlos Alsina,Particular,Alsina,60,Rojas,-33.891005,-61.331086,6840.0,9320.0
+1309,Ricardo Lezica,Particular,Lezica,60,Rojas,-33.909267,-61.191188,6640.0,9300.0
+1310,Mariano Yrigoyen,Particular,Yrigoyen,60,Rojas,-33.814319,-61.295366,6800.0,9440.0
+1311,Benito Blanco,Particular,Blanco,60,Rojas,-33.807067,-61.158839,6610.0,9460.0
+1312,Eduardo Madero y Compañía,Sociedad / colectivo,Madero,60,Rojas,-33.773647,-61.183627,6650.0,9510.0
+1313,Manuel G. Céspedes,Particular,Céspedes,61,Pergamino,-33.786663,-61.033915,6440.0,9500.0
+1314,Miguel Núñez,Particular,Núñez,61,Pergamino,-33.723673,-61.141596,6600.0,9590.0
+1315,Alberto Ortiz Basualdo,Particular,Ortiz Basualdo,61,Pergamino,-33.804349,-60.927034,6290.0,9480.0
+1316,Manuel Sanabria,Particular,Sanabria,60,Rojas,-33.963591,-60.941709,6280.0,9230.0
+1317,Indalecio Sarlo,Particular,Sarlo,60,Rojas,-33.898294,-60.976417,6340.0,9330.0
+1318,Diego La Fuente,Particular,Fuente,61,Pergamino,-33.842777,-60.791592,6100.0,9430.0
+1319,Patricio Fitzsimons,Particular,Fitzsimons,61,Pergamino,-33.807699,-60.853672,6190.0,9480.0
+1320,Enrique Quintana,Particular,Quintana,61,Pergamino,-33.784864,-60.782942,6100.0,9520.0
+1321,Juan C. Boer,Particular,Boer,61,Pergamino,-33.726252,-60.782014,6110.0,9610.0
+1322,Josefa Ruiz de Núñez,Particular,Núñez,61,Pergamino,-33.697229,-60.859953,6220.0,9650.0
+1323,Felipe Botet,Particular,Botet,61,Pergamino,-33.635582,-60.747139,6080.0,9750.0
+1324,Herederos de Pedro Bell,Sucesión / herederos,Bell,61,Pergamino,-33.607971,-60.795601,6150.0,9790.0
+1325,Rafael Trelles,Particular,Trelles,61,Pergamino,-33.656353,-60.697517,6010.0,9720.0
+1326,Pedido por varios,Estado / tierra pública,,60,Rojas,-33.994835,-60.815,6100.0,9190.0
+1327,Anselmo Losa,Particular,Losa,61,Pergamino,-33.920688,-60.773458,6060.0,9310.0
+1344,José María Nadal,Particular,Nadal,46,Exaltación de la Cruz,-34.269133,-59.189485,4100.0,8800.0
+1345,Pablo Ynsua,Particular,Ynsua,47,Zárate,-34.191371,-59.167459,4080.0,8930.0
+1346,Plácido Ynsua,Particular,Ynsua,47,Zárate,-34.139556,-59.201273,4130.0,9020.0
+1347,Antonio Pujol,Particular,Pujol,47,Zárate,-34.119456,-59.183824,4110.0,9050.0
+1348,M. J. de la Torre,Particular,Torre,47,Zárate,-34.081316,-59.084992,3980.0,9100.0
+1349,Herederos de Toribio Lima,Sucesión / herederos,Lima,47,Zárate,-34.074016,-59.180076,4110.0,9120.0
+1350,Agustín Saavedra,Particular,Saavedra,47,Zárate,-34.036332,-59.221834,4170.0,9180.0
+1351,Francisco Saavedra,Particular,Saavedra,47,Zárate,-34.006478,-59.1845,4120.0,9220.0
+1352,María Saavedra,Particular,Saavedra,47,Zárate,-34.001873,-59.227455,4180.0,9230.0
+1363,Herederos de Pastor Frías,Sucesión / herederos,Frías,50,Mercedes,-34.667924,-59.427151,4400.0,8270.0
+1364,Molina,Particular,Molina,50,Mercedes,-34.698804,-59.477023,4470.0,8250.0
+1365,Saturnino Unzué e hijos,Sociedad / colectivo,Unzué,51,Suipacha,-34.696241,-59.564694,4600.0,8290.0
+1366,Herederos de Ramón Colmenero,Sucesión / herederos,Colmenero,49,San Andrés de Giles,-34.620428,-59.551545,4580.0,8370.0
+1367,Herederos de Dominga Garcete de Martínez,Sucesión / herederos,Martínez,49,San Andrés de Giles,-34.584581,-59.525626,4540.0,8400.0
+1368,Herederos de Noriega,Sucesión / herederos,Noriega,49,San Andrés de Giles,-34.545089,-59.450819,4430.0,8420.0
+1369,Herederos de Juan Lescano,Sucesión / herederos,Lescano,49,San Andrés de Giles,-34.520795,-59.415264,4380.0,8440.0
+1370,Francisco Lescano,Particular,Lescano,49,San Andrés de Giles,-34.525054,-59.384668,4340.0,8430.0
+1371,Fermín Díaz,Particular,Díaz,49,San Andrés de Giles,-34.498652,-59.362358,4310.0,8460.0
+1372,Fernando Monsalvo,Particular,Monsalvo,49,San Andrés de Giles,-34.526781,-59.514658,4520.0,8460.0
+1373,Monsalvo y Bernal,Particular,Monsalvo,49,San Andrés de Giles,-34.559699,-59.566909,4600.0,8440.0
+1374,J. María Echeverría,Particular,Echeverría,49,San Andrés de Giles,-34.56455,-59.586826,4630.0,8440.0
+1375,Rafael Pividal,Particular,Pividal,49,San Andrés de Giles,-34.465212,-59.433412,4400.0,8510.0
+1376,Arriaga,Particular,Arriaga,49,San Andrés de Giles,-34.474275,-59.46211,4440.0,8505.0
+1377,Herederos de Ángel Galeano,Sucesión / herederos,Galeano,49,San Andrés de Giles,-34.456471,-59.504955,4500.0,8540.0
+1378,Ramón Bustos,Particular,Bustos,49,San Andrés de Giles,-34.479442,-59.570511,4600.0,8530.0
+1379,Ángela G. de Alegre,Particular,Alegre,49,San Andrés de Giles,-34.512445,-59.608885,4660.0,8500.0
+1380,Norberto Gutiérrez,Particular,Gutiérrez,49,San Andrés de Giles,-34.488013,-59.650302,4720.0,8530.0
+1381,Mónica G. de Alfonsín,Particular,Alfonsín,49,San Andrés de Giles,-34.545504,-59.662783,4740.0,8470.0
+1382,Petrona G. de Molina,Particular,Molina,49,San Andrés de Giles,-34.496597,-59.699445,4790.0,8520.0
+1383,Advíncula G. de Olivera,Particular,Olivera,49,San Andrés de Giles,-34.565454,-59.68403,4770.0,8450.0
+1384,Herederos de Peñalva,Sucesión / herederos,Peñalva,49,San Andrés de Giles,-34.411974,-59.389478,4340.0,8580.0
+1385,Casco,Particular,Casco,49,San Andrés de Giles,-34.417051,-59.493189,4480.0,8590.0
+1386,Sarabí,Particular,Sarabí,49,San Andrés de Giles,-34.405889,-59.507439,4500.0,8610.0
+1387,Francisco Duberty,Particular,Duberty,49,San Andrés de Giles,-34.429619,-59.566359,4590.0,8590.0
+1388,E. Sosa,Particular,Sosa,49,San Andrés de Giles,-34.399406,-59.465623,4440.0,8610.0
+1389,Natal Torres,Particular,Torres,49,San Andrés de Giles,-34.383616,-59.487516,4470.0,8640.0
+1390,Herederos de Eduardo Morgan,Sucesión / herederos,Morgan,49,San Andrés de Giles,-34.38336,-59.542121,4550.0,8650.0
+1391,P. Kenny,Particular,Kenny,49,San Andrés de Giles,-34.415067,-59.573607,4600.0,8610.0
+1392,Tiburcio Casco,Particular,Casco,49,San Andrés de Giles,-34.386391,-59.60099,4640.0,8650.0
+1393,Romero,Particular,Romero,49,San Andrés de Giles,-34.378388,-59.627473,4680.0,8660.0
+1394,Fernando Romero,Particular,Romero,48,San Antonio de Areco,-34.320256,-59.629371,4680.0,8740.0
+1395,Antonio María Pirán,Particular,Pirán,54,Carmen de Areco,-34.386823,-59.715845,4810.0,8640.0
+1396,Eduardo Morgan,Particular,Morgan,48,San Antonio de Areco,-34.349498,-59.50958,4500.0,8700.0
+1397,Guillermo Mooney,Particular,Mooney,48,San Antonio de Areco,-34.330965,-59.481871,4460.0,8730.0
+1398,José Figueroa,Particular,Figueroa,48,San Antonio de Areco,-34.313628,-59.460051,4430.0,8760.0
+1399,Riestra,Particular,Riestra,49,San Andrés de Giles,-34.356625,-59.374373,4320.0,8670.0
+1400,Wheeler,Particular,Wheeler,49,San Andrés de Giles,-34.365362,-59.421654,4380.0,8660.0
+1408,Pablo Méndez,Particular,Méndez,43,Villa de Luján,-34.760657,-59.224636,4120.0,8100.0
+1409,Mariano Biaus,Particular,Biaus,43,Villa de Luján,-34.743067,-59.175006,4060.0,8120.0
+1410,Domingo Olivera,Particular,Olivera,43,Villa de Luján,-34.709553,-59.280782,4200.0,8180.0
+1411,Manuel Delpech,Particular,Delpech,50,Mercedes,-34.811119,-59.417529,4370.0,8070.0
+1412,Juan D. Sánchez,Particular,Sánchez,50,Mercedes,-34.803028,-59.465,4440.0,8100.0
+1413,Herederos de A. Barrancos,Sucesión / herederos,Barrancos,50,Mercedes,-34.729381,-59.450892,4430.0,8200.0
+1414,Juan Antonio Zemborain,Particular,Zemborain,50,Mercedes,-34.897944,-59.564517,4560.0,7970.0
+1415,Fleming,Particular,Fleming,50,Mercedes,-34.872384,-59.476185,4440.0,7990.0
+1416,Garahan,Particular,Garahan,50,Mercedes,-34.832942,-59.363716,4290.0,8020.0
