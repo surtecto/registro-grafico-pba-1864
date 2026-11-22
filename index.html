@@ -53,6 +53,9 @@ td.n{font-family:'IBM Plex Mono';text-align:right}
 .tlabel{font:600 11px 'IBM Plex Sans';color:#111;text-shadow:0 0 3px #fff,0 0 3px #fff;background:none;border:none;box-shadow:none}
 .plabel{font:400 15px 'IM Fell English SC',serif;color:#6b1d0c;text-shadow:0 0 3px #fff8,0 0 4px #fff;background:none;border:none;box-shadow:none}
 .zlow .tlabel,.zvlow .plabel{display:none}
+.zmid .olabel{display:none}
+.olabel{font:500 11px 'IBM Plex Sans';color:#1a1208;text-shadow:0 0 3px #fff,0 0 3px #fff,0 0 2px #fff;background:none;border:none;box-shadow:none}
+.leaflet-tooltip.olabel:before{display:none}
 .leaflet-tooltip.tlabel:before,.leaflet-tooltip.plabel:before{display:none}
 .dl a{display:inline-block;margin:3px 6px 3px 0;font-size:12px;color:var(--accent)}
 .note{border-left:3px solid var(--accent);padding:6px 10px;background:#f6ead0;font-size:12px;margin:10px 0}
@@ -87,7 +90,7 @@ td.n{font-family:'IBM Plex Mono';text-align:right}
   <div class="row"><label><input type="radio" name="base" value="esri" checked> Esri World Imagery</label></div>
   <div class="row"><label><input type="radio" name="base" value="google"> Google satélite</label></div>
   <div class="row"><label><input type="radio" name="base" value="osm"> OpenStreetMap</label></div>
-  <p class="muted">Clic en un punto para ver su ficha. Desde la ficha se puede saltar a la misma ubicación en la lámina original sin deformar.</p>
+  <p class="muted"><b>Propietarios:</b> puntos oscuros; el nombre aparece al acercar el mapa (zoom 10 o más). <b>Parcelas:</b> polígonos sombreados, aproximados.</p><p class="muted">Clic en un punto para ver su ficha. Desde la ficha se puede saltar a la misma ubicación en la lámina original sin deformar.</p>
   <h2>Descargas</h2>
   <div class="dl" id="dl"></div>
 </aside>
@@ -102,7 +105,7 @@ td.n{font-family:'IBM Plex Mono';text-align:right}
 <script>
 const LAYERS=[
  {k:'partidos',f:'partidos_aprox.geojson',name:'Partidos (límite aproximado)',on:true,color:'#8b2e16'},
- {k:'parcelas',f:'parcelas_aprox.geojson',name:'Zonas de propiedad (aprox.)',on:false,color:'#7d6a44'},
+ {k:'parcelas',f:'parcelas_aprox.geojson',name:'Zonas de propiedad (aprox.)',on:true,color:'#7d6a44'},
  {k:'propietarios',f:'propietarios.geojson',name:'Propietarios',on:true,color:'#2b2115'},
  {k:'poblados',f:'poblados.geojson',name:'Pueblos y ciudades',on:true,color:'#d8c48a'},
  {k:'hidrografia',f:'hidrografia.geojson',name:'Hidrografía',on:true,color:'#2f5d73'},
@@ -122,7 +125,7 @@ let base=bases.esri.addTo(map); refl.addTo(map);
 document.querySelectorAll('input[name=base]').forEach(r=>r.onchange=()=>{map.removeLayer(base);base=bases[r.value].addTo(map);base.bringToBack();});
 map.createPane('plano');map.getPane('plano').style.zIndex=350;
 const plano=L.tileLayer('tiles/geo/{z}/{x}/{y}.webp',{pane:'plano',minZoom:3,maxNativeZoom:11,minNativeZoom:5,maxZoom:15,opacity:.8,bounds:[[-40.08,-63.1],[-32.78,-55.51]],attribution:'Registro Gráfico 1864 · Dpto. Topográfico (copia AGN)'}).addTo(map);
-const zcls=()=>{const z=map.getZoom(),c=document.getElementById('map');c.classList.toggle('zlow',z<9);c.classList.toggle('zvlow',z<7);};map.on('zoomend',zcls);zcls();
+const zcls=()=>{const z=map.getZoom(),c=document.getElementById('map');c.classList.toggle('zlow',z<9);c.classList.toggle('zvlow',z<7);c.classList.toggle('zmid',z<10);};map.on('zoomend',zcls);zcls();
 document.getElementById('op').oninput=e=>plano.setOpacity(e.target.value/100);
 // ---------- original sheet ----------
 const orig=L.map('orig',{crs:L.CRS.Simple,minZoom:0,maxZoom:8,zoomSnap:.25});
@@ -165,6 +168,7 @@ function makeGeo(k,gj){
   return L.geoJSON(gj,{filter:f=>passes(f.properties),pointToLayer:(f,ll)=>L.circleMarker(ll,ptStyle(k,f.properties)),
     onEachFeature:(f,l)=>{l.bindPopup(()=>popup(f.properties,l.getLatLng()));
       if(k==='poblados') l.bindTooltip(f.properties.nombre,{permanent:true,direction:'right',offset:[8,0],className:'tlabel'});
+      else if(k==='propietarios') l.bindTooltip(f.properties.nombre,{permanent:true,direction:'right',offset:[5,0],className:'olabel'});
       else l.bindTooltip(f.properties.nombre||'',{direction:'top'});}});
 }
 function makeOrig(k,gj){
