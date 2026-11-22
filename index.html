@@ -40,7 +40,7 @@ input[type=range]{width:100%;accent-color:var(--accent)}
 .card b{display:block;font:400 32px 'IM Fell English SC',serif;line-height:1}
 .card span{font-size:12px;color:var(--ink2)}
 .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(380px,1fr));gap:26px}
-.bar{display:grid;grid-template-columns:170px 1fr 44px;align-items:center;gap:8px;font-size:13px;margin:3px 0}
+.bar{display:grid;grid-template-columns:190px 1fr 60px;align-items:center;gap:8px;font-size:13px;margin:3px 0}
 .bar i{display:block;height:12px;background:var(--ink2)}
 .bar em{font-style:normal;text-align:right;font-family:'IBM Plex Mono';font-size:12px}
 table{border-collapse:collapse;width:100%;font-size:13px}
@@ -90,7 +90,7 @@ td.n{font-family:'IBM Plex Mono';text-align:right}
   <div class="row"><label><input type="radio" name="base" value="esri" checked> Esri World Imagery</label></div>
   <div class="row"><label><input type="radio" name="base" value="google"> Google satélite</label></div>
   <div class="row"><label><input type="radio" name="base" value="osm"> OpenStreetMap</label></div>
-  <p class="muted"><b>Propietarios:</b> puntos oscuros; el nombre aparece al acercar el mapa (zoom 10 o más). <b>Parcelas:</b> polígonos sombreados, aproximados.</p><p class="muted">Clic en un punto para ver su ficha. Desde la ficha se puede saltar a la misma ubicación en la lámina original sin deformar.</p>
+  <p class="muted"><b>Propietarios:</b> puntos oscuros; el nombre aparece al acercar el mapa (zoom 10 o más). <b>Parcelas:</b> polígonos trazados sobre los deslindes del plano. Color = tipo de titular; rojo punteado = varios nombres en un polígono (deslinde a revisar); sin color = nombre aún no transcripto.</p><p class="muted">Clic en un punto para ver su ficha. Desde la ficha se puede saltar a la misma ubicación en la lámina original sin deformar.</p>
   <h2>Descargas</h2>
   <div class="dl" id="dl"></div>
 </aside>
@@ -104,8 +104,8 @@ td.n{font-family:'IBM Plex Mono';text-align:right}
 <script src="lib/leaflet.js"></script>
 <script>
 const LAYERS=[
- {k:'partidos',f:'partidos_aprox.geojson',name:'Partidos (límite aproximado)',on:true,color:'#8b2e16'},
- {k:'parcelas',f:'parcelas_aprox.geojson',name:'Zonas de propiedad (aprox.)',on:true,color:'#7d6a44'},
+ {k:'partidos',f:'partidos.geojson',name:'Partidos (unión de parcelas)',on:true,color:'#8b2e16'},
+ {k:'parcelas',f:'parcelas.geojson',name:'Parcelas (deslindes del plano)',on:true,color:'#7d6a44'},
  {k:'propietarios',f:'propietarios.geojson',name:'Propietarios',on:true,color:'#2b2115'},
  {k:'poblados',f:'poblados.geojson',name:'Pueblos y ciudades',on:true,color:'#d8c48a'},
  {k:'hidrografia',f:'hidrografia.geojson',name:'Hidrografía',on:true,color:'#2f5d73'},
@@ -124,16 +124,16 @@ const refl=L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Ref
 let base=bases.esri.addTo(map); refl.addTo(map);
 document.querySelectorAll('input[name=base]').forEach(r=>r.onchange=()=>{map.removeLayer(base);base=bases[r.value].addTo(map);base.bringToBack();});
 map.createPane('plano');map.getPane('plano').style.zIndex=350;
-const plano=L.tileLayer('tiles/geo/{z}/{x}/{y}.webp',{pane:'plano',minZoom:3,maxNativeZoom:11,minNativeZoom:5,maxZoom:15,opacity:.8,bounds:[[-40.08,-63.1],[-32.78,-55.51]],attribution:'Registro Gráfico 1864 · Dpto. Topográfico (copia AGN)'}).addTo(map);
+const plano=L.tileLayer('tiles/geo/{z}/{x}/{y}.webp',{pane:'plano',minZoom:3,maxNativeZoom:12,minNativeZoom:5,maxZoom:15,opacity:.8,bounds:[[-40.08,-63.1],[-32.78,-55.51]],attribution:'Registro Gráfico 1864 · Dpto. Topográfico (copia AGN)'}).addTo(map);
 const zcls=()=>{const z=map.getZoom(),c=document.getElementById('map');c.classList.toggle('zlow',z<9);c.classList.toggle('zvlow',z<7);c.classList.toggle('zmid',z<10);};map.on('zoomend',zcls);zcls();
 document.getElementById('op').oninput=e=>plano.setOpacity(e.target.value/100);
 // ---------- original sheet ----------
-const orig=L.map('orig',{crs:L.CRS.Simple,minZoom:0,maxZoom:8,zoomSnap:.25});
-const OW=8504,OH=10835,OZ=6;
+const orig=L.map('orig',{crs:L.CRS.Simple,minZoom:0,maxZoom:9,zoomSnap:.25});
+const OW=17008,OH=21670,OZ=7;
 const ob=L.latLngBounds(orig.unproject([0,OH],OZ),orig.unproject([OW,0],OZ));
-L.tileLayer('tiles/orig/{z}/{x}/{y}.jpg',{maxNativeZoom:6,maxZoom:8,bounds:ob,noWrap:true}).addTo(orig);
+L.tileLayer('tiles/orig/{z}/{x}/{y}.jpg',{maxNativeZoom:7,maxZoom:9,bounds:ob,noWrap:true}).addTo(orig);
 orig.setMaxBounds(ob.pad(.2));
-const pxll=(x,y)=>orig.unproject([x,y],OZ);
+const pxll=(x,y)=>orig.unproject([x*2,y*2],OZ);
 // ---------- helpers ----------
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 function popup(p,ll){
@@ -145,7 +145,7 @@ function popup(p,ll){
   if(p.px!=null) h+=`<a onclick="goOrig(${p.px},${p.py})">Ver en la lámina original →</a>`;
   return h+'</div>';
 }
-function goOrig(x,y){show('orig');orig.setView(pxll(x,y),6.5);
+function goOrig(x,y){show('orig');orig.setView(pxll(x,y),7);
   const m=L.circleMarker(pxll(x,y),{radius:22,color:'#ff3b00',weight:3,fill:false}).addTo(orig);setTimeout(()=>orig.removeLayer(m),4000);}
 function goMap(lat,lng){show('map');map.setView([lat,lng],11);}
 window.goOrig=goOrig;
@@ -162,9 +162,10 @@ function passes(p){return (!partSel||String(p.partido_n)===partSel)&&(!tipoSel||
 function makeGeo(k,gj){
   if(k==='partidos') return L.geoJSON(gj,{style:f=>({color:'#8b2e16',weight:1.6,dashArray:'6 3 1 3',fill:true,fillOpacity:partSel&&String(f.properties.n)===partSel?.18:0.02,fillColor:'#8b2e16'}),
     onEachFeature:(f,l)=>{l.bindTooltip(`${f.properties.n} · ${f.properties.nombre}`,{permanent:true,direction:'center',className:'plabel'});
-      l.bindPopup(`<div class="pop"><h4>${f.properties.n} · ${esc(f.properties.nombre)}</h4>Propietarios relevados: ${f.properties.propietarios}<br>Superficie aprox.: ${f.properties.area_aprox_km2.toLocaleString('es')} km²<br><span class="muted">Límite aproximado</span></div>`)}});
-  if(k==='parcelas') return L.geoJSON(gj,{filter:f=>passes(f.properties),style:f=>({color:'#3b2f1c',weight:.7,fillColor:TIPOCOL[f.properties.tipo],fillOpacity:.15}),
-    onEachFeature:(f,l)=>l.bindPopup(popup({...f.properties,nombre:f.properties.propietario}))});
+      l.bindPopup(`<div class="pop"><h4>${f.properties.n} · ${esc(f.properties.nombre)}</h4>Propietarios relevados: ${f.properties.propietarios}<br>Superficie aprox.: ${f.properties.area_aprox_km2.toLocaleString('es')} km²<br><span class="muted">Límite: unión de las parcelas detectadas</span></div>`)}});
+  if(k==='parcelas') return L.geoJSON(gj,{filter:f=>(!partSel||String(f.properties.partido_n)===partSel)&&(!tipoSel||f.properties.tipo===tipoSel),
+    style:f=>{const n=f.properties.n_rotulos;return n===1?{color:'#1c140a',weight:1,fillColor:TIPOCOL[f.properties.tipo],fillOpacity:.38}:n>1?{color:'#b3261e',weight:1.4,dashArray:'4 3',fillColor:'#b3261e',fillOpacity:.22}:{color:'#1c140a',weight:.6,fillColor:'#fff',fillOpacity:.06};},
+    onEachFeature:(f,l)=>l.bindPopup(()=>{const p=f.properties;return `<div class="pop"><h4>${esc(p.propietario||'Sin rótulo transcripto')}</h4>Parcela ${p.id}${p.tipo?' · '+esc(p.tipo):''}<br>Partido ${p.partido_n}: <b>${esc(p.partido)}</b><br>Superficie: <b>${p.sup_ha.toLocaleString('es')} ha</b><br><span class="muted">${esc(p.estado)}</span><br><a onclick="goOrig(${p.px},${p.py})">Ver en la lámina original →</a></div>`;})});
   return L.geoJSON(gj,{filter:f=>passes(f.properties),pointToLayer:(f,ll)=>L.circleMarker(ll,ptStyle(k,f.properties)),
     onEachFeature:(f,l)=>{l.bindPopup(()=>popup(f.properties,l.getLatLng()));
       if(k==='poblados') l.bindTooltip(f.properties.nombre,{permanent:true,direction:'right',offset:[8,0],className:'tlabel'});
@@ -229,6 +230,8 @@ function renderStats(){
   let h=`<h2>Panorama del registro</h2><div class="cards">
    <div class="card"><b>${t.propietarios}</b><span>rótulos de propietario transcriptos</span></div>
    <div class="card"><b>${t.propietarios_distintos}</b><span>titulares distintos</span></div>
+   <div class="card"><b>${s.parcelas.total.toLocaleString('es')}</b><span>parcelas trazadas sobre los deslindes</span></div>
+   <div class="card"><b>${s.parcelas.con_propietario}</b><span>parcelas con propietario asignado</span></div>
    <div class="card"><b>${t.partidos_localizados}</b><span>partidos localizados (de ${t.partidos_lista})</span></div>
    <div class="card"><b>${t.poblados}</b><span>pueblos y ciudades</span></div>
    <div class="card"><b>${t.hidrografia}</b><span>lagunas, arroyos, ríos, cañadas</span></div>
@@ -238,9 +241,11 @@ function renderStats(){
    <div class="grid2"><div><h2>Tipo de titular</h2>${bars(s.tipos_propietario.map(([k,v])=>[k,v]))}
    <p class="muted">«Estado / tierra pública» reúne los rótulos «El Estado», «conocido por de…» y «pedido por varios»: tierras fiscales en enfiteusis, ocupadas o solicitadas en compra, casi todas sobre la frontera sur.</p></div>
    <div><h2>Apellidos más frecuentes</h2>${bars(s.apellidos_top.slice(0,20),'#8b2e16')}</div>
+   <div><h2>Mayores parcelas de particulares (ha)</h2>${bars(s.mayores_parcelas.slice(0,15),'#1f6f5c')}</div>
+   <div><h2>Superficie por apellido (ha)</h2>${bars(s.apellidos_ha.slice(0,15),'#b07a1a')}<p class="muted">Solo parcelas con un único nombre asignado.</p></div>
    <div><h2>Titulares con más de una suerte</h2>${bars(s.propietarios_repetidos.slice(0,15),'#6a3d9a')}</div>
    <div><h2>Hidrografía</h2>${bars(s.hidro_tipos,'#2f7da0')}<h2>Geografía y ocupación</h2>${bars(s.geo_tipos,'#6b7d2e')}</div></div>
-   <h2>Partidos</h2><p class="muted">Clic en un encabezado para ordenar. Superficie calculada sobre el polígono aproximado.</p>
+   <h2>Partidos</h2><p class="muted">Clic en un encabezado para ordenar. Superficie calculada sobre la unión de parcelas de cada partido.</p>
    <table id="tp"><thead><tr><th data-c="n">N°</th><th data-c="nombre">Partido</th><th data-c="propietarios">Propietarios</th><th data-c="estado">Tierra pública</th><th data-c="hidro">Hidrografía</th><th data-c="area_aprox_km2">km² aprox.</th><th>Poblados</th></tr></thead><tbody></tbody></table>
    <h2>Lista oficial de partidos (Explicación del plano)</h2><p class="muted">${s.lista_partidos.map(p=>`${p.n} ${esc(p.nombre)}${p.localizado?'':' <b style="color:#8b2e16">(sin localizar)</b>'}`).join(' · ')}. Los números 33 a 35 fueron saltados por error en la numeración original: los partidos de campaña son 72.</p>`;
   document.getElementById('stats').innerHTML=h;
@@ -251,13 +256,14 @@ function renderStats(){
 window.selPart=n=>{const fp=document.getElementById('fpart');fp.value=String(n);fp.onchange();show('map');};
 // ---------- about ----------
 document.getElementById('about').innerHTML=`<h2>Fuente</h2>
-<p><b>Registro Gráfico de las propiedades rurales de la Provincia de Buenos Aires</b>, construido por el Departamento Topográfico y publicado con autorización del Supremo Gobierno de la Provincia, 1864 (S. Salas, M. Moreno, G. Kuhr, P. Benoit, Y. Casagemas, A. E. Malaver). La «Explicación» del propio plano fija los límites de partidos según los decretos del 24 de febrero y 31 de agosto de 1865 y la línea de fronteras de los decretos de julio de 1858. Se trabajó sobre la reproducción digital del Archivo General de la Nación (8504 × 10835 px). Existe además una edición digital en 64 hojas (CD del Archivo Histórico Municipal de Olavarría, 2008).</p>
+<p><b>Registro Gráfico de las propiedades rurales de la Provincia de Buenos Aires</b>, construido por el Departamento Topográfico y publicado con autorización del Supremo Gobierno de la Provincia, 1864 (S. Salas, M. Moreno, G. Kuhr, P. Benoit, Y. Casagemas, A. E. Malaver). La «Explicación» del propio plano fija los límites de partidos según los decretos del 24 de febrero y 31 de agosto de 1865 y la línea de fronteras de los decretos de julio de 1858. Se trabajó sobre dos copias: la reproducción digital del Archivo General de la Nación y las 64 hojas del CD del Archivo Histórico Municipal de Olavarría (2008), unidas en un mosaico de 17008 × 21670 px.</p>
 <h2>Georreferenciación</h2>
 <p>La lámina está dibujada con el sur arriba. Se identificaron 44 puntos de control (pueblos cabecera, Buenos Aires, Colonia, Cabo Corrientes, Bahía Blanca, entre otros) y se ajustó una transformación polinómica de 2.º grado con corrección de residuos por <i>thin plate spline</i>, en EPSG:3857. El error estimado por validación cruzada (dejando un punto afuera) es de unos 7 km RMS, con mediana de 4 km; es mayor hacia Bahía Blanca y en los bordes, donde hay pocos puntos de control. Esa magnitud no es un defecto del ajuste: es la precisión propia de un plano compilado en 1864 a partir de mensuras heterogéneas, con una proyección no declarada. La lámina inserta del Partido de Patagones, la Explicación y la cartela del título quedan fuera del georreferenciado; se pueden ver completas en «Lámina original».</p>
 <h2>Transcripción y capas</h2>
 <p>Los rótulos se leyeron sobre la lámina en recuadros de alta resolución y se registraron con su posición en píxeles de la imagen original. Esa posición es la que vincula cada registro con la lámina y con el mapa georreferenciado. Las grafías se normalizaron con tildes modernas (Vásquez, Yraola, Ygnacio se conservan como figuran). Las lecturas dudosas o parciales se dejaron tal cual («Herederos de Antonio», «Nicolás B.»).</p>
-<p><b>Partidos:</b> los polígonos son una aproximación por Voronoi a partir de los números grandes de partido; no son un calcado de la línea punteada del plano. Sirven para asignar cada rótulo a su partido y comparar órdenes de magnitud. <b>Zonas de propiedad:</b> celdas de Voronoi de cada rótulo, recortadas por el partido y por un radio máximo. Muestran el área de influencia del nombre, no el deslinde real de la suerte.</p>
-<div class="note">Lo que queda por hacer para un SIG catastral completo: calcar las líneas de deslinde de cada suerte (vectorización manual asistida), transcribir los rótulos menores de los partidos del norte y vincular los números pequeños de cada propiedad con los duplicados de mensura del Archivo de Geodesia.</div>
+<p><b>Parcelas:</b> los polígonos se obtuvieron detectando las líneas de deslinde sobre un mosaico de las hojas de la digitalización original (CD del Archivo Histórico Municipal de Olavarría, 2008), registradas una por una contra la copia del AGN. Cada polígono es el recinto cerrado por las líneas del plano. Se le asigna el propietario cuyo rótulo cae dentro. Hay tres estados: <i>deslinde detectado</i> (un nombre), <i>varios rótulos en un mismo polígono</i> (falta detectar una línea interna, o el rótulo quedó corrido) y <i>sin rótulo transcripto</i> (la parcela está trazada pero falta cargar el nombre). Los pliegues del papel y algunos arroyos generan divisiones falsas; las letras grandes recortan bordes.</p>
+<p><b>Partidos:</b> cada partido es la unión de sus parcelas, de modo que el límite sigue deslindes reales. La pertenencia de cada parcela a un partido se asignó por cercanía al número grande del partido; en las parcelas de borde puede estar equivocada y debe revisarse contra la línea de puntos y rayas del plano.</p>
+<div class="note">Pendiente: transcribir los nombres de las parcelas sin rótulo, separar los polígonos con varios nombres, corregir la pertenencia de las parcelas de borde de cada partido y vincular los números pequeños con los duplicados de mensura del Archivo de Geodesia.</div>
 <h2>Créditos</h2><p>Arq. Juan Patricio Addesso · Surtectura · Doctorado en Geografía (USAL). Datos abiertos en GeoJSON (EPSG:4326). Imagen base: Esri World Imagery / Google.</p>`;
 </script>
 </body>

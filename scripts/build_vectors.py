@@ -53,7 +53,9 @@ def classify(t):
 def surname(t):
     s=re.sub(r'^(El Estado,? (conocido por de|reclamado por( los herederos de Dn\.)?|pedido por)\s*)','',t)
     s=re.sub(r'^(Testamentaria de (Dn\. )?|Herederos de |Solicitado por |Pedido por )','',s)
-    s=re.split(r',| hoy | y | e hij',s)[0].strip()
+    s=re.split(r',| hoy | e hij',s)[0].strip()
+    pp=s.split(' y ')
+    s=pp[-1].strip() if len(pp)>1 and len(pp[0].split())==1 else pp[0].strip()
     for c in COMP:
         if s.endswith(c): return c
     w=s.split()
@@ -65,22 +67,44 @@ own_cells=[]
 owners=[r for r in recs if r['cat']=='OWN']
 for r in owners:
     r['tipo']=classify(r['text']); r['apellido']=surname(r['text']) if r['tipo']!='Estado / tierra pública' or 'conocido' in r['text'] else ''
-# ---------- approximate parcel zones: voronoi of owner points within partido ----------
-ovor=voronoi_diagram(MultiPoint([(r['px'],r['py']) for r in owners]),envelope=box(-2000,-2000,12000,14000))
-cellmap={}
-for poly in ovor.geoms:
-    c=poly.representative_point()
-    for r in owners:
-        if poly.contains(Point(r['px'],r['py'])): cellmap[r['id']]=poly; break
-parcel_feats=[]
-for r in owners:
-    g=cellmap.get(r['id'])
-    if g is None: continue
-    g=g.intersection(partpoly.get(r['partido_n'],env)).intersection(Point(r['px'],r['py']).buffer(260))
-    if g.is_empty: continue
-    gl=to_ll(g); ha=area_ha(gl); r['zona_ha']=round(ha)
-    parcel_feats.append(dict(type='Feature',geometry=mapping(gl),properties=dict(id=r['id'],propietario=r['text'],tipo=r['tipo'],apellido=r['apellido'],partido=r['partido'],partido_n=r['partido_n'],zona_aprox_ha=round(ha))))
-def fc(feats): return dict(type='FeatureCollection',features=feats)
+# ---------- real parcels (detected deslindes) ----------
+import pickle
+from shapely.validation import make_valid
+PK=pickle.load(open('/home/claude/work/parcels.pkl','rb'))
+byid={r['id']:r for r in recs}
+parcel_feats=[]; parc_px=collections.defaultdict(list); pid=0
+for p in PK:
+    g=p['geom']
+    if not g.is_valid: g=make_valid(g)
+    if g.is_empty or g.geom_type not in('Polygon','MultiPolygon'): continue
+    c=g.representative_point(); os_=[byid[o] for o in p['owners']]
+    if not os_ and not env.contains(c): continue
+    n=os_[0]['partido_n'] if os_ else which_partido(c.x,c.y)
+    gl=to_ll(g); ha=area_ha(gl); pid+=1
+    est='deslinde detectado' if len(os_)==1 else ('varios rótulos en un mismo polígono (revisar deslinde)' if os_ else 'sin rótulo transcripto')
+    for o in os_:
+        o['parcela_id']=pid
+        if len(os_)==1: o['sup_ha']=round(ha)
+    parc_px[n].append(g)
+    parcel_feats.append(dict(type='Feature',geometry=mapping(gl),properties=dict(id=pid,propietario=' / '.join(o['text'] for o in os_) if os_ else '',n_rotulos=len(os_),
+        tipo=os_[0]['tipo'] if os_ else '',apellido=os_[0]['apellido'] if len(os_)==1 else '',partido=PARTIDOS.get(n,''),partido_n=n,sup_ha=round(ha),estado=est,
+        px=round(c.x,1),py=round(c.y,1))))
+# partidos = dissolve of real parcels (boundaries follow detected deslindes)
+vor_part=dict(partpoly)
+for n in list(partpoly):
+    if parc_px.get(n):
+        u=unary_union(parc_px[n]).buffer(14).buffer(-14)
+        if u.geom_type=='MultiPolygon': u=unary_union([q for q in u.geoms if q.area>0.03*u.area])
+        from shapely.geometry import Polygon as _P, MultiPolygon as _MP
+        def fill(q): return _P(q.exterior,[h for h in q.interiors if _P(h).area>4000])
+        u=fill(u) if u.geom_type=='Polygon' else _MP([fill(q) for q in u.geoms])
+        partpoly[n]=u.simplify(2.5)
+def _rnd(c):
+    if isinstance(c,(list,tuple)): return [_rnd(v) for v in c]
+    return round(c,5)
+def fc(feats):
+    for f in feats: f['geometry']=dict(type=f['geometry']['type'],coordinates=_rnd(f['geometry']['coordinates']))
+    return dict(type='FeatureCollection',features=feats)
 def ptfeat(r,extra=()):
     pr=dict(id=r['id'],nombre=r['text'],categoria=r['cat'],partido=r['partido'],partido_n=r['partido_n'],px=r['px'],py=r['py'])
     for k in extra: pr[k]=r.get(k)
@@ -98,12 +122,12 @@ for r in recs:
     if r['cat']=='HYD': r['tipo']=hydtype(r['text'])
     if r['cat']=='GEO': r['tipo']=geotype(r['text'])
 D='/home/claude/site/data/'
-json.dump(fc([ptfeat(r,('tipo','apellido','zona_ha')) for r in owners]),open(D+'propietarios.geojson','w'),ensure_ascii=False)
-json.dump(fc(parcel_feats),open(D+'parcelas_aprox.geojson','w'),ensure_ascii=False)
-json.dump(fc([ptfeat(r) for r in recs if r['cat']=='TOWN']),open(D+'poblados.geojson','w'),ensure_ascii=False)
-json.dump(fc([ptfeat(r,('tipo',)) for r in recs if r['cat']=='HYD']),open(D+'hidrografia.geojson','w'),ensure_ascii=False)
-json.dump(fc([ptfeat(r,('tipo',)) for r in recs if r['cat'] in('GEO','OTHER')]),open(D+'geografia.geojson','w'),ensure_ascii=False)
-json.dump(fc([ptfeat(r) for r in recs if r['cat'] in('SEC','PNAME','PART')]),open(D+'rotulos.geojson','w'),ensure_ascii=False)
+json.dump(fc([ptfeat(r,('tipo','apellido','sup_ha','parcela_id')) for r in owners]),open(D+'propietarios.geojson','w'),ensure_ascii=False,separators=(',',':'))
+json.dump(fc(parcel_feats),open(D+'parcelas.geojson','w'),ensure_ascii=False,separators=(',',':'))
+json.dump(fc([ptfeat(r) for r in recs if r['cat']=='TOWN']),open(D+'poblados.geojson','w'),ensure_ascii=False,separators=(',',':'))
+json.dump(fc([ptfeat(r,('tipo',)) for r in recs if r['cat']=='HYD']),open(D+'hidrografia.geojson','w'),ensure_ascii=False,separators=(',',':'))
+json.dump(fc([ptfeat(r,('tipo',)) for r in recs if r['cat'] in('GEO','OTHER')]),open(D+'geografia.geojson','w'),ensure_ascii=False,separators=(',',':'))
+json.dump(fc([ptfeat(r) for r in recs if r['cat'] in('SEC','PNAME','PART')]),open(D+'rotulos.geojson','w'),ensure_ascii=False,separators=(',',':'))
 pf=[]
 stats_part={}
 for n,g in sorted(partpoly.items()):
@@ -113,15 +137,15 @@ for n,g in sorted(partpoly.items()):
     stats_part[n]=dict(n=n,nombre=PARTIDOS.get(n,''),area_aprox_km2=round(ha/100),propietarios=len(os_),
         estado=sum(r['tipo'].startswith('Estado') for r in os_),poblados=[r['text'] for r in recs if r['cat']=='TOWN' and r['partido_n']==n],
         hidro=sum(1 for r in recs if r['cat']=='HYD' and r['partido_n']==n))
-    pf.append(dict(type='Feature',geometry=mapping(gl),properties=dict(n=n,nombre=PARTIDOS.get(n,''),area_aprox_km2=round(ha/100),propietarios=len(os_),limite='aproximado (Voronoi de rótulos de partido)')))
-json.dump(fc(pf),open(D+'partidos_aprox.geojson','w'),ensure_ascii=False)
+    pf.append(dict(type='Feature',geometry=mapping(gl),properties=dict(n=n,nombre=PARTIDOS.get(n,''),area_aprox_km2=round(ha/100),propietarios=len(os_),limite='unión de parcelas detectadas; asignación de parcelas al partido por cercanía al número de partido (revisar bordes)')))
+json.dump(fc(pf),open(D+'partidos.geojson','w'),ensure_ascii=False,separators=(',',':'))
 # GCPs
 fx=fwd(PX); from georef import Ti, MX
 gc=[]
 for r,p,m,mm in zip(GROWS,PX,fx,MX):
     lon,lat=Ti.transform(m[0],m[1])
     gc.append(dict(type='Feature',geometry=dict(type='Point',coordinates=[float(r['lon']),float(r['lat'])]),properties=dict(nombre=r['name'],px=float(p[0]),py=float(p[1]))))
-json.dump(fc(gc),open(D+'puntos_control.geojson','w'),ensure_ascii=False)
+json.dump(fc(gc),open(D+'puntos_control.geojson','w'),ensure_ascii=False,separators=(',',':'))
 # ---------- stats ----------
 C=collections.Counter
 st=dict(
@@ -134,9 +158,10 @@ st=dict(
  geo_tipos=C(r['tipo'] for r in recs if r['cat']=='GEO').most_common(),
  partidos=list(stats_part.values()),
  lista_partidos=[dict(n=k,nombre=v,localizado=k in partpoly) for k,v in PARTIDOS.items()],
- apellidos_zona=[(a,round(sum(r.get('zona_ha',0) for r in owners if r['apellido']==a)/100)) for a,_ in C(r['apellido'] for r in owners if r['apellido']).most_common(200)],
+ parcelas=dict(total=len(parcel_feats),con_propietario=sum(1 for f in parcel_feats if f['properties']['n_rotulos']==1),varios=sum(1 for f in parcel_feats if f['properties']['n_rotulos']>1),sin_rotulo=sum(1 for f in parcel_feats if f['properties']['n_rotulos']==0)),
+ mayores_parcelas=sorted([(f['properties']['propietario'],f['properties']['sup_ha']) for f in parcel_feats if f['properties']['n_rotulos']==1 and not f['properties']['tipo'].startswith('Estado')],key=lambda t:-t[1])[:25],
+ apellidos_ha=sorted(collections.Counter({a:sum(r.get('sup_ha',0) for r in owners if r['apellido']==a) for a in set(r['apellido'] for r in owners if r['apellido'])}).items(),key=lambda t:-t[1])[:25],
 )
-st['apellidos_zona']=sorted(st['apellidos_zona'],key=lambda t:-t[1])[:25]
 json.dump(st,open(D+'estadisticas.json','w'),ensure_ascii=False,indent=1)
 print(st['totales']); print(st['tipos_propietario']); print(st['apellidos_top'][:15])
 # env for raster mask (pixel space) 

@@ -4,11 +4,12 @@ from georef import build
 from PIL import Image
 Image.MAX_IMAGE_PIXELS=None
 fwd,inv=build(0)
-src=cv2.cvtColor(cv2.imread('/home/claude/work/agn.tif'),cv2.COLOR_BGR2BGRA)
-H,W=src.shape[:2]
-mask=np.zeros((H,W),np.uint8); mask[90:10740,130:8370]=255
+src=cv2.cvtColor(cv2.imread('/home/claude/work/hi.tif'),cv2.COLOR_BGR2BGRA)
+K=2
+H,W=src.shape[0]//K,src.shape[1]//K
+mask=np.zeros(src.shape[:2],np.uint8); mask[90*K:10740*K,130*K:8370*K]=255
 for poly in json.load(open('/home/claude/work/mask.json'))['mask_out']:
-    cv2.fillPoly(mask,[np.array(poly,np.int32)],0)
+    cv2.fillPoly(mask,[np.array(poly,np.int32)*K],0)
 src[:,:,3]=mask
 OUT='/home/claude/site/tiles/geo'; R=6378137*math.pi
 corners=fwd(np.array([[0,0],[W,0],[0,H],[W,H],[W/2,0],[W/2,H],[0,H/2],[W,H/2]]))
@@ -26,11 +27,11 @@ for tx in range(tx0,tx1+1):
         p=inv(np.c_[gx.ravel(),gy.ravel()]).reshape(N,N,2).astype(np.float32)
         if p[...,0].max()<0 or p[...,0].min()>W or p[...,1].max()<0 or p[...,1].min()>H: continue
         # bilinear upsample of coarse map (pixel centers)
-        mxp=cv2.resize(p[...,0],(256,256),interpolation=cv2.INTER_LINEAR); myp=cv2.resize(p[...,1],(256,256),interpolation=cv2.INTER_LINEAR)
+        mxp=cv2.resize(p[...,0],(256,256),interpolation=cv2.INTER_LINEAR)*K; myp=cv2.resize(p[...,1],(256,256),interpolation=cv2.INTER_LINEAR)*K
         t=cv2.remap(src,mxp,myp,cv2.INTER_LINEAR,borderMode=cv2.BORDER_CONSTANT,borderValue=(0,0,0,0))
         if t[:,:,3].max()==0: continue
         os.makedirs(f'{OUT}/{z}/{tx}',exist_ok=True)
-        Image.fromarray(cv2.cvtColor(t,cv2.COLOR_BGRA2RGBA)).save(f'{OUT}/{z}/{tx}/{ty}.webp',quality=72,method=4)
+        Image.fromarray(cv2.cvtColor(t,cv2.COLOR_BGRA2RGBA)).save(f'{OUT}/{z}/{tx}/{ty}.webp',quality=62,method=4)
         n+=1
 print('z',z,'tiles',n)
 for z in range(ZMAX-1,4,-1):
@@ -48,7 +49,7 @@ for z in range(ZMAX-1,4,-1):
                 f=f'{OUT}/{z+1}/{2*px+dx}/{2*py+dy}.webp'
                 if os.path.exists(f): canvas.paste(Image.open(f),(dx*256,dy*256))
         os.makedirs(f'{OUT}/{z}/{px}',exist_ok=True)
-        canvas.resize((256,256),Image.LANCZOS).save(f'{OUT}/{z}/{px}/{py}.webp',quality=72,method=4); cnt+=1
+        canvas.resize((256,256),Image.LANCZOS).save(f'{OUT}/{z}/{px}/{py}.webp',quality=62,method=4); cnt+=1
     print('z',z,cnt)
 from georef import Ti
 lon0,lat0=Ti.transform(mx0,my0); lon1,lat1=Ti.transform(mx1,my1)
