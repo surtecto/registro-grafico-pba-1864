@@ -26,8 +26,8 @@ own.pop(0,None)
 keep=np.zeros(len(area),bool)
 for r in range(1,len(area)):
     a=area[r]
-    if r in own: keep[r]=a<=1_200_000 and a>=150
-    else: keep[r]=400<=a<=150_000
+    if r in own: keep[r]=a<=1_500_000 and a>=150
+    else: keep[r]=400<=a<=300_000
 print('owner regions',len(own),'kept',keep.sum(),'owners w/ region',sum(len(v) for k,v in own.items() if keep[k]))
 lab2=np.where(keep[lab],lab,0).astype(np.int32); del lab
 polys=collections.defaultdict(list)

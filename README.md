@@ -10,8 +10,8 @@ SIG histórico del **Registro Gráfico de las propiedades rurales de la Provinci
 |---|---|
 | `index.html` | Visor web (Leaflet): mapa georreferenciado sobre Esri / Google / OSM, lámina original navegable, búsqueda, filtros por partido y tipo de titular, estadística y método |
 | `data/propietarios.geojson` · `.csv` | 1080 rótulos de propietario (978 titulares distintos), con tipo de titular, apellido y partido |
-| `data/parcelas.geojson` | 7013 parcelas trazadas sobre los deslindes del plano; 458 con un propietario asignado, 119 con varios nombres (deslinde a revisar), el resto sin rótulo transcripto. Con superficie en ha |
-| `data/partidos.geojson` | 70 partidos, cada uno como unión de sus parcelas |
+| `data/parcelas.geojson` | 10326 parcelas trazadas sobre los deslindes del plano; 763 con un propietario asignado, 117 con varios nombres (deslinde a revisar), el resto sin rótulo transcripto. Con superficie en ha |
+| `data/partidos.geojson` | Partidos, **provisorio**: agrupa parcelas por cercanía al número de partido; falta trazar la línea de rayas y puntos del plano |
 | `data/poblados.geojson` | 57 pueblos y ciudades |
 | `data/hidrografia.geojson` | 119 lagunas, arroyos, ríos y cañadas |
 | `data/geografia.geojson` | Fortines, sierras, estancias, médanos, puertos, parajes |
@@ -30,7 +30,7 @@ Todas las capas vectoriales están en EPSG:4326. Cada registro conserva `px`/`py
 - La lámina está dibujada con el sur hacia arriba. Se usaron 44 puntos de control (pueblos cabecera, Buenos Aires, Colonia, Cabo Corrientes, Bahía Blanca, etc.) con una transformación polinómica de 2.º grado más corrección *thin plate spline* de residuos.
 - Error por validación cruzada: unos 7 km RMS, con mediana de 4 km. Es mayor hacia Bahía Blanca y en los bordes. Es la precisión esperable de un plano de 1864 compilado a partir de mensuras heterogéneas.
 - **Parcelas:** recintos cerrados por las líneas de deslinde, detectadas sobre un mosaico de las 64 hojas de la digitalización original (Archivo Histórico Municipal de Olavarría, 2008) registradas contra la copia del AGN. El campo `estado` indica la confiabilidad de cada polígono. Los pliegues del papel generan algunas divisiones falsas.
-- **Partidos:** unión de las parcelas de cada partido. La pertenencia de las parcelas de borde se asignó por cercanía al número del partido y debe revisarse contra la línea de puntos y rayas del plano.
+- **Partidos:** pendiente. El límite real es la línea gruesa de rayas y puntos; la detección automática no alcanzó y hay que trazarla a mano.
 - La transcripción no es exhaustiva: en los partidos del norte, con suertes muy angostas, quedan rótulos menores sin transcribir. Falta localizar el partido 25 (Arenales). El 32 (Patagones) está en la lámina inserta, fuera del georreferenciado.
 
 ## Fuente

@@ -379,7 +379,7 @@
   {
    "n": 1,
    "nombre": "General Belgrano",
-   "area_aprox_km2": 78,
+   "area_aprox_km2": 94,
    "propietarios": 0,
    "estado": 0,
    "poblados": [
@@ -390,7 +390,7 @@
   {
    "n": 2,
    "nombre": "San Isidro",
-   "area_aprox_km2": 219,
+   "area_aprox_km2": 277,
    "propietarios": 0,
    "estado": 0,
    "poblados": [
@@ -401,7 +401,7 @@
   {
    "n": 3,
    "nombre": "San Fernando",
-   "area_aprox_km2": 55,
+   "area_aprox_km2": 64,
    "propietarios": 0,
    "estado": 0,
    "poblados": [
@@ -412,7 +412,7 @@
   {
    "n": 4,
    "nombre": "General San Martín",
-   "area_aprox_km2": 149,
+   "area_aprox_km2": 141,
    "propietarios": 0,
    "estado": 0,
    "poblados": [
@@ -423,7 +423,7 @@
   {
    "n": 5,
    "nombre": "San José de Flores",
-   "area_aprox_km2": 216,
+   "area_aprox_km2": 200,
    "propietarios": 0,
    "estado": 0,
    "poblados": [
@@ -434,7 +434,7 @@
   {
    "n": 6,
    "nombre": "Barracas al Sur",
-   "area_aprox_km2": 246,
+   "area_aprox_km2": 478,
    "propietarios": 0,
    "estado": 0,
    "poblados": [
@@ -447,7 +447,7 @@
   {
    "n": 7,
    "nombre": "Quilmes",
-   "area_aprox_km2": 629,
+   "area_aprox_km2": 579,
    "propietarios": 3,
    "estado": 0,
    "poblados": [],
@@ -456,7 +456,7 @@
   {
    "n": 8,
    "nombre": "Ensenada",
-   "area_aprox_km2": 1762,
+   "area_aprox_km2": 1806,
    "propietarios": 5,
    "estado": 0,
    "poblados": [
@@ -467,7 +467,7 @@
   {
    "n": 9,
    "nombre": "Magdalena",
-   "area_aprox_km2": 1695,
+   "area_aprox_km2": 1682,
    "propietarios": 8,
    "estado": 0,
    "poblados": [
@@ -478,7 +478,7 @@
   {
    "n": 10,
    "nombre": "Rivadavia",
-   "area_aprox_km2": 1655,
+   "area_aprox_km2": 1650,
    "propietarios": 15,
    "estado": 0,
    "poblados": [],
@@ -487,7 +487,7 @@
   {
    "n": 11,
    "nombre": "Cañuelas",
-   "area_aprox_km2": 1322,
+   "area_aprox_km2": 1265,
    "propietarios": 5,
    "estado": 0,
    "poblados": [
@@ -498,7 +498,7 @@
   {
    "n": 12,
    "nombre": "Ranchos",
-   "area_aprox_km2": 1553,
+   "area_aprox_km2": 1623,
    "propietarios": 12,
    "estado": 0,
    "poblados": [
@@ -509,7 +509,7 @@
   {
    "n": 13,
    "nombre": "Chascomús",
-   "area_aprox_km2": 2062,
+   "area_aprox_km2": 2702,
    "propietarios": 20,
    "estado": 0,
    "poblados": [
@@ -520,7 +520,7 @@
   {
    "n": 14,
    "nombre": "Viedma",
-   "area_aprox_km2": 2111,
+   "area_aprox_km2": 2187,
    "propietarios": 13,
    "estado": 0,
    "poblados": [],
@@ -529,7 +529,7 @@
   {
    "n": 15,
    "nombre": "Monte",
-   "area_aprox_km2": 2243,
+   "area_aprox_km2": 2074,
    "propietarios": 16,
    "estado": 0,
    "poblados": [
@@ -540,7 +540,7 @@
   {
    "n": 16,
    "nombre": "Lobos",
-   "area_aprox_km2": 2000,
+   "area_aprox_km2": 1907,
    "propietarios": 9,
    "estado": 0,
    "poblados": [
@@ -551,7 +551,7 @@
   {
    "n": 17,
    "nombre": "Navarro",
-   "area_aprox_km2": 1319,
+   "area_aprox_km2": 1541,
    "propietarios": 7,
    "estado": 0,
    "poblados": [
@@ -562,7 +562,7 @@
   {
    "n": 18,
    "nombre": "Las Flores",
-   "area_aprox_km2": 4979,
+   "area_aprox_km2": 5018,
    "propietarios": 33,
    "estado": 0,
    "poblados": [
@@ -573,7 +573,7 @@
   {
    "n": 19,
    "nombre": "Pila",
-   "area_aprox_km2": 2956,
+   "area_aprox_km2": 4146,
    "propietarios": 36,
    "estado": 2,
    "poblados": [],
@@ -582,7 +582,7 @@
   {
    "n": 20,
    "nombre": "Castelli",
-   "area_aprox_km2": 1145,
+   "area_aprox_km2": 1760,
    "propietarios": 15,
    "estado": 3,
    "poblados": [],
@@ -591,7 +591,7 @@
   {
    "n": 21,
    "nombre": "Tordillo",
-   "area_aprox_km2": 1174,
+   "area_aprox_km2": 1448,
    "propietarios": 12,
    "estado": 2,
    "poblados": [],
@@ -600,7 +600,7 @@
   {
    "n": 22,
    "nombre": "Ajó",
-   "area_aprox_km2": 1523,
+   "area_aprox_km2": 2178,
    "propietarios": 14,
    "estado": 0,
    "poblados": [
@@ -611,7 +611,7 @@
   {
    "n": 23,
    "nombre": "Dolores",
-   "area_aprox_km2": 142,
+   "area_aprox_km2": 2560,
    "propietarios": 19,
    "estado": 0,
    "poblados": [
@@ -622,7 +622,7 @@
   {
    "n": 24,
    "nombre": "Vecino",
-   "area_aprox_km2": 3830,
+   "area_aprox_km2": 3333,
    "propietarios": 31,
    "estado": 0,
    "poblados": [],
@@ -631,7 +631,7 @@
   {
    "n": 26,
    "nombre": "Rauch",
-   "area_aprox_km2": 5445,
+   "area_aprox_km2": 5249,
    "propietarios": 36,
    "estado": 3,
    "poblados": [],
@@ -640,7 +640,7 @@
   {
    "n": 27,
    "nombre": "Monsalvo",
-   "area_aprox_km2": 965,
+   "area_aprox_km2": 2918,
    "propietarios": 18,
    "estado": 0,
    "poblados": [],
@@ -649,7 +649,7 @@
   {
    "n": 28,
    "nombre": "Ayacucho",
-   "area_aprox_km2": 6111,
+   "area_aprox_km2": 5557,
    "propietarios": 42,
    "estado": 0,
    "poblados": [],
@@ -658,7 +658,7 @@
   {
    "n": 29,
    "nombre": "Tandil",
-   "area_aprox_km2": 3517,
+   "area_aprox_km2": 8396,
    "propietarios": 38,
    "estado": 0,
    "poblados": [
@@ -669,7 +669,7 @@
   {
    "n": 30,
    "nombre": "Tuyú",
-   "area_aprox_km2": 3642,
+   "area_aprox_km2": 3411,
    "propietarios": 11,
    "estado": 0,
    "poblados": [],
@@ -678,7 +678,7 @@
   {
    "n": 31,
    "nombre": "Mar Chiquita",
-   "area_aprox_km2": 2136,
+   "area_aprox_km2": 3152,
    "propietarios": 15,
    "estado": 0,
    "poblados": [],
@@ -687,7 +687,7 @@
   {
    "n": 36,
    "nombre": "Las Conchas",
-   "area_aprox_km2": 870,
+   "area_aprox_km2": 1019,
    "propietarios": 0,
    "estado": 0,
    "poblados": [
@@ -700,7 +700,7 @@
   {
    "n": 37,
    "nombre": "Morón",
-   "area_aprox_km2": 135,
+   "area_aprox_km2": 149,
    "propietarios": 0,
    "estado": 0,
    "poblados": [
@@ -711,7 +711,7 @@
   {
    "n": 38,
    "nombre": "Matanza",
-   "area_aprox_km2": 417,
+   "area_aprox_km2": 427,
    "propietarios": 1,
    "estado": 0,
    "poblados": [],
@@ -731,7 +731,7 @@
   {
    "n": 40,
    "nombre": "San Vicente",
-   "area_aprox_km2": 739,
+   "area_aprox_km2": 800,
    "propietarios": 2,
    "estado": 0,
    "poblados": [
@@ -742,7 +742,7 @@
   {
    "n": 41,
    "nombre": "Merlo",
-   "area_aprox_km2": 281,
+   "area_aprox_km2": 280,
    "propietarios": 2,
    "estado": 0,
    "poblados": [
@@ -753,7 +753,7 @@
   {
    "n": 42,
    "nombre": "General Las Heras",
-   "area_aprox_km2": 1094,
+   "area_aprox_km2": 1089,
    "propietarios": 8,
    "estado": 0,
    "poblados": [
@@ -764,7 +764,7 @@
   {
    "n": 43,
    "nombre": "Villa de Luján",
-   "area_aprox_km2": 1187,
+   "area_aprox_km2": 1180,
    "propietarios": 3,
    "estado": 0,
    "poblados": [
@@ -775,7 +775,7 @@
   {
    "n": 44,
    "nombre": "Moreno",
-   "area_aprox_km2": 449,
+   "area_aprox_km2": 439,
    "propietarios": 1,
    "estado": 0,
    "poblados": [
@@ -786,7 +786,7 @@
   {
    "n": 45,
    "nombre": "Pilar",
-   "area_aprox_km2": 456,
+   "area_aprox_km2": 457,
    "propietarios": 0,
    "estado": 0,
    "poblados": [
@@ -797,7 +797,7 @@
   {
    "n": 46,
    "nombre": "Exaltación de la Cruz",
-   "area_aprox_km2": 988,
+   "area_aprox_km2": 971,
    "propietarios": 1,
    "estado": 0,
    "poblados": [
@@ -808,7 +808,7 @@
   {
    "n": 47,
    "nombre": "Zárate",
-   "area_aprox_km2": 1230,
+   "area_aprox_km2": 1214,
    "propietarios": 8,
    "estado": 0,
    "poblados": [
@@ -820,7 +820,7 @@
   {
    "n": 48,
    "nombre": "San Antonio de Areco",
-   "area_aprox_km2": 686,
+   "area_aprox_km2": 700,
    "propietarios": 9,
    "estado": 0,
    "poblados": [
@@ -831,7 +831,7 @@
   {
    "n": 49,
    "nombre": "San Andrés de Giles",
-   "area_aprox_km2": 1159,
+   "area_aprox_km2": 1052,
    "propietarios": 32,
    "estado": 0,
    "poblados": [
@@ -842,7 +842,7 @@
   {
    "n": 50,
    "nombre": "Mercedes",
-   "area_aprox_km2": 952,
+   "area_aprox_km2": 943,
    "propietarios": 11,
    "estado": 0,
    "poblados": [
@@ -853,7 +853,7 @@
   {
    "n": 51,
    "nombre": "Suipacha",
-   "area_aprox_km2": 1302,
+   "area_aprox_km2": 1475,
    "propietarios": 8,
    "estado": 0,
    "poblados": [
@@ -864,7 +864,7 @@
   {
    "n": 52,
    "nombre": "Chivilcoy",
-   "area_aprox_km2": 1674,
+   "area_aprox_km2": 1786,
    "propietarios": 7,
    "estado": 0,
    "poblados": [
@@ -875,7 +875,7 @@
   {
    "n": 53,
    "nombre": "Chacabuco",
-   "area_aprox_km2": 1826,
+   "area_aprox_km2": 2873,
    "propietarios": 18,
    "estado": 0,
    "poblados": [],
@@ -884,7 +884,7 @@
   {
    "n": 54,
    "nombre": "Carmen de Areco",
-   "area_aprox_km2": 2069,
+   "area_aprox_km2": 1913,
    "propietarios": 13,
    "estado": 0,
    "poblados": [
@@ -895,7 +895,7 @@
   {
    "n": 55,
    "nombre": "Baradero",
-   "area_aprox_km2": 1621,
+   "area_aprox_km2": 2238,
    "propietarios": 2,
    "estado": 0,
    "poblados": [
@@ -906,7 +906,7 @@
   {
    "n": 56,
    "nombre": "San Pedro",
-   "area_aprox_km2": 1196,
+   "area_aprox_km2": 1809,
    "propietarios": 7,
    "estado": 0,
    "poblados": [
@@ -917,7 +917,7 @@
   {
    "n": 57,
    "nombre": "Arrecifes",
-   "area_aprox_km2": 1154,
+   "area_aprox_km2": 1240,
    "propietarios": 11,
    "estado": 0,
    "poblados": [
@@ -928,7 +928,7 @@
   {
    "n": 58,
    "nombre": "Salto",
-   "area_aprox_km2": 1875,
+   "area_aprox_km2": 1970,
    "propietarios": 7,
    "estado": 0,
    "poblados": [
@@ -939,7 +939,7 @@
   {
    "n": 59,
    "nombre": "Junín",
-   "area_aprox_km2": 1217,
+   "area_aprox_km2": 2726,
    "propietarios": 20,
    "estado": 1,
    "poblados": [
@@ -950,7 +950,7 @@
   {
    "n": 60,
    "nombre": "Rojas",
-   "area_aprox_km2": 2689,
+   "area_aprox_km2": 3054,
    "propietarios": 29,
    "estado": 2,
    "poblados": [
@@ -961,7 +961,7 @@
   {
    "n": 61,
    "nombre": "Pergamino",
-   "area_aprox_km2": 1145,
+   "area_aprox_km2": 2411,
    "propietarios": 28,
    "estado": 0,
    "poblados": [
@@ -972,7 +972,7 @@
   {
    "n": 62,
    "nombre": "San Nicolás de los Arroyos",
-   "area_aprox_km2": 731,
+   "area_aprox_km2": 841,
    "propietarios": 0,
    "estado": 0,
    "poblados": [
@@ -985,7 +985,7 @@
   {
    "n": 63,
    "nombre": "Ramallo",
-   "area_aprox_km2": 1084,
+   "area_aprox_km2": 1330,
    "propietarios": 7,
    "estado": 0,
    "poblados": [],
@@ -994,7 +994,7 @@
   {
    "n": 64,
    "nombre": "Bragado",
-   "area_aprox_km2": 1999,
+   "area_aprox_km2": 2786,
    "propietarios": 16,
    "estado": 1,
    "poblados": [
@@ -1005,7 +1005,7 @@
   {
    "n": 65,
    "nombre": "9 de Julio",
-   "area_aprox_km2": 2059,
+   "area_aprox_km2": 5075,
    "propietarios": 46,
    "estado": 3,
    "poblados": [
@@ -1016,7 +1016,7 @@
   {
    "n": 66,
    "nombre": "25 de Mayo",
-   "area_aprox_km2": 1415,
+   "area_aprox_km2": 4546,
    "propietarios": 31,
    "estado": 0,
    "poblados": [
@@ -1027,7 +1027,7 @@
   {
    "n": 67,
    "nombre": "Saladillo",
-   "area_aprox_km2": 3272,
+   "area_aprox_km2": 3920,
    "propietarios": 21,
    "estado": 0,
    "poblados": [
@@ -1038,7 +1038,7 @@
   {
    "n": 68,
    "nombre": "Tapalquén",
-   "area_aprox_km2": 2059,
+   "area_aprox_km2": 4379,
    "propietarios": 30,
    "estado": 1,
    "poblados": [
@@ -1049,7 +1049,7 @@
   {
    "n": 69,
    "nombre": "Azul",
-   "area_aprox_km2": 2361,
+   "area_aprox_km2": 7718,
    "propietarios": 27,
    "estado": 5,
    "poblados": [
@@ -1060,7 +1060,7 @@
   {
    "n": 70,
    "nombre": "Balcarce (Dr. Antonio)",
-   "area_aprox_km2": 1746,
+   "area_aprox_km2": 4690,
    "propietarios": 30,
    "estado": 0,
    "poblados": [],
@@ -1069,7 +1069,7 @@
   {
    "n": 71,
    "nombre": "Lobería",
-   "area_aprox_km2": 6156,
+   "area_aprox_km2": 5745,
    "propietarios": 33,
    "estado": 0,
    "poblados": [],
@@ -1078,7 +1078,7 @@
   {
    "n": 72,
    "nombre": "Necochea",
-   "area_aprox_km2": 8189,
+   "area_aprox_km2": 13619,
    "propietarios": 86,
    "estado": 3,
    "poblados": [],
@@ -1087,7 +1087,7 @@
   {
    "n": 73,
    "nombre": "Tres Arroyos",
-   "area_aprox_km2": 5811,
+   "area_aprox_km2": 14571,
    "propietarios": 50,
    "estado": 19,
    "poblados": [],
@@ -1096,7 +1096,7 @@
   {
    "n": 74,
    "nombre": "Bahía Blanca",
-   "area_aprox_km2": 104,
+   "area_aprox_km2": 2156,
    "propietarios": 9,
    "estado": 3,
    "poblados": [
@@ -1107,7 +1107,7 @@
   {
    "n": 75,
    "nombre": "Lincoln",
-   "area_aprox_km2": 1555,
+   "area_aprox_km2": 3152,
    "propietarios": 33,
    "estado": 4,
    "poblados": [],
@@ -1477,213 +1477,213 @@
   }
  ],
  "parcelas": {
-  "total": 7013,
-  "con_propietario": 458,
-  "varios": 119,
-  "sin_rotulo": 6436
+  "total": 10326,
+  "con_propietario": 763,
+  "varios": 117,
+  "sin_rotulo": 9446
  },
  "mayores_parcelas": [
   [
    "Testamentaria de Eustoquio Díaz Vélez",
-   87269
+   87275
   ],
   [
-   "Manuel José Guerrico",
-   60259
+   "Juan Nicolás Anchorena",
+   80094
   ],
   [
-   "Arza",
-   52171
+   "Lorenzo Manterola",
+   72840
+  ],
+  [
+   "Testamentaria de Dn. Laureano Rufino",
+   45174
+  ],
+  [
+   "Ramón Machaly",
+   41226
+  ],
+  [
+   "Pedro Córdoba",
+   39259
   ],
   [
    "Sociedad Rural Argentina",
-   48120
+   39155
   ],
   [
-   "Pascual Muñoz",
-   47659
-  ],
-  [
-   "Nicolás y Juan Anchorena",
-   46723
+   "Pedro Camet",
+   38064
   ],
   [
    "Carolina Alzaga de Lezama",
-   42854
+   37617
   ],
   [
-   "Andrés Salas y José Chanteiro",
-   41676
+   "Fabián Gómez y Nicolás y Juan Anchorena",
+   35969
+  ],
+  [
+   "Pedro Anchorena",
+   35859
+  ],
+  [
+   "Manuel José Guerrico",
+   35744
+  ],
+  [
+   "Adolfo Blayer",
+   35607
+  ],
+  [
+   "Benjamín Miró",
+   33380
+  ],
+  [
+   "S. Palomeque",
+   33372
   ],
   [
    "Antonio Olivera",
-   40348
-  ],
-  [
-   "Testamentaria de Félix Alzaga",
-   37925
+   32728
   ],
   [
    "Juan Bautista Peña",
-   36797
+   32423
   ],
   [
-   "Testamentaria de Domingo Lastra",
-   36729
+   "José Gorchs",
+   32124
   ],
   [
-   "Juan N. Fernández",
-   34108
+   "Juana Y. de Sáenz Valiente",
+   31678
   ],
   [
-   "Pedro Sheridan",
-   33368
+   "Testamentaria de Félix Alzaga",
+   31276
   ],
   [
-   "Bernardino Echenagucía",
-   32635
+   "Magdalena Ramos de Elía",
+   30595
   ],
   [
-   "Crisol y Lezica",
-   27537
+   "Francisco Sáenz Valiente",
+   30152
   ],
   [
-   "Norberto Quirno",
-   26643
+   "Benjamín Subiaurre",
+   29092
   ],
   [
-   "Augusto Röhl",
-   24979
+   "Herederos de Pablo Acosta",
+   29049
   ],
   [
-   "Juan Crisol",
-   24361
-  ],
-  [
-   "Juan Nepomuceno Terrero",
-   23068
-  ],
-  [
-   "Marcelino Rodríguez",
-   22631
-  ],
-  [
-   "Ángel Pacheco",
-   21390
-  ],
-  [
-   "Manuel José Cobo",
-   20624
-  ],
-  [
-   "Marcelino Rodríguez",
-   20524
-  ],
-  [
-   "Juan N. Fernández",
-   20430
+   "Nicolás y Juan Anchorena",
+   28434
   ]
  ],
  "apellidos_ha": [
   [
-   "Díaz Vélez",
-   106126
-  ],
-  [
-   "Rodríguez",
-   77537
-  ],
-  [
-   "Fernández",
-   72438
-  ],
-  [
-   "Echenagucía",
-   63394
+   "Vela",
+   173308
   ],
   [
    "Anchorena",
-   60298
+   157313
   ],
   [
-   "Guerrico",
-   60259
+   "Díaz Vélez",
+   106133
   ],
   [
-   "Alzaga",
-   59997
+   "Sáenz Valiente",
+   94370
   ],
   [
    "Olivera",
-   57972
+   88703
   ],
   [
-   "Peña",
-   55398
+   "Rodríguez",
+   78858
   ],
   [
-   "Arza",
-   52171
+   "Manterola",
+   72840
   ],
   [
-   "Vela",
-   51593
+   "Miguens",
+   65789
   ],
   [
-   "Lezama",
-   49546
-  ],
-  [
-   "Lastra",
-   48630
-  ],
-  [
-   "Muñoz",
-   47659
-  ],
-  [
-   "Terrero",
-   47253
-  ],
-  [
-   "Chiclana",
-   45906
-  ],
-  [
-   "Cobo",
-   41944
-  ],
-  [
-   "Salas",
-   41676
+   "Subiaurre",
+   60651
   ],
   [
    "Castaño",
-   36142
+   57730
   ],
   [
-   "Lezica",
-   35703
+   "Lezama",
+   53340
   ],
   [
-   "Sheridan",
-   34359
+   "Alzaga",
+   53299
   ],
   [
-   "Quirno",
-   33829
+   "Vásquez",
+   52431
   ],
   [
-   "Otamendi",
-   33729
+   "Peña",
+   50745
   ],
   [
-   "Torres",
-   31813
+   "Vivot",
+   48300
+  ],
+  [
+   "Echenagucía",
+   46549
+  ],
+  [
+   "Fernández",
+   45406
+  ],
+  [
+   "Rufino",
+   45174
+  ],
+  [
+   "Álvarez",
+   44376
+  ],
+  [
+   "Miró",
+   42712
+  ],
+  [
+   "Terrero",
+   42632
+  ],
+  [
+   "Martínez",
+   41931
+  ],
+  [
+   "Machaly",
+   41226
   ],
   [
    "Pereira",
-   29745
+   40059
+  ],
+  [
+   "Gómez",
+   39912
   ]
  ]
 }
